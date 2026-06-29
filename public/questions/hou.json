@@ -1,0 +1,104 @@
+[
+  {
+    "type": "单选题",
+    "stem": "候老师重点：The Great Wall is a symbol of ___",
+    "options": [
+      "Chinese civilization",
+      "Japanese culture",
+      "Korean history",
+      "American freedom"
+    ],
+    "answer": "Chinese civilization",
+    "explanation": "The Great Wall represents Chinese civilization and history.",
+    "tag": "侯老师"
+  },
+  {
+    "type": "单选题",
+    "stem": "候老师重点：Which tense is used in 'I have been studying English for 3 years'?",
+    "options": [
+      "Present perfect continuous",
+      "Simple past",
+      "Future perfect",
+      "Past continuous"
+    ],
+    "answer": "Present perfect continuous",
+    "explanation": "have been + v-ing 表示从过去持续到现在的动作。",
+    "tag": "侯老师"
+  },
+  {
+    "type": "单选题",
+    "stem": "候老师重点：The word 'environment' means",
+    "options": [
+      "自然环境",
+      "经济发展",
+      "社会制度",
+      "文化传统"
+    ],
+    "answer": "自然环境",
+    "explanation": "environment = 自然环境、周围环境。",
+    "tag": "侯老师"
+  },
+  {
+    "type": "简答题",
+    "stem": "候老师重点：Translate: 保护环境是每个人的责任。",
+    "options": [
+      "Protecting the environment is everyone's responsibility",
+      "It is everyone's duty to protect the environment"
+    ],
+    "answer": "Protecting the environment is everyone's responsibility.",
+    "explanation": "考查动名词作主语结构，候老师课堂反复练习。",
+    "tag": "侯老师",
+    "cleanAnswer": "Protectingtheenvironmentiseveryonesresponsibility"
+  },
+  {
+    "type": "简答题",
+    "stem": "候老师重点：Explain the difference between 'affect' and 'effect'.",
+    "options": [
+      "affect是动词意为影响",
+      "effect是名词意为效果影响"
+    ],
+    "answer": "Affect is a verb meaning 'to influence' (影响) while effect is a noun meaning 'a result or outcome' (效果).",
+    "explanation": "候老师强调这是高频易错点，务必区分词性。",
+    "tag": "侯老师",
+    "cleanAnswer": "Affectisaverbmeaningtoinfluence影响whileeffectisanounmeaningaresultoroutcome效果"
+  },
+  {
+    "type": "单选题",
+    "stem": "候老师重点：Choose the correct sentence",
+    "options": [
+      "She doesn't like coffee",
+      "She don't like coffee",
+      "She not like coffee",
+      "She no like coffee"
+    ],
+    "answer": "She doesn't like coffee",
+    "explanation": "第三人称单数否定用 doesn't + 动词原形。",
+    "tag": "侯老师"
+  },
+  {
+    "type": "单选题",
+    "stem": "候老师重点：'Break a leg' means",
+    "options": [
+      "Good luck",
+      "Break your leg",
+      "Run fast",
+      "Be careful"
+    ],
+    "answer": "Good luck",
+    "explanation": "Break a leg 是祝你好运的俚语，候老师课堂趣味拓展。",
+    "tag": "侯老师"
+  },
+  {
+    "type": "单选题",
+    "stem": "候老师重点：The antonym of 'optimistic' is",
+    "options": [
+      "pessimistic",
+      "negative",
+      "realistic",
+      "active"
+    ],
+    "answer": "pessimistic",
+    "explanation": "optimistic（乐观的）的反义词是 pessimistic（悲观的）。",
+    "tag": "侯老师"
+  }
+]
