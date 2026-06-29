@@ -22,9 +22,9 @@
 
         <div v-if="error" class="mb-4 p-3 bg-red-50 text-red-600 rounded-lg text-sm text-center">{{ error }}</div>
 
-        <button @click="handleLogin"
-          class="w-full bg-blue-500 text-white py-2.5 rounded-lg font-medium hover:bg-blue-600 transition active:scale-[0.98]">
-          登录
+        <button @click="handleLogin" :disabled="loading"
+          class="w-full bg-blue-500 text-white py-2.5 rounded-lg font-medium hover:bg-blue-600 transition active:scale-[0.98] disabled:opacity-50">
+          {{ loading ? '登录中...' : '登录' }}
         </button>
       </div>
 
@@ -44,13 +44,18 @@ const auth = useAuthStore()
 const username = ref('')
 const password = ref('')
 const error = ref('')
+const loading = ref(false)
 
-function handleLogin() {
+async function handleLogin() {
   if (!username.value.trim() || !password.value.trim()) {
     error.value = '请输入账号和密码'
     return
   }
-  if (auth.login(username.value.trim(), password.value)) {
+  loading.value = true
+  error.value = ''
+  const ok = await auth.login(username.value.trim(), password.value)
+  loading.value = false
+  if (ok) {
     router.replace('/')
   } else {
     error.value = '账号或密码错误'
