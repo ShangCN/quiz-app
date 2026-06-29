@@ -105,6 +105,7 @@ import { ref, computed, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useWrongBookStore } from '../stores/wrongBook.js'
 import { useAuthStore } from '../stores/auth.js'
+import stringSimilarity from 'string-similarity'
 
 const props = defineProps({ subject: String })
 const route = useRoute()
@@ -236,7 +237,7 @@ function judgeEssay() {
   if (!userInput.value.trim()) return
   const userClean = cleanText(userInput.value)
   const answerClean = currentQuestion.value.cleanAnswer || cleanText(currentQuestion.value.answer)
-  const sim = window.stringSimilarity ? window.stringSimilarity.compareTwoStrings(userClean, answerClean) : 0
+  const sim = stringSimilarity.compareTwoStrings(userClean, answerClean)
   similarityScore.value = sim
   subjectiveJudged.value = true
   subjectiveCorrect.value = sim >= 0.5
