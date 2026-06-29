@@ -264,7 +264,10 @@ async function loadQuestions() {
   try {
     const res = await fetch(`./questions/${props.subject}.json`)
     if (!res.ok) throw new Error('Not found')
-    const raw = await res.json()
+    let text = await res.text()
+    // 去掉 JSON 中的 // 和 /* */ 注释
+    text = text.replace(/\/\*[\s\S]*?\*\//g, '').replace(/\/\/.*$/gm, '')
+    const raw = JSON.parse(text)
     questions.value = raw.sort(() => Math.random() - 0.5)
   } catch (e) { console.error('加载题库失败:', e); questions.value = [] }
   finally { loading.value = false }
