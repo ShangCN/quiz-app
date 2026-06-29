@@ -1,6 +1,12 @@
 <template>
   <div class="p-4 max-w-lg mx-auto">
-    <h2 class="text-xl font-bold text-gray-700 mb-4">选择科目</h2>
+    <div class="flex justify-between items-center mb-4">
+      <h2 class="text-xl font-bold text-gray-700">选择科目</h2>
+      <div class="flex items-center gap-2">
+        <span class="text-sm text-gray-500">{{ auth.user }}</span>
+        <button @click="logout" class="text-xs text-gray-400 hover:text-red-500 transition">退出</button>
+      </div>
+    </div>
     <div class="grid gap-3">
       <router-link
         v-for="subject in subjects"
@@ -19,6 +25,12 @@
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router'
+import { useAuthStore } from '../stores/auth.js'
+
+const router = useRouter()
+const auth = useAuthStore()
+
 const subjects = [
   { name: '白', file: 'bai',    emoji: '📖', border: 'border-indigo-400' },
   { name: '董', file: 'dong',   emoji: '📘', border: 'border-blue-400' },
@@ -26,4 +38,9 @@ const subjects = [
   { name: '候', file: 'hou',    emoji: '📗', border: 'border-green-400' },
   { name: '徐', file: 'xu',     emoji: '📕', border: 'border-red-400' },
 ]
+
+function logout() {
+  auth.logout()
+  router.replace('/login')
+}
 </script>

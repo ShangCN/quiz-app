@@ -6,6 +6,7 @@
       <!-- 顶栏 -->
       <div class="flex justify-between items-center mb-3 text-sm text-gray-500">
         <router-link to="/" class="text-blue-500">← 科目</router-link>
+        <span class="text-gray-400 text-xs">{{ auth.user }}</span>
         <span>{{ index + 1 }} / {{ questions.length }}</span>
         <span class="px-2 py-0.5 rounded text-xs" :class="typeTagClass">{{ typeLabel }}</span>
       </div>
@@ -83,7 +84,7 @@
       </div>
 
       <!-- 下一题 -->
-      <button v-if="canNext" @click="nextQuestion"
+      <button @click="nextQuestion"
         class="mt-5 w-full bg-blue-500 text-white py-3 rounded-lg font-medium hover:bg-blue-600 transition">
         {{ index + 1 < questions.length ? '下一题' : '完成刷题' }}
       </button>
@@ -101,18 +102,21 @@
 
 <script setup>
 import { ref, computed, watch } from 'vue'
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import { useWrongBookStore } from '../stores/wrongBook.js'
+import { useAuthStore } from '../stores/auth.js'
 
 const props = defineProps({ subject: String })
 const route = useRoute()
+const router = useRouter()
 const wrongBook = useWrongBookStore()
+const auth = useAuthStore()
 const labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
 
 const nameMap = { bai: '白', dong: '董', ma: '马', hou: '候', xu: '徐' }
 const subjectName = computed(() => nameMap[props.subject] || props.subject)
 
-const typeAlias = { single: '单选', judge: '判断', multi: '多选', essay: '简答' }
+const typeAlias = { single: '单选', judge: '判断', multi: '多选', essay: '简答', '单选题': '单选', '简答题': '简答' }
 
 // 题库状态
 const questions = ref([])
@@ -137,7 +141,8 @@ const similarityScore = ref(0)
 
 const currentQuestion = computed(() => index.value < questions.value.length ? questions.value[index.value] : null)
 
-const qtype = computed(() => currentQuestion.value?.type || '')
+const typeMap = { single: 'single', judge: 'judge', multi: 'multi', essay: 'essay', '单选题': 'single', '简答题': 'essay' }
+const qtype = computed(() => typeMap[currentQuestion.value?.type] || '')
 const typeLabel = computed(() => typeAlias[qtype.value] || qtype.value)
 const typeTagClass = computed(() => {
   const m = { single: 'bg-blue-100 text-blue-600', judge: 'bg-green-100 text-green-600', multi: 'bg-orange-100 text-orange-600', essay: 'bg-purple-100 text-purple-600' }
@@ -240,14 +245,6 @@ function judgeEssay() {
 }
 
 // ---------- 通用 ----------
-const canNext = computed(() => {
-  const t = qtype.value
-  if (t === 'single' || t === 'judge') return answered.value
-  if (t === 'multi') return multiJudged.value
-  if (t === 'essay') return subjectiveJudged.value
-  return true
-})
-
 function nextQuestion() {
   answered.value = false; pickedLabel.value = ''
   multiSelected.value = []; multiJudged.value = false; multiCorrect.value = false
