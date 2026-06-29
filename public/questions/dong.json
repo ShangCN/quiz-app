@@ -1,111 +1,3009 @@
 [
+  // ==================== 第一部分：单项选择题 ====================
   {
-    "type": "单选题",
-    "stem": "董老师重点：宪法是国家的",
-    "options": [
-      "根本法",
-      "基本法",
-      "普通法",
-      "行政法规"
-    ],
-    "answer": "根本法",
-    "explanation": "宪法是国家的根本法，具有最高法律效力。",
-    "tag": "董老师"
+    "id": 601,
+    "type": "single",
+    "stem": "电芯来料检测四大类不包含以下哪项()",
+    "options": [ "A.热学性质", "B.力学性质", "C.外观色彩", "D.电化学性能" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "电芯来料检测主要分为热学、力学、环境适应性和电化学性能四大类。",
+    "tag": "电芯来料检验"
   },
   {
-    "type": "单选题",
-    "stem": "董老师重点：我国的国家性质是",
-    "options": [
-      "人民民主专政的社会主义国家",
-      "资产阶级共和国",
-      "封建制国家",
-      "君主立宪制"
-    ],
-    "answer": "人民民主专政的社会主义国家",
-    "explanation": "宪法规定我国是人民民主专政的社会主义国家。",
-    "tag": "董老师"
+    "id": 602,
+    "type": "single",
+    "stem": "热释放速率实验中，电芯热失控会产生剧毒窒息气体()",
+    "options": [ "A.O2", "B.CO", "C.N2", "D.Ar" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "一氧化碳(CO)是无色无味剧毒气体，易导致窒息死亡。",
+    "tag": "电芯来料检验"
   },
   {
-    "type": "单选题",
-    "stem": "董老师重点：全国人民代表大会每届任期",
-    "options": [
-      "五年",
-      "四年",
-      "三年",
-      "六年"
-    ],
-    "answer": "五年",
-    "explanation": "全国人民代表大会每届任期五年。",
-    "tag": "董老师"
+    "id": 603,
+    "type": "single",
+    "stem": "臭鸡蛋气味、剧毒的电池燃烧气体是()",
+    "options": [ "A.SO2", "B.H2S", "C.HCN" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "硫化氢(H2S)具有臭鸡蛋气味，是高毒气体。",
+    "tag": "电芯来料检验"
   },
   {
-    "type": "简答题",
-    "stem": "董老师重点：简述宪法的基本原则。",
-    "options": [
-      "党的领导原则",
-      "人民主权原则",
-      "尊重和保障人权原则",
-      "民主集中制原则",
-      "法治原则"
-    ],
-    "answer": "宪法的基本原则包括：党的领导原则、人民主权原则、尊重和保障人权原则、民主集中制原则和法治原则。",
-    "explanation": "「五大原则」是董老师反复强调的，必须熟记。",
-    "tag": "董老师",
-    "cleanAnswer": "宪法的基本原则包括党的领导原则人民主权原则尊重和保障人权原则民主集中制原则和法治原则"
+    "id": 604,
+    "type": "single",
+    "stem": "刺激性臭味、易溶于水形成亚硫酸的气体()",
+    "options": [ "A.H2S", "B.SO2", "C.CH4", "D.C2H4" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "二氧化硫(SO2)有刺激性气味，溶于水生成亚硫酸。",
+    "tag": "电芯来料检验"
   },
   {
-    "type": "简答题",
-    "stem": "董老师重点：简述公民的基本权利有哪些。",
-    "options": [
-      "平等权",
-      "政治权利和自由",
-      "人身自由",
-      "社会经济权利",
-      "文化教育权利",
-      "监督权"
-    ],
-    "answer": "公民的基本权利包括：平等权、政治权利和自由、人身自由、社会经济权利、文化教育权利和监督权等。",
-    "explanation": "董老师强调按六大类分类记忆。",
-    "tag": "董老师",
-    "cleanAnswer": "公民的基本权利包括平等权政治权利和自由人身自由社会经济权利文化教育权利和监督权等"
+    "id": 605,
+    "type": "single",
+    "stem": "抑制细胞氧化酶、组织中毒窒息的剧毒气体()",
+    "options": [ "A.HCN", "B.SO2", "C.CO", "D.H2S" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "氰化氢(HCN)能抑制细胞色素氧化酶，导致组织中毒窒息。",
+    "tag": "电芯来料检验"
   },
   {
-    "type": "单选题",
-    "stem": "董老师重点：我国的根本政治制度是",
-    "options": [
-      "人民代表大会制度",
-      "多党合作制度",
-      "基层群众自治制度",
-      "民族区域自治制度"
-    ],
-    "answer": "人民代表大会制度",
-    "explanation": "人民代表大会制度是我国的根本政治制度。",
-    "tag": "董老师"
+    "id": 606,
+    "type": "single",
+    "stem": "针刺试验钢针直径标准范围()",
+    "options": [ "A.1-2mm", "B.3-5mm", "C.6-8mm", "D.10mm以上" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "标准针刺试验通常使用直径3-5mm的钢针。",
+    "tag": "电芯来料检验"
   },
   {
-    "type": "单选题",
-    "stem": "董老师重点：法律的本质是",
-    "options": [
-      "统治阶级意志的体现",
-      "全体人民意志的体现",
-      "神的意志",
-      "自然规律的体现"
-    ],
-    "answer": "统治阶级意志的体现",
-    "explanation": "马克思主义法学认为法律本质上是统治阶级意志的体现。",
-    "tag": "董老师"
+    "id": 607,
+    "type": "single",
+    "stem": "针刺试验钢针穿刺速度标准()",
+    "options": [ "A.10-20mm/s", "B.1-5mm/s", "C.30-50mm/s", "D.≥100mm/s" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "穿刺速度通常控制在10-20mm/s。",
+    "tag": "电芯来料检验"
   },
   {
-    "type": "单选题",
-    "stem": "董老师重点：依法治国的主体是",
-    "options": [
-      "人民群众",
-      "政府",
-      "法院",
-      "党"
-    ],
-    "answer": "人民群众",
-    "explanation": "依法治国的主体是人民群众。",
-    "tag": "董老师"
+    "id": 608,
+    "type": "single",
+    "stem": "比亚迪刀片电池单针针刺后表面温度不高于()",
+    "options": [ "A.40℃", "B.60℃", "C.80℃", "D.100℃" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "比亚迪刀片电池通过针刺测试后表面温度不超过60℃。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 609,
+    "type": "single",
+    "stem": "吉利神盾短刀电池通过几针同时穿刺测试()",
+    "options": [ "A.4针", "B.8针", "C.12针", "D.16针" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "吉利神盾短刀电池通过了8针同时穿刺测试。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 610,
+    "type": "single",
+    "stem": "吉利电池枪击试验弹体直径为()",
+    "options": [ "A.3.2mm", "B.5.8mm", "C.8mm", "D.10mm" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "枪击试验使用的弹体直径为5.8mm。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 611,
+    "type": "single",
+    "stem": "高低温检测标准:-20℃放电容量≥额定容量()",
+    "options": [ "A.50%", "B.70%", "C.90%", "D.95%" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "低温-20℃放电容量要求不低于额定容量的70%。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 612,
+    "type": "single",
+    "stem": "高低温检测标准:60℃放电容量≥额定容量()",
+    "options": [ "A.70%", "B.85%", "C.95%", "D.100%" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "高温60℃放电容量要求不低于额定容量的95%。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 613,
+    "type": "single",
+    "stem": "温度循环/热冲击测试温度区间()",
+    "options": [ "A.-20~60℃", "B.-40~85℃", "C.0~60℃", "D.25~85℃" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "温度循环测试区间为-40℃至85℃。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 614,
+    "type": "single",
+    "stem": "恒定湿热试验标准温湿度()",
+    "options": [ "A.60℃60%", "B.85℃85%", "C.55℃95%", "D.40℃80%" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "恒定湿热试验标准为85℃、85%相对湿度。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 615,
+    "type": "single",
+    "stem": "交变湿热试验温湿度区间()",
+    "options": [ "A.25-55℃，95%湿度", "B.-40-85℃，85%湿度", "C.85℃恒定95%湿度", "D.0-60℃90%湿度" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "交变湿热试验通常为25-55℃，95%湿度。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 616,
+    "type": "single",
+    "stem": "湿热检测电芯绝缘性最低要求()",
+    "options": [ "A.≥10MΩ", "B.≥50MΩ", "C.≥100MΩ", "D.≥1000MΩ" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "湿热检测后绝缘电阻应不低于100MΩ。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 617,
+    "type": "single",
+    "stem": "盐雾试验标准条件中性盐雾浓度、温度()",
+    "options": [ "A.3%，25℃", "B.5%，35℃", "C.8%，40℃", "D.10%，50℃" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "中性盐雾试验浓度为5%，温度为35℃。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 618,
+    "type": "single",
+    "stem": "电芯循环寿命判定节点:容量衰减至额定容量()",
+    "options": [ "A.50%", "B.60%", "C.80%", "D.90%" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "通常以容量衰减至额定容量的80%作为寿命终点。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 619,
+    "type": "single",
+    "stem": "电芯膨胀力监测属于哪类检测()",
+    "options": [ "A.热学", "B.力学", "C.环境适应性", "D.电化学" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "膨胀力监测属于力学性质检测。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 620,
+    "type": "single",
+    "stem": "跌落、振动冲击属于环境适应性哪类检测()",
+    "options": [ "A.气候类", "B.机械环境类", "C.腐蚀类", "D.热学类" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "跌落和振动属于机械环境类检测。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 621,
+    "type": "single",
+    "stem": "LFP电芯标称电压为()",
+    "options": [ "A.2.7V", "B.3.2V", "C.3.7V", "D.4.2V" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "磷酸铁锂(LFP)电芯标称电压约为3.2V。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 622,
+    "type": "single",
+    "stem": "NCM三元电芯标称电压区间()",
+    "options": [ "A.3.2V", "B.3.7~3.75V", "C.2.3V", "D.1.5V" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "三元锂(NCM)电芯标称电压约为3.7V-3.75V。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 623,
+    "type": "single",
+    "stem": "以下哪种电芯超低温耐受、快充性能最优()",
+    "options": [ "A.LFP磷酸铁锂", "B.NCM三元", "C.LTO钛酸锂", "D.镍氢" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "钛酸锂(LTO)具有优异的超低温耐受性和快充性能。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 624,
+    "type": "single",
+    "stem": "成本从低到高排序正确的是()",
+    "options": [ "A.LFP<NCM<LTO", "B.NCM<LFP<LTO", "C.LTO<LFP<NCM", "D.LFP<LTO<NCM" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "成本排序：磷酸铁锂 < 三元 < 钛酸锂。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 625,
+    "type": "single",
+    "stem": "消费电子电芯循环寿命最低标准(衰减80%)()",
+    "options": [ "A.≥300次", "B.≥500次", "C.≥1500次", "D.≥3000次" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "消费电子电芯循环寿命通常要求≥500次。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 626,
+    "type": "single",
+    "stem": "电动汽车电芯循环寿命最低标准()",
+    "options": [ "A.≥500次", "B.≥1000次", "C.≥1500次", "D.≥3000次" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "电动汽车电芯循环寿命通常要求≥1500次。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 627,
+    "type": "single",
+    "stem": "储能场景电芯循环寿命最低标准()",
+    "options": [ "A.≥500次", "B.≥1500次", "C.≥3000次", "D.≥5000次" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "储能场景电芯循环寿命通常要求≥3000次。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 628,
+    "type": "single",
+    "stem": "优质电芯内阻标准()",
+    "options": [ "A.<50mΩ", "B.<100mΩ", "C.<200mΩ", "D.<500mΩ" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "优质电芯内阻通常小于50mΩ。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 629,
+    "type": "single",
+    "stem": "同批次电芯电压极差控制标准()",
+    "options": [ "A.≤0.05V", "B.≤0.1V", "C.≤0.2V", "D.≤0.5V" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "同批次电芯电压极差应控制在0.05V以内。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 630,
+    "type": "single",
+    "stem": "同批次电芯容量偏差标准()",
+    "options": [ "A.≤3%", "B.≤5%", "C.≤10%", "D.≤15%" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "同批次电芯容量偏差应控制在5%以内。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 631,
+    "type": "single",
+    "stem": "锂电池安全强制认证国内标准()",
+    "options": [ "A.UL1642", "B.IEC62133", "C.3C认证", "D.UN38.3" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "国内锂电池安全强制认证为3C认证。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 632,
+    "type": "single",
+    "stem": "便携式密封二次电池国际安全标准()",
+    "options": [ "A.IEC62133", "B.UL1642", "C.UN38.3", "D.3C" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "便携式密封二次电池国际安全标准主要为IEC62133。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 633,
+    "type": "single",
+    "stem": "锂电池运输规范标准()",
+    "options": [ "A.UL1642", "B.UN38.3", "C.IEC62133", "D.3C" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "锂电池运输规范标准为UN38.3。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 634,
+    "type": "single",
+    "stem": "模组堆叠视觉定位平面公差()",
+    "options": [ "A.≤0.2mm", "B.≤0.5mm", "C.≤1mm", "D.≤2mm" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "模组堆叠视觉定位平面公差通常要求≤0.5mm。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 635,
+    "type": "single",
+    "stem": "模组极耳重叠焊接面积要求()",
+    "options": [ "A.≥60%", "B.≥80%", "C.≥90%", "D.100%" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "极耳重叠焊接面积要求≥80%。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 636,
+    "type": "single",
+    "stem": "模组内部绝缘电阻最低标准()",
+    "options": [ "A.≥10MΩ", "B.≥50MΩ", "C.≥100MΩ", "D.≥1000MΩ" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "模组内部绝缘电阻应≥50MΩ。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 637,
+    "type": "single",
+    "stem": "模组密封胶厚度标准()",
+    "options": [ "A.0.05-0.1mm", "B.0.1-0.3mm", "C.0.5-1mm", "D.1-2mm" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "模组密封胶厚度标准通常为0.1-0.3mm。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 638,
+    "type": "single",
+    "stem": "模组防护等级最低要求()",
+    "options": [ "A.IP54", "B.IP65", "C.IP67", "D.IP68" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "模组防护等级最低要求IP67。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 639,
+    "type": "single",
+    "stem": "模组绝缘耐压测试标准:1500V持续()",
+    "options": [ "A.30s", "B.1min", "C.3min", "D.5min" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "绝缘耐压测试标准为1500V持续1分钟。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 640,
+    "type": "single",
+    "stem": "电芯涂覆厚度控制公差()",
+    "options": [ "A.±2μm", "B.±5μm", "C.±10μm", "D.±20μm" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "电芯涂覆厚度公差通常控制在±5μm。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 641,
+    "type": "single",
+    "stem": "锂电池正极极耳材质()",
+    "options": [ "A.镍", "B.铜镀镍", "C.铝", "D.铁" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "正极极耳材质通常为铝。",
+    "tag": "电池极耳处理"
+  },
+  {
+    "id": 642,
+    "type": "single",
+    "stem": "锂电池负极极耳材质()",
+    "options": [ "A.铝", "B.镍/铜镀镍", "C.不锈钢", "D.铜" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "负极极耳材质通常为镍或铜镀镍。",
+    "tag": "电池极耳处理"
+  },
+  {
+    "id": 643,
+    "type": "single",
+    "stem": "极耳清洗超声频率最低标准()",
+    "options": [ "A.20kHz", "B.50kHz", "C.80kHz", "D.100kHz" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "极耳清洗超声频率最低标准为80kHz。",
+    "tag": "电池极耳处理"
+  },
+  {
+    "id": 644,
+    "type": "single",
+    "stem": "极耳烘干露点要求()",
+    "options": [ "A.<-20℃", "B.<-30℃", "C.<-50℃", "D.<-80℃" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "极耳烘干露点要求低于-50℃。",
+    "tag": "电池极耳处理"
+  },
+  {
+    "id": 645,
+    "type": "single",
+    "stem": "极耳热压胶温度区间()",
+    "options": [ "A.100-140℃", "B.150-220℃", "C.250-300℃", "D.300℃以上" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "极耳热压胶温度区间为150-220℃。",
+    "tag": "电池极耳处理"
+  },
+  {
+    "id": 646,
+    "type": "single",
+    "stem": "极耳超声波焊接拉力最低标准()",
+    "options": [ "A.>3N", "B.>5N", "C.>10N", "D.>20N" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "超声波焊接拉力最低标准为大于5N。",
+    "tag": "电池极耳处理"
+  },
+  {
+    "id": 647,
+    "type": "single",
+    "stem": "点焊镍带标准厚度()",
+    "options": [ "A.0.01-0.05mm", "B.0.1-0.15mm", "C.0.2-0.5mm", "D.1mm以上" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "点焊镍带标准厚度为0.1-0.15mm。",
+    "tag": "电池极耳处理"
+  },
+  {
+    "id": 648,
+    "type": "single",
+    "stem": "点焊脉冲时间标准区间()",
+    "options": [ "A.1-5ms", "B.10-30ms", "C.50-100ms", "D.100ms以上" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "点焊脉冲时间标准为10-30ms。",
+    "tag": "电池极耳处理"
+  },
+  {
+    "id": 649,
+    "type": "single",
+    "stem": "极耳打磨砂纸目数标准()",
+    "options": [ "A.200-400目", "B.800-1000目", "C.1500目", "D.2000目" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "极耳打磨通常使用800-1000目砂纸。",
+    "tag": "电池极耳处理"
+  },
+  {
+    "id": 650,
+    "type": "single",
+    "stem": "焊接后电芯内阻偏差合格标准()",
+    "options": [ "A.<5mΩ", "B.<10mΩ", "C.<20mΩ", "D.<50mΩ" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "焊接后内阻偏差应小于5mΩ。",
+    "tag": "电池极耳处理"
+  },
+  {
+    "id": 651,
+    "type": "single",
+    "stem": "应急电烙铁焊接极耳单次时长控制()",
+    "options": [ "A.<1s", "B.1-3s", "C.3-5s", "D.5s以上" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "电烙铁焊接单次时长应控制在1秒以内。",
+    "tag": "电池极耳处理"
+  },
+  {
+    "id": 652,
+    "type": "single",
+    "stem": "绝缘隔离天然纤维材料名称()",
+    "options": [ "A.PP胶纸", "B.快巴纸", "C.PE膜", "D.环氧板" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "快巴纸是常用的天然纤维绝缘材料。",
+    "tag": "电池极耳处理"
+  },
+  {
+    "id": 653,
+    "type": "single",
+    "stem": "铝极耳焊接优先选用哪种复合带()",
+    "options": [ "A.铜镍复合带", "B.铝镍复合带", "C.纯镍带", "D.纯铜带" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "铝极耳焊接优先选用铝镍复合带。",
+    "tag": "电池极耳处理"
+  },
+  {
+    "id": 654,
+    "type": "single",
+    "stem": "极耳焊接不良“虚焊”不会由哪种原因产生()",
+    "options": [ "A.表面氧化脏污", "B.焊接压力不足", "C.焊接时间太短", "D.电流过大" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "电流过大通常导致过焊而非虚焊。",
+    "tag": "电池极耳处理"
+  },
+  {
+    "id": 655,
+    "type": "single",
+    "stem": "过焊熔断主要成因()",
+    "options": [ "A.表面氧化", "B.电流/焊接时间过大", "C.毛刺", "D.绝缘缺失" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "过焊熔断主要是由于电流或焊接时间过长。",
+    "tag": "电池极耳处理"
+  },
+  {
+    "id": 656,
+    "type": "single",
+    "stem": "BMS全称是()",
+    "options": [ "A.Battery Module System", "B.Battery Management System", "C.Battery Monitor System", "D.Balance Management System" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "BMS全称为Battery Management System（电池管理系统）。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 657,
+    "type": "single",
+    "stem": "适用于高精度、高串数单体电压采集方案()",
+    "options": [ "A.继电器阵列法", "B.恒流源法", "C.隔离运放法", "D.压频转换法" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "继电器阵列法适用于高精度、高串数电压采集。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 658,
+    "type": "single",
+    "stem": "成本最低、线性度较差的温度采集元件()",
+    "options": [ "A.热电偶", "B.热敏电阻", "C.18B20集成传感器", "D.AD590" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "热敏电阻成本低但线性度较差。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 659,
+    "type": "single",
+    "stem": "精度最高、输出毫伏级信号需放大的测温元件()",
+    "options": [ "A.热敏电阻", "B.热电偶", "C.18B20", "D.AD590" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "热电偶输出毫伏级信号，需要放大电路。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 660,
+    "type": "single",
+    "stem": "可直接输出数字信号、校正后高精度测温器件()",
+    "options": [ "A.热敏电阻", "B.热电偶", "C.DS18B20", "D.分流器" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "DS18B20可直接输出数字信号。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 661,
+    "type": "single",
+    "stem": "无电气隔离、用于小电流测量的电流采集器件()",
+    "options": [ "A.分流器", "B.互感器", "C.霍尔传感器", "D.光纤传感器" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "分流器无电气隔离，常用于小电流测量。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 662,
+    "type": "single",
+    "stem": "仅可测量交流、成本低廉的电流采集元件()",
+    "options": [ "A.分流器", "B.互感器", "C.霍尔", "D.光纤" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "互感器仅可测量交流电流。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 663,
+    "type": "single",
+    "stem": "交直流脉冲均可测、带电气隔离、车用主流()",
+    "options": [ "A.分流器", "B.互感器", "C.霍尔元件", "D.光纤" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "霍尔元件可测交直流，带隔离，是车用主流。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 664,
+    "type": "single",
+    "stem": "SOC代表含义()",
+    "options": [ "A.电池健康度", "B.荷电状态剩余电量", "C.均衡状态", "D.绝缘状态" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "SOC代表荷电状态（剩余电量）。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 665,
+    "type": "single",
+    "stem": "SOH代表含义()",
+    "options": [ "A.剩余电量", "B.电池健康状态", "C.热失控阈值", "D.均衡效率" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "SOH代表电池健康状态。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 666,
+    "type": "single",
+    "stem": "依靠旁路电阻发热消耗能量的均衡方式()",
+    "options": [ "A.能量耗散型均衡", "B.非耗散型均衡", "C.电容转移均衡", "D.电感均衡" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "能量耗散型均衡依靠电阻发热消耗能量。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 667,
+    "type": "single",
+    "stem": "利用电感电容转移电量、无能量损耗的均衡()",
+    "options": [ "A.被动均衡", "B.能量耗散型", "C.主动非耗散均衡", "D.分流电阻均衡" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "主动非耗散均衡利用电感电容转移电量，无损耗。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 668,
+    "type": "single",
+    "stem": "不属于电池热管理三大传热方式()",
+    "options": [ "A.热传导", "B.对流换热", "C.辐射换热", "D.化学反应换热" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "热管理三大传热方式为热传导、对流换热、辐射换热。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 669,
+    "type": "single",
+    "stem": "电动汽车主流散热方案()",
+    "options": [ "A.自然风冷", "B.强制风冷", "C.液冷", "D.相变材料" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "电动汽车主流散热方案为液冷。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 670,
+    "type": "single",
+    "stem": "储能PACK主流低成本散热方案()",
+    "options": [ "A.液冷", "B.风冷/自然冷却", "C.直冷", "D.水冷板" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "储能PACK主流低成本散热方案为风冷或自然冷却。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 671,
+    "type": "single",
+    "stem": "车载BMS主流通信总线()",
+    "options": [ "A.RS232", "B.RS485", "C.CAN总线", "D.串口" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "车载BMS主流通信总线为CAN总线。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 672,
+    "type": "single",
+    "stem": "绝缘检测中，无漏电流时穿过电流传感器总电流为()",
+    "options": [ "A.最大值", "B.0", "C.额定电流一半", "D.随机数值" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "无漏电流时，穿过电流传感器的总电流为0。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 673,
+    "type": "single",
+    "stem": "电池燃烧烟雾传感器主要检测哪两种气体()",
+    "options": [ "A.CO、CO2", "B.H2S、SO2", "C.CH4、HCN", "D.O2、N2" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "烟雾传感器主要检测CO和CO2。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 674,
+    "type": "single",
+    "stem": "BMS电安全管理不包含()",
+    "options": [ "A.过充过放保护", "B.绝缘检测", "C.烟雾报警", "D.电芯涂覆工艺控制" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "电芯涂覆工艺控制属于生产工艺，不属于BMS电安全管理。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 675,
+    "type": "single",
+    "stem": "卡尔曼滤波法估算SOC最大优势()",
+    "options": [ "A.计算简单", "B.给出SOC估算误差值", "C.无需电池模型", "D.不依赖电流" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "卡尔曼滤波法最大优势是可以给出SOC估算误差值。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 676,
+    "type": "single",
+    "stem": "电池系统最小独立能量单元是()",
+    "options": [ "A.PACK", "B.Module模组", "C.Cell电芯", "D.电池簇" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "电芯(Cell)是电池系统最小独立能量单元。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 677,
+    "type": "single",
+    "stem": "多个电芯串并联组成的模块化单元()",
+    "options": [ "A.电芯", "B.模组Module", "C.PACK", "D.电池簇" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "模组(Module)由多颗电芯串并联组成。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 678,
+    "type": "single",
+    "stem": "储能电站多模组组合层级名称()",
+    "options": [ "A.电芯", "B.模组", "C.电池簇", "D.汇流排" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "储能电站中多模组组合称为电池簇。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 679,
+    "type": "single",
+    "stem": "串联电芯作用()",
+    "options": [ "A.提升容量，电压不变", "B.提升电压，容量不变", "C.同时提升电压容量", "D.降低内阻" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "串联提升电压，容量不变。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 680,
+    "type": "single",
+    "stem": "并联电芯作用()",
+    "options": [ "A.提升容量，电压不变", "B.提升电压，容量不变", "C.降低电压", "D.提升内阻" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "并联提升容量，电压不变。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 681,
+    "type": "single",
+    "stem": "圆柱电芯代表型号()",
+    "options": [ "A.18650", "B.方形铝壳", "C.软包铝塑膜", "D.刀片电池" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "18650是圆柱电芯的代表型号。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 682,
+    "type": "single",
+    "stem": "软包电芯封装外壳材料()",
+    "options": [ "A.钢壳", "B.铝壳", "C.铝塑膜", "D.塑料壳" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "软包电芯使用铝塑膜封装。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 683,
+    "type": "single",
+    "stem": "CTP技术含义()",
+    "options": [ "A.电芯直接集成到包", "B.电芯集成到底盘", "C.模组集成PACK", "D.电芯直接焊接" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "CTP指电芯直接集成到电池包。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 684,
+    "type": "single",
+    "stem": "CTC技术含义()",
+    "options": [ "A.电芯到电池包", "B.电芯集成车辆底盘", "C.模组直连", "D.电芯串联" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "CTC指电芯直接集成到车辆底盘。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 685,
+    "type": "single",
+    "stem": "车用PACK核心设计目标()",
+    "options": [ "A.低LCOS长寿命", "B.高能量/功率密度", "C.极简风冷", "D.低防护等级" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "车用PACK核心目标是高能量/功率密度。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 686,
+    "type": "single",
+    "stem": "储能PACK核心设计目标()",
+    "options": [ "A.高功率密度", "B.极致轻量化", "C.低度电成本、超长循环", "D.液冷散热" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "储能PACK核心目标是低度电成本和超长循环。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 687,
+    "type": "single",
+    "stem": "以下哪项是储能PACK电芯主流选择()",
+    "options": [ "A.NCM三元", "B.LFP磷酸铁锂", "C.LTO钛酸锂", "D.镍镉" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "储能PACK主流选择LFP磷酸铁锂电芯。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 688,
+    "type": "single",
+    "stem": "电动车PACK电芯主流选择高能量密度()",
+    "options": [ "A.LFP", "B.NCM三元", "C.LTO", "D.铅酸" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "电动车PACK主流选择NCM三元电芯以获得高能量密度。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 689,
+    "type": "single",
+    "stem": "PACK产线U型布局优势()",
+    "options": [ "A.物流单向顺畅", "B.空间利用率高、便于管理", "C.适合大批量标准化", "D.设备最短" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "U型布局优势是空间利用率高、便于管理。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 690,
+    "type": "single",
+    "stem": "直线型PACK产线优势()",
+    "options": [ "A.多品种小批量", "B.物流顺畅、大批量标准化", "C.占地小", "D.人工少" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "直线型布局适合大批量标准化生产。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 691,
+    "type": "single",
+    "stem": "PACK前端首道工序()",
+    "options": [ "A.模组装配", "B.电芯IQC来料检验", "C.线束装配", "D.气密测试" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "PACK前端首道工序是电芯IQC来料检验。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 692,
+    "type": "single",
+    "stem": "PACK后段成品测试工序()",
+    "options": [ "A.电芯分选", "B.EOL综合测试", "C.极耳焊接", "D.绝缘处理" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "PACK后段成品测试为EOL综合测试。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 693,
+    "type": "single",
+    "stem": "PACK气密测试合格标准，气密性小于()",
+    "options": [ "A.10mL/min", "B.50mL/min", "C.100mL/min", "D.200mL/min" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "PACK气密测试合格标准为泄漏量小于10mL/min。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 694,
+    "type": "single",
+    "stem": "储能系统需求50kW、320kWh，320kWh代表()",
+    "options": [ "A.输出功率", "B.存储总电量", "C.单体电压", "D.循环次数" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "320kWh代表存储总电量。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 695,
+    "type": "single",
+    "stem": "动力电池PACK防护等级车用最低()",
+    "options": [ "A.IP54", "B.IP67", "C.IP44", "D.IP30" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "车用动力电池PACK防护等级最低为IP67。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 696,
+    "type": "single",
+    "stem": "电芯加工涂覆、辊压、分切属于PACK哪段工序()",
+    "options": [ "A.前端电芯段", "B.中段总装", "C.后段测试", "D.老化工序" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "电芯加工属于前端电芯段工序。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 697,
+    "type": "single",
+    "stem": "汇流排、BMS、热管理集成属于PACK()",
+    "options": [ "A.电芯制造", "B.模组装配", "C.PACK总装", "D.终检" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "汇流排、BMS、热管理集成属于PACK总装阶段。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 698,
+    "type": "single",
+    "stem": "电芯分切精度控制公差()",
+    "options": [ "A.±0.05mm", "B.±0.1mm", "C.±0.5mm", "D.±1mm" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "电芯分切精度公差控制在±0.1mm。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 699,
+    "type": "single",
+    "stem": "电芯注液标准温度区间()",
+    "options": [ "A.15-20℃", "B.25-30℃", "C.35-40℃", "D.40-50℃" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "电芯注液标准温度区间为25-30℃。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 700,
+    "type": "single",
+    "stem": "电芯注液温度波动超2℃，电解液分解率上升()",
+    "options": [ "A.8%", "B.18%", "C.28%", "D.38%" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "温度波动超2℃，电解液分解率上升18%。",
+    "tag": "PACK技术"
+  },
+
+  // ==================== 第二部分：判断题 ====================
+  {
+    "id": 701,
+    "type": "judge",
+    "stem": "电芯来料检测分为热学、力学、环境适应性、电化学四大类",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 702,
+    "type": "judge",
+    "stem": "热失控实验仅能通过外部加热触发电芯放热反应",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "可通过外部加热或内部放热两种方式触发。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 703,
+    "type": "judge",
+    "stem": "CO气体无色无味，具有强窒息毒性",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 704,
+    "type": "judge",
+    "stem": "H2S高浓度下无臭鸡蛋气味，极易造成人体中毒死亡",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "高浓度H2S会麻痹嗅觉神经，反而闻不到气味。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 705,
+    "type": "judge",
+    "stem": "SO2溶于水生成亚硫酸，会严重污染环境",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 706,
+    "type": "judge",
+    "stem": "HCN仅通过呼吸侵入人体，皮肤接触无危害",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "皮肤接触同样剧毒。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 707,
+    "type": "judge",
+    "stem": "针刺试验钢针直径3-5mm，穿刺速度10-20mm/s",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 708,
+    "type": "judge",
+    "stem": "比亚迪刀片电池针刺后表面温度最高80℃",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "最高不超过60℃。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 709,
+    "type": "judge",
+    "stem": "吉利神盾电池可通过8根5mm钢针同时穿刺1小时不起火",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 710,
+    "type": "judge",
+    "stem": "挤压试验主要针对方形长条电芯，检测短路风险",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 711,
+    "type": "judge",
+    "stem": "振动检测仅测试电芯高温存储性能",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "模拟工况振动温度变化。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 712,
+    "type": "judge",
+    "stem": "电芯充放电膨胀力监测用于电池包结构设计参考",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 713,
+    "type": "judge",
+    "stem": "-20℃低温放电容量要求≥70%额定容量",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 714,
+    "type": "judge",
+    "stem": "温度循环测试区间-40℃~85℃，用于检测电芯密封与膨胀",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 715,
+    "type": "judge",
+    "stem": "湿热测试绝缘电阻合格标准≥10MΩ",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "应≥100MΩ。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 716,
+    "type": "judge",
+    "stem": "低气压测试模拟高原环境，关注电解液汽化、膨胀击穿",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 717,
+    "type": "judge",
+    "stem": "跌落碰撞测试检查电芯外壳破裂、内部短路",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 718,
+    "type": "judge",
+    "stem": "盐雾试验温度35℃、中性盐雾浓度5%",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 719,
+    "type": "judge",
+    "stem": "防水防尘测试验证高压电气短路防护安全",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 720,
+    "type": "judge",
+    "stem": "电芯循环寿命统计容量衰减至50%时循环次数",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "衰减至80%。",
+    "tag": "电芯来料检验"
+  },
+  {
+    "id": 721,
+    "type": "judge",
+    "stem": "LFP磷酸铁锂能量密度高、低温性能优秀",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "能量密度低、低温性能一般。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 722,
+    "type": "judge",
+    "stem": "NCM三元电芯能量密度高，适合长续航电动车",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 723,
+    "type": "judge",
+    "stem": "LTO钛酸锂循环寿命极长、低温性能优异，但成本高",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 724,
+    "type": "judge",
+    "stem": "LFP电芯成本>NCM>LTO",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "LFP < NCM < LTO。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 725,
+    "type": "judge",
+    "stem": "高倍率电芯≥2C适合储能低电流场景",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "储能多用≤1C低倍率。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 726,
+    "type": "judge",
+    "stem": "同批次电芯电压极差允许最大0.05V",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 727,
+    "type": "judge",
+    "stem": "电芯容量偏差允许最大5%",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 728,
+    "type": "judge",
+    "stem": "UL1642是中国锂电池强制3C认证",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "UL是美标，3C是国内强制认证。",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 729,
+    "type": "judge",
+    "stem": "UN38.3规范锂电池运输安全要求",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 730,
+    "type": "judge",
+    "stem": "IEC62133是便携式二次电池国际安全标准",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 731,
+    "type": "judge",
+    "stem": "模组堆叠视觉定位平面公差≤0.5mm",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 732,
+    "type": "judge",
+    "stem": "极耳焊接重叠面积≥80%，焊缝连续无虚焊",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 733,
+    "type": "judge",
+    "stem": "模组内部绝缘电阻≥50MΩ",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 734,
+    "type": "judge",
+    "stem": "模组密封胶厚度控制0.1~0.3mm",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 735,
+    "type": "judge",
+    "stem": "模组气密标准≤10mL/min",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 736,
+    "type": "judge",
+    "stem": "模组耐压测试1500V持续1分钟无击穿",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 737,
+    "type": "judge",
+    "stem": "电芯涂覆厚度公差±5μm，偏差大会降低一致性",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 738,
+    "type": "judge",
+    "stem": "电芯注液温度25-30℃，温差超2℃电解液分解率上升18%",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 739,
+    "type": "judge",
+    "stem": "电芯分切精度±0.1mm，尺寸偏差会造成组装不良",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 740,
+    "type": "judge",
+    "stem": "模组防护等级最低IP67",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "电芯分选与模组"
+  },
+  {
+    "id": 741,
+    "type": "judge",
+    "stem": "正极极耳铝材质，负极镍/镀镍材质",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "极耳处理"
+  },
+  {
+    "id": 742,
+    "type": "judge",
+    "stem": "极耳清洗超声设备频率最低80kHz",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "极耳处理"
+  },
+  {
+    "id": 743,
+    "type": "judge",
+    "stem": "极耳烘干露点需高于-50℃",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "需低于-50℃。",
+    "tag": "极耳处理"
+  },
+  {
+    "id": 744,
+    "type": "judge",
+    "stem": "超声波焊接优势低温无飞溅，适配薄极耳",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "极耳处理"
+  },
+  {
+    "id": 745,
+    "type": "judge",
+    "stem": "极耳焊接拉力测试标准大于5N",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "极耳处理"
+  },
+  {
+    "id": 746,
+    "type": "judge",
+    "stem": "点焊电流区间500-2000A，脉冲时长10-30ms",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "极耳处理"
+  },
+  {
+    "id": 747,
+    "type": "judge",
+    "stem": "铝极耳焊接优先纯镍带，无需铝镍复合带",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "优先铝镍复合带。",
+    "tag": "极耳处理"
+  },
+  {
+    "id": 748,
+    "type": "judge",
+    "stem": "电烙铁焊接极耳单次时长控制1s以内防止烫坏电芯",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "极耳处理"
+  },
+  {
+    "id": 749,
+    "type": "judge",
+    "stem": "快巴纸为天然纤维绝缘材料，用于电芯隔离",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "极耳处理"
+  },
+  {
+    "id": 750,
+    "type": "judge",
+    "stem": "虚焊产生原因为极耳氧化、脏污、焊接压力不足",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "极耳处理"
+  },
+  {
+    "id": 751,
+    "type": "judge",
+    "stem": "过焊熔断是焊接电流过小、时间太短导致",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "电流/时间过大导致。",
+    "tag": "极耳处理"
+  },
+  {
+    "id": 752,
+    "type": "judge",
+    "stem": "打磨极耳使用800-1000目细砂纸，轻磨去氧化层",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "极耳处理"
+  },
+  {
+    "id": 753,
+    "type": "judge",
+    "stem": "焊接完成后必须全覆盖高温胶带做绝缘防护",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "极耳处理"
+  },
+  {
+    "id": 754,
+    "type": "judge",
+    "stem": "极耳成品内阻与原电芯偏差允许小于5mΩ",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "极耳处理"
+  },
+  {
+    "id": 755,
+    "type": "judge",
+    "stem": "允许直接打磨断裂极耳继续焊接使用",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "严禁打磨断裂极耳使用。",
+    "tag": "极耳处理"
+  },
+  {
+    "id": 756,
+    "type": "judge",
+    "stem": "BMS仅具备电压采集功能，无热管理、均衡功能",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "BMS具备综合管理功能。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 757,
+    "type": "judge",
+    "stem": "热敏电阻测温成本低，但线性度差、制造误差大",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 758,
+    "type": "judge",
+    "stem": "热电偶测温精度高，输出信号大无需放大",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "输出毫伏级信号，需放大。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 759,
+    "type": "judge",
+    "stem": "DS18B20集成温度传感器直接输出数字信号",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 760,
+    "type": "judge",
+    "stem": "分流器测量电流具备电气隔离",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "无电气隔离。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 761,
+    "type": "judge",
+    "stem": "霍尔电流传感器可测交直流脉冲，带电气隔离",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 762,
+    "type": "judge",
+    "stem": "SOC代表电池剩余电量荷电状态",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 763,
+    "type": "judge",
+    "stem": "能量耗散型均衡依靠电阻发热消耗多余电量，适合大容量动态均衡",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "仅适合静态小型电池组。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 764,
+    "type": "judge",
+    "stem": "非耗散型均衡通过电感电容转移电量，无大量发热损耗",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 765,
+    "type": "judge",
+    "stem": "电池传热分为热传导、对流换热、辐射换热三类",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 766,
+    "type": "judge",
+    "stem": "储能PACK主流散热方案液冷",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "主流为风冷/自然冷却。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 767,
+    "type": "judge",
+    "stem": "电动车动力电池包主流散热方案液冷",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 768,
+    "type": "judge",
+    "stem": "CAN总线是车载BMS主流通信方式",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 769,
+    "type": "judge",
+    "stem": "漏电流检测时，电流传感器正负总线同向穿过，漏电时输出为0",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "漏电时输出不为0。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 770,
+    "type": "judge",
+    "stem": "电池热失控烟雾传感器主要检测CO、CO2气体",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 771,
+    "type": "judge",
+    "stem": "BMS具备过充、过放、过流、短路、超温高压断电保护",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 772,
+    "type": "judge",
+    "stem": "开路电压法估算SOC无需静置，动态充放电下精度极高",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "静置测量精度高。",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 773,
+    "type": "judge",
+    "stem": "容量积分法(安时积分)单独使用会累积误差，需配合其他算法",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 774,
+    "type": "judge",
+    "stem": "卡尔曼滤波法可同时输出SOC估算值与估算误差",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 775,
+    "type": "judge",
+    "stem": "绝缘电阻表(兆欧表)可直接测量系统对地绝缘阻值",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "BMS系统"
+  },
+  {
+    "id": 776,
+    "type": "judge",
+    "stem": "Cell电芯是电池系统最小独立能量单元",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 777,
+    "type": "judge",
+    "stem": "模组Module由多颗电芯串并联组成，用于提升电压/容量",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 778,
+    "type": "judge",
+    "stem": "电池簇由多个PACK并联组成，仅用于消费电子",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "用于大型储能电站。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 779,
+    "type": "judge",
+    "stem": "电芯串联提升容量，并联提升电压",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "串联升压，并联增容。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 780,
+    "type": "judge",
+    "stem": "18650属于标准圆柱电芯，工艺成熟成本低",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 781,
+    "type": "judge",
+    "stem": "软包电芯铝塑膜封装，机械强度高、抗挤压",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "机械强度弱。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 782,
+    "type": "judge",
+    "stem": "CTP是电芯直接集成至电池包，省去部分模组结构",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 783,
+    "type": "judge",
+    "stem": "CTC是电芯直接集成车辆底盘，空间利用率更高",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 784,
+    "type": "judge",
+    "stem": "车用PACK侧重高倍率、振动冲击防护、轻量化液冷散热",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 785,
+    "type": "judge",
+    "stem": "储能PACK追求高能量密度、短时大功率输出",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "追求长循环、低倍率稳定输出。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 786,
+    "type": "judge",
+    "stem": "储能PACK优先选用LFP磷酸铁锂电芯，循环寿命可达5000次以上",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 787,
+    "type": "judge",
+    "stem": "PACK产线直线布局适合多品种小批量生产",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "适合大批量标准化。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 788,
+    "type": "judge",
+    "stem": "U型PACK产线空间利用率高，便于现场人员管理",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 789,
+    "type": "judge",
+    "stem": "PACK生产第一道工序为电芯IQC来料检验",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 790,
+    "type": "judge",
+    "stem": "EOL综合测试属于PACK生产前端电芯工序",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "属于后段成品测试。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 791,
+    "type": "judge",
+    "stem": "PACK气密测试合格标准气密性小于10mL/min",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 792,
+    "type": "judge",
+    "stem": "电芯注液温度波动超过2℃，电解液分解率上升18%",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 793,
+    "type": "judge",
+    "stem": "电芯分切公差±0.1mm，尺寸偏差影响组装一致性",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 794,
+    "type": "judge",
+    "stem": "50kW储能柜代表电池存储总电量320kWh",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "50kW为功率，320kWh为容量。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 795,
+    "type": "judge",
+    "stem": "储能PACK结构设计重点抗振动、碰撞轻量化",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "车用侧重抗冲击，储能侧重防腐静载。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 796,
+    "type": "judge",
+    "stem": "电池PACK集成电芯、模组、BMS、热管理、结构件、电气系统",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 797,
+    "type": "judge",
+    "stem": "老化工序用于稳定电池性能，筛选早期失效电芯",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 798,
+    "type": "judge",
+    "stem": "外观检测仅检查电芯划痕，无需核对型号生产日期标识",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "标识尺寸均需检测。",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 799,
+    "type": "judge",
+    "stem": "振动冲击测试属于电芯环境适应性机械类检测",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PACK技术"
+  },
+  {
+    "id": 800,
+    "type": "judge",
+    "stem": "盐雾腐蚀测试用于验证电池外壳、接线端子防腐能力",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PACK技术"
+  },
+
+  // ==================== 第三部分：名词解释 ====================
+  {
+    "id": 801,
+    "type": "essay",
+    "stem": "名词解释:电芯Cell",
+    "options": "",
+    "answer": "锂电池系统最小独立能量单元，依靠锂离子正负极迁移实现充放电，分为方形、圆柱、软包三类。",
+    "cleanAnswer": "锂电池系统最小独立能量单元依靠锂离子正负极迁移实现充放电分为方形圆柱软包三类",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 802,
+    "type": "essay",
+    "stem": "名词解释:模组 Module",
+    "options": "",
+    "answer": "多颗电芯通过串并联焊接、固定绝缘形成的模块化单元，提升电压/容量，支撑保护电芯。",
+    "cleanAnswer": "多颗电芯通过串并联焊接固定绝缘形成的模块化单元提升电压容量支撑保护电芯",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 803,
+    "type": "essay",
+    "stem": "名词解释:PACK电池包",
+    "options": "",
+    "answer": "集成电芯模组、BMS、热管理、结构外壳、电气线束、密封防护的完整可直接使用储能系统。",
+    "cleanAnswer": "集成电芯模组BMS热管理结构外壳电气线束密封防护的完整可直接使用储能系统",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 804,
+    "type": "essay",
+    "stem": "名词解释:电池簇",
+    "options": "",
+    "answer": "储能电站中由多组PACK电池包串并联组成的大型能量组合单元，承上启下适配高压储能系统。",
+    "cleanAnswer": "储能电站中由多组PACK电池包串并联组成的大型能量组合单元承上启下适配高压储能系统",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 805,
+    "type": "essay",
+    "stem": "名词解释:BMS电池管理系统",
+    "options": "",
+    "answer": "电池系统智能管控核心，实时采集电压、电流、温度，实现SOC估算、均衡、过充过放、热管理、绝缘保护、通讯功能。",
+    "cleanAnswer": "电池系统智能管控核心实时采集电压电流温度实现SOC估算均衡过充过放热管理绝缘保护通讯功能",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 806,
+    "type": "essay",
+    "stem": "名词解释:SOC荷电状态",
+    "options": "",
+    "answer": "电池当前剩余可用容量占额定容量百分比，表征剩余电量，用于续航/供电时长预测。",
+    "cleanAnswer": "电池当前剩余可用容量占额定容量百分比表征剩余电量用于续航供电时长预测",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 807,
+    "type": "essay",
+    "stem": "名词解释:SOH电池健康度",
+    "options": "",
+    "answer": "电池当前实际最大可充容量与出厂额定容量比值，反映电芯老化衰减程度。",
+    "cleanAnswer": "电池当前实际最大可充容量与出厂额定容量比值反映电芯老化衰减程度",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 808,
+    "type": "essay",
+    "stem": "名词解释:能量耗散型均衡(被动均衡)",
+    "options": "",
+    "answer": "通过并联旁路电阻将高电压单体多余能量转化热量消耗，实现电芯电压均衡，成本低但损耗能量、发热大。",
+    "cleanAnswer": "通过并联旁路电阻将高电压单体多余能量转化热量消耗实现电芯电压均衡成本低但损耗能量发热大",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 809,
+    "type": "essay",
+    "stem": "名词解释:非能量耗散型均衡(主动均衡)",
+    "options": "",
+    "answer": "利用电感、电容等储能元件，将高电量单体能量转移至低电量单体，无大量能量损耗，均衡效率高。",
+    "cleanAnswer": "利用电感电容等储能元件将高电量单体能量转移至低电量单体无大量能量损耗均衡效率高",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 810,
+    "type": "essay",
+    "stem": "名词解释:LFP磷酸铁锂电芯",
+    "options": "",
+    "answer": "正极材料磷酸铁锂，热稳定性强、循环寿命长、成本低，短板能量密度低、低温放电性能一般，多用于储能、商用车。",
+    "cleanAnswer": "正极材料磷酸铁锂热稳定性强循环寿命长成本低短板能量密度低温放电性能一般多用于储能商用车",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 811,
+    "type": "essay",
+    "stem": "名词解释:NCM三元锂电芯",
+    "options": "",
+    "answer": "镍钴锰三元正极，能量密度高、低温性能好、续航强，短板热稳定性差、成本高，多用于乘用车、数码产品。",
+    "cleanAnswer": "镍钴锰三元正极能量密度高低温性能好续航强短板热稳定性差成本高多用于乘用车数码产品",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 812,
+    "type": "essay",
+    "stem": "名词解释:LTO钛酸锂电芯",
+    "options": "",
+    "answer": "负极钛酸锂，超低温耐受、快充性能优异、循环寿命极长，短板能量密度低采购成本高，适用于高寒特种装备。",
+    "cleanAnswer": "负极钛酸锂超低温耐受快充性能优异循环寿命极长短板能量密度低采购成本高适用于高寒特种装备",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 813,
+    "type": "essay",
+    "stem": "名词解释:热失控",
+    "options": "",
+    "answer": "电芯内部放热反应链式加剧，温度持续飙升，伴随产气、鼓包、破裂、起火爆炸的危险失效状态。",
+    "cleanAnswer": "电芯内部放热反应链式加剧温度持续飙升伴随产气鼓包破裂起火爆炸的危险失效状态",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 814,
+    "type": "essay",
+    "stem": "名词解释:针刺试验",
+    "options": "",
+    "answer": "电芯力学安全测试，标准3-5mm钢针10-20mm/s贯穿电芯，观察有无冒烟、起火、爆炸，验证内短路安全性能。",
+    "cleanAnswer": "电芯力学安全测试标准3-5mm钢针10-20mm/s贯穿电芯观察有无冒烟起火爆炸验证内短路安全性能",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 815,
+    "type": "essay",
+    "stem": "名词解释:挤压抗压试验",
+    "options": "",
+    "answer": "电芯力学检测，施加外部压力挤压电芯，测试刚度、屈服力，评估挤压导致内部短路风险。",
+    "cleanAnswer": "电芯力学检测施加外部压力挤压电芯测试刚度屈服力评估挤压导致内部短路风险",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 816,
+    "type": "essay",
+    "stem": "名词解释:高低温充放电测试",
+    "options": "",
+    "answer": "电芯环境适应性检测，-20℃~60℃区间充放电，考核低温容量衰减、高温容量保持能力。",
+    "cleanAnswer": "电芯环境适应性检测-20℃~60℃区间充放电考核低温容量衰减高温容量保持能力",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 817,
+    "type": "essay",
+    "stem": "名词解释:温度循环热冲击测试",
+    "options": "",
+    "answer": " -40℃~85℃快速/慢速温差循环，模拟季节、昼夜温差，检测电芯密封、膨胀、内部短路风险。",
+    "cleanAnswer": "-40℃~85℃快速慢速温差循环模拟季节昼夜温差检测电芯密封膨胀内部短路风险",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 818,
+    "type": "essay",
+    "stem": "名词解释:湿热老化测试",
+    "options": "",
+    "answer": "85℃85%恒定/25-55℃交变湿热长期存储运行，验证电芯绝缘性能、封装防腐能力。",
+    "cleanAnswer": "85℃85%恒定25-55℃交变湿热长期存储运行验证电芯绝缘性能封装防腐能力",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 819,
+    "type": "essay",
+    "stem": "名词解释:盐雾腐蚀测试",
+    "options": "",
+    "answer": "5%浓度35℃中性盐雾环境，模拟沿海、除雪剂腐蚀工况，检测电池外壳、接线端子抗腐蚀能力。",
+    "cleanAnswer": "5%浓度35℃中性盐雾环境模拟沿海除雪剂腐蚀工况检测电池外壳接线端子抗腐蚀能力",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 820,
+    "type": "essay",
+    "stem": "名词解释:电芯内阻",
+    "options": "",
+    "answer": "电芯内部导电阻力，分为交流阻抗、直流内阻;内阻过高会造成发热、电压跌落、一致性变差。",
+    "cleanAnswer": "电芯内部导电阻力分为交流阻抗直流内阻内阻过高会造成发热电压跌落一致性变差",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 821,
+    "type": "essay",
+    "stem": "名词解释:电芯一致性",
+    "options": "",
+    "answer": "同批次电芯电压、容量、内阻、膨胀、循环衰减参数差异大小，幅缩短整包寿命。",
+    "cleanAnswer": "同批次电芯电压容量内阻膨胀循环衰减参数差异大小幅缩短整包寿命",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 822,
+    "type": "essay",
+    "stem": "名词解释:充放电倍率",
+    "options": "",
+    "answer": "充放电电流与额定容量比值，1C代表1小时充满/放空，≥2C高倍率适配大功率设备,≤1C低倍率适配储能。",
+    "cleanAnswer": "充放电电流与额定容量比值1C代表1小时充满放空≥2C高倍率适配大功率设备≤1C低倍率适配储能",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 823,
+    "type": "essay",
+    "stem": "名词解释:循环寿命",
+    "options": "",
+    "answer": "电芯标准工况反复充放电，容量衰减至额定80%时总循环次数，储能≥3000次，乘用车≥1500次。",
+    "cleanAnswer": "电芯标准工况反复充放电容量衰减至额定80%时总循环次数储能≥3000次乘用车≥1500次",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 824,
+    "type": "essay",
+    "stem": "名词解释:极耳",
+    "options": "",
+    "answer": "电芯正负极引出导电金属带，正极铝、负极镍/镀镍，是电芯电气连接核心部件。",
+    "cleanAnswer": "电芯正负极引出导电金属带正极铝负极镍镀镍是电芯电气连接核心部件",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 825,
+    "type": "essay",
+    "stem": "名词解释:超声波焊接",
+    "options": "",
+    "answer": "利用高频振动摩擦生热实现金属结合，低温无飞溅，适合多层薄铝、镍极耳焊接。",
+    "cleanAnswer": "利用高频振动摩擦生热实现金属结合低温无飞溅适合多层薄铝镍极耳焊接",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 826,
+    "type": "essay",
+    "stem": "名词解释:电阻点焊",
+    "options": "",
+    "answer": "大电流短脉冲通过金属接触面产生熔接，用于负极钢壳、镍带极耳连接。",
+    "cleanAnswer": "大电流短脉冲通过金属接触面产生熔接用于负极钢壳镍带极耳连接",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 827,
+    "type": "essay",
+    "stem": "名词解释:虚焊",
+    "options": "",
+    "answer": "极耳/汇流排焊接不良，金属未充分熔合，接触电阻大幅升高，发热、易断路失效。",
+    "cleanAnswer": "极耳汇流排焊接不良金属未充分熔合接触电阻大幅升高发热易断路失效",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 828,
+    "type": "essay",
+    "stem": "名词解释:快巴纸",
+    "options": "",
+    "answer": "天然纤维绝缘材料，耐高温，用于电芯、极耳、汇流排之间隔离防短路。",
+    "cleanAnswer": "天然纤维绝缘材料耐高温用于电芯极耳汇流排之间隔离防短路",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 829,
+    "type": "essay",
+    "stem": "名词解释:IP防护等级",
+    "options": "",
+    "answer": "电气设备防水防尘标准，第一位防尘、第二位防水，动力电池PACK最低IP67。",
+    "cleanAnswer": "电气设备防水防尘标准第一位防尘第二位防水动力电池PACK最低IP67",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 830,
+    "type": "essay",
+    "stem": "名词解释:气密性测试",
+    "options": "",
+    "answer": "检测电池包、模组密封性能，通入压缩空气监测泄漏量，合格泄漏≤10mL/min。",
+    "cleanAnswer": "检测电池包模组密封性能通入压缩空气监测泄漏量合格泄漏≤10mL/min",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 831,
+    "type": "essay",
+    "stem": "名词解释:绝缘耐压测试",
+    "options": "",
+    "answer": "模组/电池包施加1500V高压持续1min，无击穿、漏电，验证系统电气绝缘安全。",
+    "cleanAnswer": "模组电池包施加1500V高压持续1min无击穿漏电验证系统电气绝缘安全",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 832,
+    "type": "essay",
+    "stem": "名词解释:热管理系统",
+    "options": "",
+    "answer": "PACK配套温控系统，包含散热、加热、测温组件，控制电芯温度区间，减小单体温差，防止热失控。",
+    "cleanAnswer": "PACK配套温控系统包含散热加热测温组件控制电芯温度区间减小单体温差防止热失控",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 833,
+    "type": "essay",
+    "stem": "名词解释:空冷散热",
+    "options": "",
+    "answer": "依靠空气对流带走电芯热量，分为串行、并行通风，储能PACK主流低成本方案。",
+    "cleanAnswer": "依靠空气对流带走电芯热量分为串行并行通风储能PACK主流低成本方案",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 834,
+    "type": "essay",
+    "stem": "名词解释:液冷散热",
+    "options": "",
+    "answer": "冷却液流道贴合电芯带走热量，换热效率高，适配电动车大功率快充工况。",
+    "cleanAnswer": "冷却液流道贴合电芯带走热量换热效率高适配电动车大功率快充工况",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 835,
+    "type": "essay",
+    "stem": "名词解释:CAN总线通信",
+    "options": "",
+    "answer": "车载BMS主流数据传输总线，实现BMS与整车控制器、充电机、上位机数据交互。",
+    "cleanAnswer": "车载BMS主流数据传输总线实现BMS与整车控制器充电机上位机数据交互",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 836,
+    "type": "essay",
+    "stem": "名词解释:绝缘检测",
+    "options": "",
+    "answer": "BMS实时监测电池正负极对壳体漏电流、绝缘电阻，绝缘过低时触发高压保护，防止触电。",
+    "cleanAnswer": "BMS实时监测电池正负极对壳体漏电流绝缘电阻绝缘过低时触发高压保护防止触电",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 837,
+    "type": "essay",
+    "stem": "名词解释:烟雾报警系统",
+    "options": "",
+    "answer": "电池包内置气体传感器，检测CO、CO2热失控烟气，声光报警并切断高压回路。",
+    "cleanAnswer": "电池包内置气体传感器检测COCO2热失控烟气声光报警并切断高压回路",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 838,
+    "type": "essay",
+    "stem": "名词解释:CTP电芯到包",
+    "options": "",
+    "answer": "取消独立模组壳体，电芯直接固定安装至电池包箱体，提升空间利用率、降低零部件成本。",
+    "cleanAnswer": "取消独立模组壳体电芯直接固定安装至电池包箱体提升空间利用率降低零部件成本",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 839,
+    "type": "essay",
+    "stem": "名词解释:CTC电芯到底盘",
+    "options": "",
+    "answer": "电芯直接集成车辆底盘车身结构，极致轻量化、最大化空间利用率，维修难度提升。",
+    "cleanAnswer": "电芯直接集成车辆底盘车身结构极致轻量化最大化空间利用率维修难度提升",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 840,
+    "type": "essay",
+    "stem": "名词解释:电芯分选",
+    "options": "",
+    "answer": "电芯组装前置工序，通过电压、内阻、容量、外观检测筛选参数匹配电芯分组，保证模组一致性。",
+    "cleanAnswer": "电芯组装前置工序通过电压内阻容量外观检测筛选参数匹配电芯分组保证模组一致性",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 841,
+    "type": "essay",
+    "stem": "名词解释:IQC来料检验",
+    "options": "",
+    "answer": "原材料入厂质检，电芯、结构件、BMS、线束全项目检测，不合格物料禁止上线生产。",
+    "cleanAnswer": "原材料入厂质检电芯结构件BMS线束全项目检测不合格物料禁止上线生产",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 842,
+    "type": "essay",
+    "stem": "名词解释:EOL成品综合测试",
+    "options": "",
+    "answer": "PACK组装完成终测，包含充放电、通讯、保护功能、绝缘、气密、电压温度全项验证。",
+    "cleanAnswer": "PACK组装完成终测包含充放电通讯保护功能绝缘气密电压温度全项验证",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 843,
+    "type": "essay",
+    "stem": "名词解释:老化工序",
+    "options": "",
+    "answer": "成品电池包长时间带载静置充放电，加速早期缺陷暴露，稳定电芯性能一致性。",
+    "cleanAnswer": "成品电池包长时间带载静置充放电加速早期缺陷暴露稳定电芯性能一致性",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 844,
+    "type": "essay",
+    "stem": "名词解释:热释放速率实验",
+    "options": "",
+    "answer": "电芯热学安全测试，监测热失控全过程温度、压力、产气组分，量化燃烧危险参数。",
+    "cleanAnswer": "电芯热学安全测试监测热失控全过程温度压力产气组分量化燃烧危险参数",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 845,
+    "type": "essay",
+    "stem": "名词解释:低气压高海拔测试",
+    "options": "",
+    "answer": "模拟高原低压环境，检测电芯密封、电解液汽化、耐压击穿、膨胀风险。",
+    "cleanAnswer": "模拟高原低压环境检测电芯密封电解液汽化耐压击穿膨胀风险",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 846,
+    "type": "essay",
+    "stem": "名词解释:振动冲击测试",
+    "options": "",
+    "answer": "模拟车辆颠簸、急刹、运输碰撞，检测焊点疲劳、极片错位、外壳结构损伤。",
+    "cleanAnswer": "模拟车辆颠簸急刹运输碰撞检测焊点疲劳极片错位外壳结构损伤",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 847,
+    "type": "essay",
+    "stem": "名词解释:跌落测试",
+    "options": "",
+    "answer": "电芯/模组从规定高度自由跌落，验证外壳强度、内部短路防护能力。",
+    "cleanAnswer": "电芯模组从规定高度自由跌落验证外壳强度内部短路防护能力",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 848,
+    "type": "essay",
+    "stem": "名词解释:自放电",
+    "options": "",
+    "answer": "电芯静置无负载时容量自然衰减，高温环境自放电加剧，一致性变差。",
+    "cleanAnswer": "电芯静置无负载时容量自然衰减高温环境自放电加剧一致性变差",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 849,
+    "type": "essay",
+    "stem": "名词解释:析锂",
+    "options": "",
+    "answer": "低温、大电流快充下锂离子析出金属锂附着负极，造成容量衰减、产气、短路安全隐患。",
+    "cleanAnswer": "低温大电流快充下锂离子析出金属锂附着负极造成容量衰减产气短路安全隐患",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+  {
+    "id": 850,
+    "type": "essay",
+    "stem": "名词解释:汇流排",
+    "options": "",
+    "answer": "金属导电连接片，串联并联模组电芯，要求低阻抗、大电流承载，激光焊接固定。",
+    "cleanAnswer": "金属导电连接片串联并联模组电芯要求低阻抗大电流承载激光焊接固定",
+    "explanation": "",
+    "tag": "名词解释"
+  },
+
+  // ==================== 第四部分：简答题 ====================
+  {
+    "id": 851,
+    "type": "essay",
+    "stem": "电芯来料四大类检测分别是什么?",
+    "options": "",
+    "answer": "热学性质检测、力学性质检测、环境适应性检测、电化学性能检测。",
+    "cleanAnswer": "热学性质检测力学性质检测环境适应性检测电化学性能检测",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 852,
+    "type": "essay",
+    "stem": "锂电池热失控燃烧产生的剧毒危险气体有哪些，各自危害?",
+    "options": "",
+    "answer": "①CO:无色无味剧毒，窒息致死;②H2S:臭鸡蛋味剧毒，低浓度致命;③SO2:刺激性气味，污染环境腐蚀;④HCN:易燃易爆剧毒，细胞窒息中毒。",
+    "cleanAnswer": "CO无色无味剧毒窒息致死H2S臭鸡蛋味剧毒低浓度致命SO2刺激性气味污染环境腐蚀HCN易燃易爆剧毒细胞窒息中毒",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 853,
+    "type": "essay",
+    "stem": "电芯针刺试验标准参数是什么?比亚迪、吉利电池针刺优势?",
+    "options": "",
+    "answer": "标准:3-5mm钢针，10-20mm/s贯穿;比亚迪刀片单针针刺无明火无烟，表面≤60℃;吉利8针同刺1小时不起火爆炸，通过5.8mm枪弹贯穿测试。",
+    "cleanAnswer": "标准3-5mm钢针10-20mm/s贯穿比亚迪刀片单针针刺无明火无烟表面≤60℃吉利8针同刺1小时不起火爆炸通过58mm枪弹贯穿测试",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 854,
+    "type": "essay",
+    "stem": "电芯高低温充放电性能指标要求?",
+    "options": "",
+    "answer": "-20℃放电容量≥70%额定容量;60℃放电容量≥95%额定容量。",
+    "cleanAnswer": "-20℃放电容量≥70%额定容量60℃放电容量≥95%额定容量",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 855,
+    "type": "essay",
+    "stem": "湿热检测两项核心考核指标?",
+    "options": "",
+    "answer": "①电芯绝缘电阻≥100MΩ;②封装外壳抗腐蚀能力。",
+    "cleanAnswer": "电芯绝缘电阻≥100MΩ封装外壳抗腐蚀能力",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 856,
+    "type": "essay",
+    "stem": "电芯力学检测包含哪些试验项目?",
+    "options": "",
+    "answer": "针刺穿刺、抗压挤压、振动检测、充放电膨胀力监测。",
+    "cleanAnswer": "针刺穿刺抗压挤压振动检测充放电膨胀力监测",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 857,
+    "type": "essay",
+    "stem": "电芯电化学性能检测包含哪些项目?",
+    "options": "",
+    "answer": "盐雾腐蚀、防水防尘、容量效率、倍率性能、循环寿命、阻抗、自放电、工作安全窗口。",
+    "cleanAnswer": "盐雾腐蚀防水防尘容量效率倍率性能循环寿命阻抗自放电工作安全窗口",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 858,
+    "type": "essay",
+    "stem": "温度循环/热冲击测试目的?",
+    "options": "",
+    "answer": "模拟昼夜、季节快速温差，检测电芯膨胀、密封失效、内部短路风险。",
+    "cleanAnswer": "模拟昼夜季节快速温差检测电芯膨胀密封失效内部短路风险",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 859,
+    "type": "essay",
+    "stem": "低气压高海拔测试关注哪些失效风险?",
+    "options": "",
+    "answer": "电芯膨胀、电解液汽化、高压耐压击穿、密封泄漏。",
+    "cleanAnswer": "电芯膨胀电解液汽化高压耐压击穿密封泄漏",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 860,
+    "type": "essay",
+    "stem": "电芯循环寿命判定标准是什么?",
+    "options": "",
+    "answer": "标准工况充放电，当电芯容量衰减至额定容量80%时，统计总循环次数作为寿命指标。",
+    "cleanAnswer": "标准工况充放电当电芯容量衰减至额定容量80%时统计总循环次数作为寿命指标",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 861,
+    "type": "essay",
+    "stem": "LFP、NCM、LTO三种电芯优缺点与适用场景?",
+    "options": "",
+    "answer": "①LFP磷酸铁锂:优势安全、长循环、低成本;短板能量密度低、低温差;储能、电动车;②NCM三元:优势能量密度高、低温好、续航强;短板热稳定性差、成本高;乘用车、数码;③LTO钛酸锂:优势超低温、快充、超长循环;短板能量密度低、价格贵;高寒特种装备。",
+    "cleanAnswer": "LFP磷酸铁锂优势安全长循环低成本短板能量密度低温差储能电动车NCM三元优势能量密度高低温好续航强短板热稳定性差成本高乘用车数码LTO钛酸锂优势超低温快充超长循环短板能量密度低价格贵高寒特种装备",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 862,
+    "type": "essay",
+    "stem": "电芯分选四大步骤是什么?",
+    "options": "",
+    "answer": "①确定应用场景匹配化学体系;②核定电压、容量、倍率、循环、内阻等核心参数;③核验外观、溯源、安全认证、BMS兼容性;④平衡成本与供应链供货能力。",
+    "cleanAnswer": "确定应用场景匹配化学体系核定电压容量倍率循环内阻等核心参数核验外观溯源安全认证BMS兼容性平衡成本与供应链供货能力",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 863,
+    "type": "essay",
+    "stem": "模组装配完整核心流程?",
+    "options": "",
+    "answer": "电芯分选→堆叠成组→电气焊接连接→结构紧固绝缘→热管理+BMS集成→密封涂胶→气密性+EOL终测。",
+    "cleanAnswer": "电芯分选堆叠成组电气焊接连接结构紧固绝缘热管理BMS集成密封涂胶气密性EOL终测",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 864,
+    "type": "essay",
+    "stem": "模组焊接工艺标准要求?",
+    "options": "",
+    "answer": "激光/超声波焊接，极耳重叠面积≥80%，焊缝连续无虚焊;绝缘电阻≥50MΩ。",
+    "cleanAnswer": "激光超声波焊接极耳重叠面积≥80%焊缝连续无虚焊绝缘电阻≥50MΩ",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 865,
+    "type": "essay",
+    "stem": "模组密封与气密测试标准?",
+    "options": "",
+    "answer": "密封胶厚度0.1-0.3mm,防护等级≥IP67;气密性泄漏量<10mL/min;绝缘耐压1500V持续1min无击穿。",
+    "cleanAnswer": "密封胶厚度01-03mm防护等级≥IP67气密性泄漏量<10mL/min绝缘耐压1500V持续1min无击穿",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 866,
+    "type": "essay",
+    "stem": "锂电池必备安全认证有哪些?",
+    "options": "",
+    "answer": "国内3C强制认证;国际UL1642、IEC62133、UN38.3运输标准。",
+    "cleanAnswer": "国内3C强制认证国际UL1642IEC62133UN383运输标准",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 867,
+    "type": "essay",
+    "stem": "电芯涂覆、分切、注液工艺关键控制公差与参数?",
+    "options": "",
+    "answer": "涂覆厚度±5μm;分切精度±0.1mm;注液温度25-30℃，温差超2℃电解液分解率上升18%。",
+    "cleanAnswer": "涂覆厚度±5μm分切精度±01mm注液温度25-30℃温差超2℃电解液分解率上升18%",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 868,
+    "type": "essay",
+    "stem": "串联、并联电芯各自作用?",
+    "options": "",
+    "answer": "串联:提升系统总电压，单体容量不变;并联:提升系统总容量，单体电压不变。",
+    "cleanAnswer": "串联提升系统总电压单体容量不变并联提升系统总容量单体电压不变",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 869,
+    "type": "essay",
+    "stem": "优质合格电芯内阻、电压、容量一致性标准?",
+    "options": "",
+    "answer": "内阻<50mΩ;同批次电压极差≤0.05V;容量偏差≤5%。",
+    "cleanAnswer": "内阻<50mΩ同批次电压极差≤005V容量偏差≤5%",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 870,
+    "type": "essay",
+    "stem": "不同场景电芯循环寿命最低要求?",
+    "options": "",
+    "answer": "消费电子≥500次;电动汽车≥1500次;储能系统≥3000次。",
+    "cleanAnswer": "消费电子≥500次电动汽车≥1500次储能系统≥3000次",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 871,
+    "type": "essay",
+    "stem": "正负极极耳材质区别，极耳主要缺陷风险?",
+    "options": "",
+    "answer": "正极铝极耳，负极镍/铜镀镍极耳;缺陷风险:氧化、毛刺、高温熔断、虚焊、短路。",
+    "cleanAnswer": "正极铝极耳负极镍铜镀镍极耳缺陷风险氧化毛刺高温熔断虚焊短路",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 872,
+    "type": "essay",
+    "stem": "极耳标准预处理流程?",
+    "options": "",
+    "answer": "冲切去毛刺→80kHz以上超声清洗→真空热风烘干(露点<-50℃)→150-220℃三级热压贴绝缘胶。",
+    "cleanAnswer": "冲切去毛刺80kHz以上超声清洗真空热风烘干露点<-50℃150-220℃三级热压贴绝缘胶",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 873,
+    "type": "essay",
+    "stem": "超声波焊接极耳优势与控制要点?",
+    "options": "",
+    "answer": "优势:低温无飞溅，适配多层薄铝镍极耳;控制:压力、振幅、焊接时间精准拉力>5N。",
+    "cleanAnswer": "优势低温无飞溅适配多层薄铝镍极耳控制压力振幅焊接时间精准拉力>5N",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 874,
+    "type": "essay",
+    "stem": "点焊标准参数与焊接合格外观判定?",
+    "options": "",
+    "answer": "电流500-2000A，脉冲10-30ms;焊点圆润无发黑炸火，拉力不脱落，内阻无明显上升。",
+    "cleanAnswer": "电流500-2000A脉冲10-30ms焊点圆润无发黑炸火拉力不脱落内阻无明显上升",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 875,
+    "type": "essay",
+    "stem": "极耳焊接后全套绝缘防护措施?",
+    "options": "",
+    "answer": "极耳根部双层绝缘胶纸;焊点全覆盖高温胶带;壳体与镍带完全隔离;串联间隙快巴纸隔离;正极盖帽完整绝缘圈。",
+    "cleanAnswer": "极耳根部双层绝缘胶纸焊点全覆盖高温胶带壳体与镍带完全隔离串联间隙快巴纸隔离正极盖帽完整绝缘圈",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 876,
+    "type": "essay",
+    "stem": "极耳虚焊、过焊产生原因及整改方案?",
+    "options": "",
+    "answer": "虚焊:极耳氧化脏污、焊接压力不足;整改:打磨清洗、调整焊接压力;过焊熔断:电流过大、焊接时间长;整改:降低焊接能量参数。",
+    "cleanAnswer": "虚焊极耳氧化脏污焊接压力不足整改打磨清洗调整焊接压力过焊熔断电流过大焊接时间长整改降低焊接能量参数",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 877,
+    "type": "essay",
+    "stem": "手工维修极耳电烙铁使用规范?",
+    "options": "",
+    "answer": "优先铝镍复合带;铝极耳配M51焊丝助焊剂;单次焊接时间<1s，快焊快冷，电芯外部隔热。",
+    "cleanAnswer": "优先铝镍复合带铝极耳配M51焊丝助焊剂单次焊接时间<1s快焊快冷电芯外部隔热",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 878,
+    "type": "essay",
+    "stem": "极耳成品检测三项核心指标?",
+    "options": "",
+    "answer": "外观无毛刺、虚焊、绝缘破损;内阻与原电芯偏差<5mΩ;空载电压3.0-4.2V无跌落。",
+    "cleanAnswer": "外观无毛刺虚焊绝缘破损内阻与原电芯偏差<5mΩ空载电压30-42V无跌落",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 879,
+    "type": "essay",
+    "stem": "极耳实操五大禁止操作?",
+    "options": "",
+    "answer": "严禁正负极直接短路;严禁长时间烙铁烫极耳;严禁点焊穿极耳;严禁不做绝缘直接装机;严禁打磨用力过猛断裂极耳。",
+    "cleanAnswer": "严禁正负极直接短路严禁长时间烙铁烫极耳严禁点焊穿极耳严禁不做绝缘直接装机严禁打磨用力过猛断裂极耳",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 880,
+    "type": "essay",
+    "stem": "铝极耳焊接难点与解决方案?",
+    "options": "",
+    "answer": "铝易氧化难熔接;方案:使用铝镍复合带、超声波焊接、焊接前砂纸打磨+无水乙醇去氧化。",
+    "cleanAnswer": "铝易氧化难熔接方案使用铝镍复合带超声波焊接焊接前砂纸打磨无水乙醇去氧化",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 881,
+    "type": "essay",
+    "stem": "BMS八大核心功能?",
+    "options": "",
+    "answer": "数据采集、电池状态计算(SOC/SOH)、能量充放电管理、安全保护、热管理、电芯均衡控制、数据通讯、人机交互。",
+    "cleanAnswer": "数据采集电池状态计算SOCSOH能量充放电管理安全保护热管理电芯均衡控制数据通讯人机交互",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 882,
+    "type": "essay",
+    "stem": "五种单体电压采集方式及适用特点?",
+    "options": "",
+    "answer": "①继电器阵列:高串数高精度;②恒流源:结构简单、共模抑制强;③隔离运放:精度高可靠、成本高;④压频转换:电容误差大;⑤线性光耦:隔离抗干扰强、电路复杂。",
+    "cleanAnswer": "继电器阵列高串数高精度恒流源结构简单共模抑制强隔离运放精度高可靠成本高压频转换电容误差大线性光耦隔离抗干扰强电路复杂",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 883,
+    "type": "essay",
+    "stem": "三种电池温度采集方法优缺点?",
+    "options": "",
+    "answer": "①热敏电阻:成本低、线性差误差大;②热电偶:精度高、信号弱需放大;③集成传感器18B20:数字输出、精度稳定。",
+    "cleanAnswer": "热敏电阻成本低线性差误差大热电偶精度高信号弱需放大集成传感器18B20数字输出精度稳定",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 884,
+    "type": "essay",
+    "stem": "四种电流采集器件对比核心特点?",
+    "options": "",
+    "answer": "分流器:无隔离、低成本小电流;互感器:仅测交流;霍尔:交直流隔离,车用主流;光纤:高压专用、价格高。",
+    "cleanAnswer": "分流器无隔离低成本小电流互感器仅测交流霍尔交直流隔离车用主流光纤高压专用价格高",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 885,
+    "type": "essay",
+    "stem": "SOC估算五种常用算法及特点?",
+    "options": "",
+    "answer": "开路电压法(静置精度高);容量积分法(动态累计误差);内阻法(内阻测量难度大);模糊/神经网络(自学习需大量样本);卡尔曼滤波(输出误差值,运算量大)。",
+    "cleanAnswer": "开路电压法静置精度高容量积分法动态累计误差内阻法内阻测量难度大模糊神经网络自学习需大量样本卡尔曼滤波输出误差值运算量大",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 886,
+    "type": "essay",
+    "stem": "能量耗散均衡与主动非耗散均衡优缺点对比?",
+    "options": "",
+    "answer": "耗散均衡:电路简单、成本低;能量损耗大、发热严重,仅静态小型电池;主动均衡:电量转移无发热，均衡效率高;电路复杂、成本高。",
+    "cleanAnswer": "耗散均衡电路简单成本低能量损耗大发热严重仅静态小型电池主动均衡电量转移无发热均衡效率高电路复杂成本高",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 887,
+    "type": "essay",
+    "stem": "电池热管理系统五大功能?",
+    "options": "",
+    "answer": "精准测温监控;高温散热通风;低温快速加热;热失控有害气体通风;均衡电池包内部温度场。",
+    "cleanAnswer": "精准测温监控高温散热通风低温快速加热热失控有害气体通风均衡电池包内部温度场",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 888,
+    "type": "essay",
+    "stem": "BMS电安全管理包含哪些保护功能?",
+    "options": "",
+    "answer": "绝缘实时检测、烟雾报警、高压自动断电、过压过流过放保护、超温保护、碰撞切断高压、IP防护防水防尘。",
+    "cleanAnswer": "绝缘实时检测烟雾报警高压自动断电过压过流过放保护超温保护碰撞切断高压IP防护防水防尘",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 889,
+    "type": "essay",
+    "stem": "电池绝缘检测三种常用方法?",
+    "options": "",
+    "answer": "漏电直测法、电流传感法、绝缘电阻兆欧表测量法。",
+    "cleanAnswer": "漏电直测法电流传感法绝缘电阻兆欧表测量法",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 890,
+    "type": "essay",
+    "stem": "BMS主流通信方式有哪些，各自应用场景?",
+    "options": "",
+    "answer": "CAN总线:整车、充电机、BMS主控通讯;RS485/232:BMS内部采集板、上位机调试通讯。",
+    "cleanAnswer": "CAN总线整车充电机BMS主控通讯RS485232BMS内部采集板上位机调试通讯",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 891,
+    "type": "essay",
+    "stem": "电芯、模组、PACK、电池簇层级关系?",
+    "options": "",
+    "answer": "电芯(最小单元)→模组(多电芯串并联)→PACK(模组+BMS+热管理+外壳成品)→电池簇(多PACK组成大型储能单元)。",
+    "cleanAnswer": "电芯最小单元→模组多电芯串并联→PACK模组BMS热管理外壳成品→电池簇多PACK组成大型储能单元",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 892,
+    "type": "essay",
+    "stem": "串联并联组合设计的作用?",
+    "options": "",
+    "answer": "串联提升电压,并联提升容量;串并联组合同时满足系统目标电压与容量需求。",
+    "cleanAnswer": "串联提升电压并联提升容量串并联组合同时满足系统目标电压与容量需求",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 893,
+    "type": "essay",
+    "stem": "车用PACK与储能PACK五大核心设计差异?",
+    "options": "",
+    "answer": "①目标:车用高能量密度高功率;储能低LCOS超长循环;②电芯:车用三元/高倍率铁锂;储能LFP;③热管理:车用液冷;储能风冷;④BMS:车用瞬时功率保护、精准SOC;储能长期均衡寿命管理;⑤结构:车用抗振动冲击轻量化;储能防腐静载。",
+    "cleanAnswer": "目标车用高能量密度高功率储能低LCOS超长循环电芯车用三元高倍率铁锂储能LFP热管理车用液冷储能风冷BMS车用瞬时功率保护精准SOC储能长期均衡寿命管理结构车用抗振动冲击轻量化储能防腐静载",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 894,
+    "type": "essay",
+    "stem": "PACK完整生产三段工序划分及内容?",
+    "options": "",
+    "answer": "前端:IQC电芯检验、分选、绝缘、极耳焊接、模组装配;中段:PACK总装、线束、BMS安装、打胶密封;后段:气密测试、EOL综合测试、老化、终检包装入库。",
+    "cleanAnswer": "前端IQC电芯检验分选绝缘极耳焊接模组装配中段PACK总装线束BMS安装打胶密封后段气密测试EOL综合测试老化终检包装入库",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 895,
+    "type": "essay",
+    "stem": "PACK设计四大协同设计模块?",
+    "options": "",
+    "answer": "结构设计(外壳、防护、泄压、防火);电气设计(汇流排、熔断器、绝缘、连接器);热管理(散热加热流道、温控仿真);BMS软硬件设计(采集、均衡、保护、SOC算法)。",
+    "cleanAnswer": "结构设计外壳防护泄压防火电气设计汇流排熔断器绝缘连接器热管理散热加热流道温控仿真BMS软硬件设计采集均衡保护SOC算法",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 896,
+    "type": "essay",
+    "stem": "PACK设计前期仿真验证包含哪几类?",
+    "options": "",
+    "answer": "结构碰撞振动仿真、热流体温度场仿真、电气短路冲击仿真、热失控蔓延仿真。",
+    "cleanAnswer": "结构碰撞振动仿真热流体温度场仿真电气短路冲击仿真热失控蔓延仿真",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 897,
+    "type": "essay",
+    "stem": "CTP、CTC技术定义与优缺点?",
+    "options": "",
+    "answer": "CTP电芯直接到包:取消模组壳体，空间利用率提升，维修性下降;CTC电芯集成底盘:极致轻量化、空间最大，维修难度极高，结构设计要求严苛。",
+    "cleanAnswer": "CTP电芯直接到包取消模组壳体空间利用率提升维修性下降CTC电芯集成底盘极致轻量化空间最大维修难度极高结构设计要求严苛",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 898,
+    "type": "essay",
+    "stem": "PACK产线两种布局及适用场景?",
+    "options": "",
+    "answer": "直线型:物流顺畅、大批量标准化生产;U型:空间利用率高,多品种小批量、现场管理方便。",
+    "cleanAnswer": "直线型物流顺畅大批量标准化生产U型空间利用率高多品种小批量现场管理方便",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 899,
+    "type": "essay",
+    "stem": "PACK气密性、绝缘耐压EOL测试标准?",
+    "options": "",
+    "answer": "气密泄漏<10mL/min;绝缘耐压1500V持续1min无击穿;防护等级IP67。",
+    "cleanAnswer": "气密泄漏<10mL/min绝缘耐压1500V持续1min无击穿防护等级IP67",
+    "explanation": "",
+    "tag": "简答题"
+  },
+  {
+    "id": 900,
+    "type": "essay",
+    "stem": "储能50kW/320kWh项目需求代表什么参数?设计优先考虑什么?",
+    "options": "",
+    "answer": "50kW为系统额定输出功率，320kWh为总存储电量;设计优先LFP电芯、长循环、风冷散热、BMS均衡寿命管理、防腐静载结构。",
+    "cleanAnswer": "50kW为系统额定输出功率320kWh为总存储电量设计优先LFP电芯长循环风冷散热BMS均衡寿命管理防腐静载结构",
+    "explanation": "",
+    "tag": "简答题"
   }
 ]
