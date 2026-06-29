@@ -1,0 +1,84 @@
+[
+  {
+    "type": "单选题",
+    "stem": "Choose the correct word: She ___ to school every day.",
+    "options": [
+      "go",
+      "goes",
+      "going",
+      "gone"
+    ],
+    "answer": "goes",
+    "explanation": "第三人称单数用 goes。",
+    "tag": "grammar"
+  },
+  {
+    "type": "单选题",
+    "stem": "What is the past tense of \"buy\"?,buyed|bought|buys|buying,bought,buy 是不规则动词，过去式为 bought。,vocabulary",
+    "options": [],
+    "answer": "",
+    "explanation": "",
+    "tag": ""
+  },
+  {
+    "type": "单选题",
+    "stem": "Choose the correct word: There ___ many people in the park.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "be"
+    ],
+    "answer": "are",
+    "explanation": "many people 是复数，用 are。",
+    "tag": "grammar"
+  },
+  {
+    "type": "单选题",
+    "stem": "\"I have ___ finished my homework.\" Choose the correct word.,yet|already|still|ever,already,already 用于肯定句中表示\"已经\"。,grammar",
+    "options": [],
+    "answer": "",
+    "explanation": "",
+    "tag": ""
+  },
+  {
+    "type": "单选题",
+    "stem": "The meaning of \"abandon\" is closest to:,keep|give up|hold|create,give up,abandon 意为放弃、抛弃。,vocabulary",
+    "options": [],
+    "answer": "",
+    "explanation": "",
+    "tag": ""
+  },
+  {
+    "type": "简答题",
+    "stem": "Translate into English: 我每天早上六点起床。",
+    "options": [
+      "I get up at six o'clock every morning",
+      "I wake up at 6 AM every day"
+    ],
+    "answer": "I get up at six o'clock every morning.",
+    "explanation": "考查一般现在时和日常表达。",
+    "tag": "translation",
+    "cleanAnswer": "Igetupatsixoclockeverymorning"
+  },
+  {
+    "type": "简答题",
+    "stem": "Translate into Chinese: Knowledge is power.",
+    "options": [
+      "知识就是力量",
+      "知识是力量"
+    ],
+    "answer": "知识就是力量。这是培根的名言。",
+    "explanation": "知识就是力量的英文原文翻译为\"知识就是力量\"。,translation",
+    "tag": "",
+    "cleanAnswer": "知识就是力量这是培根的名言"
+  },
+  {
+    "type": "单选题",
+    "stem": "\"He is good ___ playing basketball.\" Choose the correct preposition.,at|in|on|for,at,be good at 是固定搭配，表示擅长某事。,grammar",
+    "options": [],
+    "answer": "",
+    "explanation": "",
+    "tag": ""
+  }
+]
