@@ -49,14 +49,20 @@
 
       <!-- ====== 多选题 multi ====== -->
       <div v-else-if="qtype === 'multi'">
+        <div class="text-orange-500 text-xs mb-2 font-medium">⚠ 多选题，可点击多个选项后再提交</div>
         <div
           v-for="(opt, oi) in optList" :key="oi"
           @click="!multiJudged ? toggleMulti(oi) : null"
           class="block w-full text-left p-3 rounded-lg mb-2 border-2 transition cursor-pointer select-none"
           :class="multiOptClass(oi)"
-        ><span class="font-bold mr-2">{{ labels[oi] }}.</span>{{ stripLabel(opt) }}</div>
+        >
+          <span class="inline-flex items-center justify-center w-6 h-6 mr-2 rounded border-2 text-xs font-bold"
+            :class="multiSelected.includes(oi) ? 'bg-blue-500 border-blue-500 text-white' : 'border-gray-300 text-gray-300'"
+          >{{ multiSelected.includes(oi) ? '✓' : '' }}</span>
+          <span class="font-bold mr-1">{{ labels[oi] }}.</span>{{ stripLabel(opt) }}
+        </div>
         <button v-if="!multiJudged && multiSelected.length" @click="judgeMulti"
-          class="mt-3 w-full bg-blue-500 text-white py-2 rounded-lg font-medium hover:bg-blue-600 transition">提交</button>
+          class="mt-3 w-full bg-blue-500 text-white py-2 rounded-lg font-medium hover:bg-blue-600 transition">提交答案</button>
         <div v-if="multiJudged" class="mt-3">
           <div :class="multiCorrect ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-700'" class="p-3 rounded-lg text-sm font-medium">
             {{ multiCorrect ? '✅ 正确' : '❌ 错误' }}（正确答案：{{ currentQuestion.answer }}）
@@ -117,7 +123,7 @@ const labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
 const nameMap = { bai: '白', dong: '董', ma: '马', hou: '候', xu: '徐' }
 const subjectName = computed(() => nameMap[props.subject] || props.subject)
 
-const typeAlias = { single: '单选', judge: '判断', multi: '多选', essay: '简答', '单选题': '单选', '简答题': '简答' }
+const typeAlias = { single: '单选', judge: '判断', multi: '多选', essay: '简答', '单选题': '单选', '多选题': '多选', '判断题': '判断', '简答题': '简答' }
 
 // 题库状态
 const questions = ref([])
@@ -142,7 +148,7 @@ const similarityScore = ref(0)
 
 const currentQuestion = computed(() => index.value < questions.value.length ? questions.value[index.value] : null)
 
-const typeMap = { single: 'single', judge: 'judge', multi: 'multi', essay: 'essay', '单选题': 'single', '简答题': 'essay' }
+const typeMap = { single: 'single', judge: 'judge', multi: 'multi', essay: 'essay', '单选题': 'single', '多选题': 'multi', '判断题': 'judge', '简答题': 'essay' }
 const qtype = computed(() => typeMap[currentQuestion.value?.type] || '')
 const typeLabel = computed(() => typeAlias[qtype.value] || qtype.value)
 const typeTagClass = computed(() => {
