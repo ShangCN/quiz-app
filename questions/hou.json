@@ -1,0 +1,2311 @@
+[
+  // ==================== 第一部分：填空题 ====================
+  {
+    "id": 301,
+    "type": "single",
+    "stem": "在良好的光线条件下,用____检查单体蓄电池的外观。外观不得有____、____、____等，且____清晰。",
+    "options": [ "A.目测法", "B.变形及裂纹", "C.平整、干燥、无外伤、无污物", "D.标志" ],
+    "answer": "目测法;变形及裂纹;平整、干燥、无外伤、无污物;标志",
+    "cleanAnswer": "目测法变形及裂纹平整干燥无外伤无污物标志",
+    "explanation": "",
+    "tag": "单体筛选"
+  },
+  {
+    "id": 302,
+    "type": "single",
+    "stem": "在动力电池单体外观尺寸筛选时，可用目测法检查被测动力电池单体的外观，用分辨率为0.01mm的数显卡尺测量动力电池单体____、____、____并记录，在测量厚度时要测试____三个部位，记录____，通过外观尺寸筛选，将动力电池单体外观尺寸误差控制在允许的范围内。",
+    "options": [ "A.厚度、宽度、长度", "B.上、中、下", "C.最大值" ],
+    "answer": "厚度、宽度、长度;上、中、下;最大值",
+    "cleanAnswer": "厚度宽度长度上中下最大值",
+    "explanation": "",
+    "tag": "单体筛选"
+  },
+  {
+    "id": 303,
+    "type": "single",
+    "stem": "单体电池外观检测，需检查产品的标志和标识，其内容包括____、____、____、____。",
+    "options": [ "A.生产厂家", "B.规格型号", "C.商标", "D.正负极" ],
+    "answer": "生产厂家、规格型号、商标、正负极",
+    "cleanAnswer": "生产厂家规格型号商标正负极",
+    "explanation": "",
+    "tag": "单体筛选"
+  },
+  {
+    "id": 304,
+    "type": "single",
+    "stem": "动力电池单体在25±5℃环境下，以____率电流放电至终止电压，基于____得出额定容量。",
+    "options": [ "A.3h", "B.电流值和放电时间的乘积" ],
+    "answer": "3h;电流值和放电时间的乘积",
+    "cleanAnswer": "3h电流值和放电时间的乘积",
+    "explanation": "",
+    "tag": "基础参数"
+  },
+  {
+    "id": 305,
+    "type": "single",
+    "stem": "动力电池单体电压是指____之间电位差，开路电压是指____状态下，动力电池两极之间的电位差。",
+    "options": [ "A.动力电池单体正负极", "B.未进行充放电" ],
+    "answer": "动力电池单体正负极;未进行充放电",
+    "cleanAnswer": "动力电池单体正负极未进行充放电",
+    "explanation": "",
+    "tag": "基础参数"
+  },
+  {
+    "id": 306,
+    "type": "single",
+    "stem": "内阻一般分为交流内阻和直流内阻，日常测量的是____，内阻主要由电极材料、电解液、隔膜及各部分零件的接触电阻组成，与动力电池____、____、装配等有关。",
+    "options": [ "A.交流内阻", "B.尺寸、结构" ],
+    "answer": "交流内阻;尺寸、结构",
+    "cleanAnswer": "交流内阻尺寸结构",
+    "explanation": "",
+    "tag": "基础参数"
+  },
+  {
+    "id": 307,
+    "type": "single",
+    "stem": "电池的开路电压取决于电池正负极材料活性、电解液和温度，而与电池____、____无关。",
+    "options": [ "A.几何结构", "B.尺寸大小" ],
+    "answer": "几何结构、尺寸大小",
+    "cleanAnswer": "几何结构尺寸大小",
+    "explanation": "",
+    "tag": "基础参数"
+  },
+  {
+    "id": 308,
+    "type": "single",
+    "stem": "额定电压也称____或是规定条件下电池工作的标准电压。",
+    "options": [ "A.公称电压", "B.标称电压" ],
+    "answer": "公称电压、标称电压",
+    "cleanAnswer": "公称电压标称电压",
+    "explanation": "",
+    "tag": "基础参数"
+  },
+  {
+    "id": 309,
+    "type": "single",
+    "stem": "在电池放电____，即____时的电压称为初始电压。",
+    "options": [ "A.初始时刻", "B.开始有工作电流" ],
+    "answer": "初始时刻;开始有工作电流",
+    "cleanAnswer": "初始时刻开始有工作电流",
+    "explanation": "",
+    "tag": "基础参数"
+  },
+  {
+    "id": 310,
+    "type": "single",
+    "stem": "两种充电终止方法:采用____或采用____或两者结合;最小电流法监视____阶段电流，低于0.02C停止;定时器从____阶段计时。",
+    "options": [ "A.最小充电电流判断", "B.定时器", "C.恒压充电", "D.两" ],
+    "answer": "最小充电电流判断;定时器;恒压充电;两",
+    "cleanAnswer": "最小充电电流判断定时器恒压充电两",
+    "explanation": "",
+    "tag": "基础参数"
+  },
+  {
+    "id": 311,
+    "type": "single",
+    "stem": "绝缘拆装工具必须装有____V以上绝缘柄，常见绝缘工具套筒、开口扳手、螺丝刀、钳子、电工刀。",
+    "options": [ "A.1000" ],
+    "answer": "1000",
+    "cleanAnswer": "1000",
+    "explanation": "",
+    "tag": "基础参数"
+  },
+  {
+    "id": 312,
+    "type": "single",
+    "stem": "锂离子电池是以____嵌入化合物为正极材料的电池总称。",
+    "options": [ "A.锂离子" ],
+    "answer": "锂离子",
+    "cleanAnswer": "锂离子",
+    "explanation": "",
+    "tag": "锂电原理"
+  },
+  {
+    "id": 313,
+    "type": "single",
+    "stem": "锂离子电池是一种依靠锂离子在正负极之间____、____实现储能、释能的____。",
+    "options": [ "A.往返", "B.嵌入、脱嵌", "C.二次电池" ],
+    "answer": "往返;嵌入、脱嵌;二次电池",
+    "cleanAnswer": "往返嵌入脱嵌二次电池",
+    "explanation": "",
+    "tag": "锂电原理"
+  },
+  {
+    "id": 314,
+    "type": "single",
+    "stem": "锂离子电池正极反应:放电时锂离子____，充电时锂离子____。",
+    "options": [ "A.嵌入", "B.脱嵌" ],
+    "answer": "嵌入;脱嵌",
+    "cleanAnswer": "嵌入脱嵌",
+    "explanation": "",
+    "tag": "锂电原理"
+  },
+  {
+    "id": 315,
+    "type": "single",
+    "stem": "电动汽车动力电池包由____、____、____组成。",
+    "options": [ "A.电池模块", "B.外壳", "C.电池管理系统" ],
+    "answer": "电池模块、外壳、电池管理系统",
+    "cleanAnswer": "电池模块外壳电池管理系统",
+    "explanation": "",
+    "tag": "锂电原理"
+  },
+  {
+    "id": 316,
+    "type": "single",
+    "stem": "极芯分为____、____两种结构，一般包含外壳、正极、负极、隔膜、正负极耳、绝缘片。",
+    "options": [ "A.软包结构", "B.金属壳硬包结构" ],
+    "answer": "软包结构、金属壳硬包结构",
+    "cleanAnswer": "软包结构金属壳硬包结构",
+    "explanation": "",
+    "tag": "锂电原理"
+  },
+  {
+    "id": 317,
+    "type": "single",
+    "stem": "按工作性质化学电池分为____、____、燃料电池四类。",
+    "options": [ "A.一次电池", "B.二次电池", "C.储备电池" ],
+    "answer": "一次电池、二次电池、储备电池",
+    "cleanAnswer": "一次电池二次电池储备电池",
+    "explanation": "",
+    "tag": "锂电原理"
+  },
+  {
+    "id": 318,
+    "type": "single",
+    "stem": "圆柱形锂电安全阀组件:____、____、____、____。",
+    "options": [ "A.上盖帽", "B.PTC过流保护片", "C.防爆半球铝膜", "D.下底板" ],
+    "answer": "上盖帽、PTC过流保护片、防爆半球铝膜、下底板",
+    "cleanAnswer": "上盖帽PTC过流保护片防爆半球铝膜下底板",
+    "explanation": "",
+    "tag": "锂电原理"
+  },
+  {
+    "id": 319,
+    "type": "single",
+    "stem": "电池容量:一定放电条件放出电量，符号____，单位____、____。",
+    "options": [ "A.C", "B.A·h", "C.mA·h" ],
+    "answer": "C;A·h、mA·h",
+    "cleanAnswer": "CAhmAh",
+    "explanation": "",
+    "tag": "锂电原理"
+  },
+  {
+    "id": 320,
+    "type": "single",
+    "stem": "电池内阻分为____内阻和____内阻，两者合称全内阻。",
+    "options": [ "A.欧姆", "B.极化" ],
+    "answer": "欧姆;极化",
+    "cleanAnswer": "欧姆极化",
+    "explanation": "",
+    "tag": "锂电原理"
+  },
+  {
+    "id": 321,
+    "type": "single",
+    "stem": "极化分为____、____、浓差极化三类。",
+    "options": [ "A.欧姆极化", "B.电化学极化" ],
+    "answer": "欧姆极化、电化学极化",
+    "cleanAnswer": "欧姆极化电化学极化",
+    "explanation": "",
+    "tag": "锂电原理"
+  },
+  {
+    "id": 322,
+    "type": "single",
+    "stem": "内阻测量两种主流方法:____、____。",
+    "options": [ "A.直流放电法", "B.交流阻抗法" ],
+    "answer": "直流放电法、交流阻抗法",
+    "cleanAnswer": "直流放电法交流阻抗法",
+    "explanation": "",
+    "tag": "锂电原理"
+  },
+  {
+    "id": 323,
+    "type": "single",
+    "stem": "影响动力电池寿命因素:____、____、____、____、____、____、____。",
+    "options": [ "A.充放电速率", "B.充放电深度", "C.环境温度", "D.存储条件", "E.电流波纹", "F.过充电量", "G.过充频度" ],
+    "answer": "充放电速率、充放电深度、环境温度、存储条件、电流波纹、过充电量、过充频度",
+    "cleanAnswer": "充放电速率充放电深度环境温度存储条件电流波纹过充电量过充频度",
+    "explanation": "",
+    "tag": "锂电原理"
+  },
+  {
+    "id": 324,
+    "type": "single",
+    "stem": "完整动力电池系统四部分:____、____、____、热管理系统。",
+    "options": [ "A.动力电池模组", "B.电池管理系统", "C.辅助元器件" ],
+    "answer": "动力电池模组、电池管理系统、辅助元器件",
+    "cleanAnswer": "动力电池模组电池管理系统辅助元器件",
+    "explanation": "",
+    "tag": "BMS"
+  },
+  {
+    "id": 325,
+    "type": "single",
+    "stem": "BMS由____和____组成;硬件包含电池管理器、采集器、接触器、霍尔传感器、熔断器、MSD。",
+    "options": [ "A.硬件", "B.软件" ],
+    "answer": "硬件、软件",
+    "cleanAnswer": "硬件软件",
+    "explanation": "",
+    "tag": "BMS"
+  },
+  {
+    "id": 326,
+    "type": "single",
+    "stem": "BMS软件监测电池电压、电流、SOC、绝缘电阻、温度,与____通信控制充放电。",
+    "options": [ "A.整车控制器(VCU)" ],
+    "answer": "整车控制器(VCU)",
+    "cleanAnswer": "整车控制器VCU",
+    "explanation": "",
+    "tag": "BMS"
+  },
+  {
+    "id": 327,
+    "type": "single",
+    "stem": "动力电池箱是支撑固定电池的组件，主要包含上盖、下托盘，辅助件____、____、____、____。",
+    "options": [ "A.过渡件", "B.护板", "C.螺栓" ],
+    "answer": "过渡件、护板、螺栓",
+    "cleanAnswer": "过渡件护板螺栓",
+    "explanation": "",
+    "tag": "BMS"
+  },
+  {
+    "id": 328,
+    "type": "single",
+    "stem": "BMS按结构分为____系统、____系统。",
+    "options": [ "A.集中式", "B.分布式" ],
+    "answer": "集中式、分布式",
+    "cleanAnswer": "集中式分布式",
+    "explanation": "",
+    "tag": "BMS"
+  },
+  {
+    "id": 329,
+    "type": "single",
+    "stem": "电池安全技术包含过电流保护、____、____。",
+    "options": [ "A.过充过放保护", "B.过温保护" ],
+    "answer": "过充过放保护、过温保护",
+    "cleanAnswer": "过充过放保护过温保护",
+    "explanation": "",
+    "tag": "BMS"
+  },
+  {
+    "id": 330,
+    "type": "single",
+    "stem": "电池内热传递三种方式:____、____、辐射换热。",
+    "options": [ "A.热传导", "B.对流换热" ],
+    "answer": "热传导、对流换热",
+    "cleanAnswer": "热传导对流换热",
+    "explanation": "",
+    "tag": "BMS"
+  },
+  {
+    "id": 331,
+    "type": "single",
+    "stem": "电池均衡分为____均衡、____均衡两类。",
+    "options": [ "A.主动", "B.被动" ],
+    "answer": "主动、被动",
+    "cleanAnswer": "主动被动",
+    "explanation": "",
+    "tag": "BMS"
+  },
+  {
+    "id": 332,
+    "type": "single",
+    "stem": "单体串联基本要求:电压一致，内阻相差不超过____mΩ，容量相差不超过____mA，连接点保持洁净。",
+    "options": [ "A.5", "B.10" ],
+    "answer": "5;10",
+    "cleanAnswer": "510",
+    "explanation": "",
+    "tag": "BMS"
+  },
+  {
+    "id": 333,
+    "type": "single",
+    "stem": "锂动力电池单体并联:所有正极相连，所有负极相连;并联提升____，串联提升____。",
+    "options": [ "A.容量", "B.电压" ],
+    "answer": "容量;电压",
+    "cleanAnswer": "容量电压",
+    "explanation": "",
+    "tag": "BMS"
+  },
+  {
+    "id": 334,
+    "type": "single",
+    "stem": "电池组持续监测安全指标:____、____、____、____、____、____、____。",
+    "options": [ "A.输出正负极对地电阻", "B.漏电流", "C.高压互锁", "D.最高/最低单体电压", "E.系统最高最低温度", "F.最大温差", "G.温升速率" ],
+    "answer": "输出正负极对地电阻、漏电流、高压互锁、最高/最低单体电压、系统最高最低温度、最大温差、温升速率",
+    "cleanAnswer": "输出正负极对地电阻漏电流高压互锁最高最低单体电压系统最高最低温度最大温差温升速率",
+    "explanation": "",
+    "tag": "BMS"
+  },
+  {
+    "id": 335,
+    "type": "single",
+    "stem": "电池箱设计要素:____、____、____、____、____。",
+    "options": [ "A.机械结构安全", "B.电安全", "C.防水防尘", "D.通风散热", "E.加热性能" ],
+    "answer": "机械结构安全、电安全、防水防尘、通风散热、加热性能",
+    "cleanAnswer": "机械结构安全电安全防水防尘通风散热加热性能",
+    "explanation": "",
+    "tag": "BMS"
+  },
+  {
+    "id": 336,
+    "type": "single",
+    "stem": "连接工艺:____、____、____;防松:____、____、____。",
+    "options": [ "A.激光焊", "B.电阻焊", "C.螺栓机械紧固", "D.弹簧垫片", "E.自锁螺母", "F.螺纹紧固胶" ],
+    "answer": "激光焊、电阻焊、螺栓机械紧固;弹簧垫片、自锁螺母、螺纹紧固胶",
+    "cleanAnswer": "激光焊电阻焊螺栓机械紧固弹簧垫片自锁螺母螺纹紧固胶",
+    "explanation": "",
+    "tag": "BMS"
+  },
+  {
+    "id": 337,
+    "type": "single",
+    "stem": "废旧动力电池回收三类主体:____、____、废旧电池回收原材料企业。",
+    "options": [ "A.整车企业", "B.动力电池生产企业" ],
+    "answer": "整车企业、动力电池生产企业",
+    "cleanAnswer": "整车企业动力电池生产企业",
+    "explanation": "",
+    "tag": "回收"
+  },
+  {
+    "id": 338,
+    "type": "single",
+    "stem": "动力蓄电池回收利用前提:____、____、____、____、____;原则____、____。",
+    "options": [ "A.技术可行", "B.经济合理", "C.保障安全", "D.节约资源", "E.保护环境", "F.减少资源消耗", "G.废物产生" ],
+    "answer": "技术可行、经济合理、保障安全、节约资源、保护环境;减少资源消耗、废物产生",
+    "cleanAnswer": "技术可行经济合理保障安全节约资源保护环境减少资源消耗废物产生",
+    "explanation": "",
+    "tag": "回收"
+  },
+  {
+    "id": 339,
+    "type": "single",
+    "stem": "《废铅酸蓄电池回收技术规范》管控废铅酸电池____、____、____、____全过程处理方法、管理措施。",
+    "options": [ "A.收集", "B.贮存", "C.运输", "D.转移" ],
+    "answer": "收集、贮存、运输、转移",
+    "cleanAnswer": "收集贮存运输转移",
+    "explanation": "",
+    "tag": "回收"
+  },
+  {
+    "id": 340,
+    "type": "single",
+    "stem": "废电池三种储存方式:____、____、____。",
+    "options": [ "A.隔开储存", "B.隔离储存", "C.分离储存" ],
+    "answer": "隔开储存、隔离储存、分离储存",
+    "cleanAnswer": "隔开储存隔离储存分离储存",
+    "explanation": "",
+    "tag": "回收"
+  },
+  {
+    "id": 341,
+    "type": "single",
+    "stem": "废旧电池贮存场所设警示标志，设在____、____以外。",
+    "options": [ "A.易燃", "B.易爆仓库", "C.高压线路保护区" ],
+    "answer": "易燃、易爆仓库、高压线路保护区",
+    "cleanAnswer": "易燃易爆仓库高压线路保护区",
+    "explanation": "",
+    "tag": "回收"
+  },
+  {
+    "id": 342,
+    "type": "single",
+    "stem": "废电池运输三类:____、____、____;铅酸电池仅可____、____运输。",
+    "options": [ "A.公路", "B.铁路", "C.水路", "D.公路", "E.铁路" ],
+    "answer": "公路、铁路、水路;公路、铁路",
+    "cleanAnswer": "公路铁路水路公路铁路",
+    "explanation": "",
+    "tag": "回收"
+  },
+  {
+    "id": 343,
+    "type": "single",
+    "stem": "储运废电池严禁____、____，保证外壳完整，防止有害物质渗出。",
+    "options": [ "A.拆解", "B.碾压破碎" ],
+    "answer": "拆解、碾压破碎",
+    "cleanAnswer": "拆解碾压破碎",
+    "explanation": "",
+    "tag": "回收"
+  },
+  {
+    "id": 344,
+    "type": "single",
+    "stem": "废旧电池分为____、____、____三类。",
+    "options": [ "A.A类", "B.B类", "C.C类" ],
+    "answer": "A类、B类、C类",
+    "cleanAnswer": "A类B类C类",
+    "explanation": "",
+    "tag": "回收"
+  },
+  {
+    "id": 345,
+    "type": "single",
+    "stem": "废旧铅酸蓄电池贮存地面必须为____地面，配套____。",
+    "options": [ "A.耐酸不可渗透", "B.废液收集系统" ],
+    "answer": "耐酸不可渗透;废液收集系统",
+    "cleanAnswer": "耐酸不可渗透废液收集系统",
+    "explanation": "",
+    "tag": "回收"
+  },
+  {
+    "id": 346,
+    "type": "single",
+    "stem": "废旧电池深度放电两种方法:____、____。",
+    "options": [ "A.电阻法", "B.浸泡法" ],
+    "answer": "电阻法、浸泡法",
+    "cleanAnswer": "电阻法浸泡法",
+    "explanation": "",
+    "tag": "回收"
+  },
+  {
+    "id": 347,
+    "type": "single",
+    "stem": "退役锂电梯次利用替代____、____、____市场。",
+    "options": [ "A.存量铅酸电动三轮车", "B.新增铅酸电动三轮车", "C.燃油三轮车" ],
+    "answer": "存量铅酸电动三轮车、新增铅酸电动三轮车、燃油三轮车",
+    "cleanAnswer": "存量铅酸电动三轮车新增铅酸电动三轮车燃油三轮车",
+    "explanation": "",
+    "tag": "回收"
+  },
+  {
+    "id": 348,
+    "type": "single",
+    "stem": "拆卸动力电池组时,技术人员需准备____台面放置电池总成。",
+    "options": [ "A.绝缘" ],
+    "answer": "绝缘",
+    "cleanAnswer": "绝缘",
+    "explanation": "",
+    "tag": "拆解"
+  },
+  {
+    "id": 349,
+    "type": "single",
+    "stem": "支撑电池的升降台必须完全承受____。",
+    "options": [ "A.电池总重量" ],
+    "answer": "电池总重量",
+    "cleanAnswer": "电池总重量",
+    "explanation": "",
+    "tag": "拆解"
+  },
+  {
+    "id": 350,
+    "type": "single",
+    "stem": "拆解高压防护工具:____、____、____、____、____、____、____、____、____。",
+    "options": [ "A.绝缘手套", "B.绝缘鞋", "C.绝缘防护服", "D.绝缘垫", "E.绝缘工具", "F.高压测试仪", "G.护目镜", "H.安全帽", "I.水基灭火器" ],
+    "answer": "绝缘手套、绝缘鞋、绝缘防护服、绝缘垫、绝缘工具、高压测试仪、护目镜、安全帽、水基灭火器",
+    "cleanAnswer": "绝缘手套绝缘鞋绝缘防护服绝缘垫绝缘工具高压测试仪护目镜安全帽水基灭火器",
+    "explanation": "",
+    "tag": "拆解"
+  },
+  {
+    "id": 351,
+    "type": "single",
+    "stem": "数字绝缘测试仪量程:50V/100V/250V/500V/1000V,最大绝缘电阻____GΩ。",
+    "options": [ "A.10" ],
+    "answer": "10",
+    "cleanAnswer": "10",
+    "explanation": "",
+    "tag": "拆解"
+  },
+  {
+    "id": 352,
+    "type": "single",
+    "stem": "分容柜分为____、____、____。",
+    "options": [ "A.方形磷酸铁锂仓", "B.圆柱形三元仓", "C.线夹式仓位" ],
+    "answer": "方形磷酸铁锂仓、圆柱形三元仓、线夹式仓位",
+    "cleanAnswer": "方形磷酸铁锂仓圆柱形三元仓线夹式仓位",
+    "explanation": "",
+    "tag": "拆解"
+  },
+  {
+    "id": 353,
+    "type": "single",
+    "stem": "SOC定义:一定放电倍率下，____/____比值。",
+    "options": [ "A.剩余电量", "B.额定容量" ],
+    "answer": "剩余电量/额定容量",
+    "cleanAnswer": "剩余电量额定容量",
+    "explanation": "",
+    "tag": "拆解"
+  },
+  {
+    "id": 354,
+    "type": "single",
+    "stem": "SOH定义:标准条件满电放电容量/____比值。",
+    "options": [ "A.电池标称容量" ],
+    "answer": "电池标称容量",
+    "cleanAnswer": "电池标称容量",
+    "explanation": "",
+    "tag": "拆解"
+  },
+  {
+    "id": 355,
+    "type": "single",
+    "stem": "超级电池正极____，负极为____并联,电解液____。",
+    "options": [ "A.PbO2", "B.碳材料+海绵铅", "C.硫酸" ],
+    "answer": "PbO2;碳材料+海绵铅;硫酸",
+    "cleanAnswer": "PbO2碳材料海绵铅硫酸",
+    "explanation": "",
+    "tag": "材料"
+  },
+  {
+    "id": 356,
+    "type": "single",
+    "stem": "铅酸蓄电池优点:____、____;缺点:____、____、____;分____、____、____三类。",
+    "options": [ "A.电压稳定", "B.价格便宜", "C.能量低", "D.寿命短", "E.维护频繁", "F.普通", "G.干荷", "H.免维护" ],
+    "answer": "电压稳定、价格便宜;能量低、寿命短、维护频繁;普通、干荷、免维护",
+    "cleanAnswer": "电压稳定价格便宜能量低寿命短维护频繁普通干荷免维护",
+    "explanation": "",
+    "tag": "材料"
+  },
+  {
+    "id": 357,
+    "type": "single",
+    "stem": "镍氢电池正极____，负极____;隔膜____、____、____。",
+    "options": [ "A.氢氧化镍", "B.储氢合金", "C.隔离正负极", "D.保液", "E.降低自放电" ],
+    "answer": "氢氧化镍;储氢合金;隔离正负极、保液、降低自放电",
+    "cleanAnswer": "氢氧化镍储氢合金隔离正负极保液降低自放电",
+    "explanation": "",
+    "tag": "材料"
+  },
+  {
+    "id": 358,
+    "type": "single",
+    "stem": "锂离子电池极耳:正极____，负极____，密封处带____;隔膜____，允许离子通过。",
+    "options": [ "A.铝带", "B.镍带", "C.极耳胶", "D.不导电" ],
+    "answer": "铝带;镍带;极耳胶;不导电",
+    "cleanAnswer": "铝带镍带极耳胶不导电",
+    "explanation": "",
+    "tag": "材料"
+  },
+  {
+    "id": 359,
+    "type": "single",
+    "stem": "电解液作为锂离子迁移载体，要求____、____、____、____、____。",
+    "options": [ "A.高电导率", "B.宽温域", "C.稳定", "D.安全", "E.廉价" ],
+    "answer": "高电导率、宽温域、稳定、安全、廉价",
+    "cleanAnswer": "高电导率宽温域稳定安全廉价",
+    "explanation": "",
+    "tag": "材料"
+  },
+  {
+    "id": 360,
+    "type": "single",
+    "stem": "废旧铅酸主要材料:____、____、____、____、____。",
+    "options": [ "A.铅", "B.铅化合物", "C.硫酸", "D.塑料", "E.橡胶" ],
+    "answer": "铅、铅化合物、硫酸、塑料、橡胶",
+    "cleanAnswer": "铅铅化合物硫酸塑料橡胶",
+    "explanation": "",
+    "tag": "材料"
+  },
+  {
+    "id": 361,
+    "type": "single",
+    "stem": "锂电废弃物:____、____、____，含____、____。",
+    "options": [ "A.不合格极片", "B.报废极片", "C.废弃浆料粉末", "D.钴酸锂", "E.三元氧化物" ],
+    "answer": "不合格极片、报废极片、废弃浆料粉末，含钴酸锂、三元氧化物",
+    "cleanAnswer": "不合格极片报废极片废弃浆料粉末钴酸锂三元氧化物",
+    "explanation": "",
+    "tag": "材料"
+  },
+  {
+    "id": 362,
+    "type": "single",
+    "stem": "干法回收两类:____、____。",
+    "options": [ "A.机械分选法", "B.高温热解法" ],
+    "answer": "机械分选法、高温热解法",
+    "cleanAnswer": "机械分选法高温热解法",
+    "explanation": "",
+    "tag": "材料"
+  },
+  {
+    "id": 363,
+    "type": "single",
+    "stem": "火法冶金:____、____两种工艺。",
+    "options": [ "A.预脱硫还原", "B.直接熔炼脱硫" ],
+    "answer": "预脱硫还原、直接熔炼脱硫",
+    "cleanAnswer": "预脱硫还原直接熔炼脱硫",
+    "explanation": "",
+    "tag": "材料"
+  },
+  {
+    "id": 364,
+    "type": "single",
+    "stem": "湿法冶金:____、____两种工艺。",
+    "options": [ "A.预脱硫电解", "B.固相电还原" ],
+    "answer": "预脱硫电解、固相电还原",
+    "cleanAnswer": "预脱硫电解固相电还原",
+    "explanation": "",
+    "tag": "材料"
+  },
+  {
+    "id": 365,
+    "type": "single",
+    "stem": "机械回收设备:____、____、____;流程____、____、____。",
+    "options": [ "A.高速粉碎机", "B.振动筛", "C.风力摇床", "D.粉碎", "E.筛分", "F.磁选" ],
+    "answer": "高速粉碎机、振动筛、风力摇床;粉碎、筛分、磁选",
+    "cleanAnswer": "高速粉碎机振动筛风力摇床粉碎筛分磁选",
+    "explanation": "",
+    "tag": "材料"
+  },
+  {
+    "id": 366,
+    "type": "single",
+    "stem": "酸性电池电解液以____为主;碱性电池电解液以____为主。",
+    "options": [ "A.硫酸", "B.KOH" ],
+    "answer": "硫酸;KOH",
+    "cleanAnswer": "硫酸KOH",
+    "explanation": "",
+    "tag": "材料"
+  },
+
+  // ==================== 第二部分：单选题 ====================
+  {
+    "id": 367,
+    "type": "single",
+    "stem": "下列关于动力电池尺寸一致性说法有误的是()",
+    "options": [ "A.尺寸影响生产、装车、回收全链条", "B.统一尺寸利于规模化与全生命周期管理", "C.尺寸差异影响制造、配套、回收", "D.单体可用容量和寿命无关联" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "电池可用容量直接决定电池使用寿命，二者紧密相关。",
+    "tag": "单选"
+  },
+  {
+    "id": 368,
+    "type": "single",
+    "stem": "下列说法正确的是()",
+    "options": [ "A.轻微漏液电池可继续使用", "B.断极耳电池禁止使用", "C.封边毛刺电池正常投产", "D.轻微胀气、污渍电池允许出厂" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "漏液、断极耳、封毛刺、胀气电池均存在安全隐患，严禁使用。",
+    "tag": "单选"
+  },
+  {
+    "id": 369,
+    "type": "single",
+    "stem": "锂离子电池描述不正确的是()",
+    "options": [ "A.锂金属电池含金属锂,不可充电", "B.主流锂电:磷酸铁锂、锰酸锂、钴酸锂、三元", "C.锂离子往返迁移又称摇椅电池", "D.锂电电压是镍氢电池2倍" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "锂电标称3.6V，镍氢1.2V，约3倍，不是2倍。",
+    "tag": "单选"
+  },
+  {
+    "id": 370,
+    "type": "single",
+    "stem": "磷酸铁锂电池错误说法()",
+    "options": [ "A.成本低、环保无污染", "B.简称铁锂电池", "C.温控差极易起火", "D.锰酸锂成本低安全性高" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "磷酸铁锂热稳定性优异，钴酸锂高温易起火。",
+    "tag": "单选"
+  },
+  {
+    "id": 371,
+    "type": "single",
+    "stem": "BMS说法正确的是()",
+    "options": [ "A.集中式成本低，管控便捷", "B.分布式检测速度无限制", "C.大发热不会降低热稳定性", "D.BMS是整车能源总系统" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "分布式成本高、检测受限;发热降低热稳定性;BMS是整车子系统。",
+    "tag": "单选"
+  },
+  {
+    "id": 372,
+    "type": "single",
+    "stem": "关于SOC/SOH不正确的是()",
+    "options": [ "A.剩余电量用SOH表示", "B.SOC估算有安时积分、卡尔曼滤波等", "C.静置开路电压可估算 SOC", "D.估算SOC需要综合全部影响因素" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "SOC代表剩余电量，SOH代表电池健康度。",
+    "tag": "单选"
+  },
+  {
+    "id": 373,
+    "type": "single",
+    "stem": "不属于废旧电池回收好处的是()",
+    "options": [ "A.环保", "B.节约矿产", "C.减少重金属污染", "D.巨大经济效益" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "回收具备一定收益，但不存在巨大经济效益。",
+    "tag": "单选"
+  },
+  {
+    "id": 374,
+    "type": "single",
+    "stem": "废旧电池行业现状错误()",
+    "options": [ "A.难以规模化拆解", "B.现阶段退役电池存量少", "C.企业难以批量回收", "D.多数车企电池厂未布局回收" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "政策强制延伸责任，车企、电池厂均已布局回收渠道。",
+    "tag": "单选"
+  },
+  {
+    "id": 375,
+    "type": "single",
+    "stem": "废电池收集不正确()",
+    "options": [ "A.破损电池单独存放", "B.回收处理后可直接丢弃垃圾场", "C.回收分离有价金属循环利用", "D.梯次利用技术快速发展" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "处理后仍需合规处置，不可直接丢弃。",
+    "tag": "单选"
+  },
+  {
+    "id": 376,
+    "type": "single",
+    "stem": "废旧电池运输错误说法()",
+    "options": [ "A.包装完整防漏液", "B.严禁途中丢弃", "C.运输车辆无需通行证", "D.环保管控危废流向" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "废旧电池属于九类危废，运输必须持有危废转运通行证。",
+    "tag": "单选"
+  },
+  {
+    "id": 377,
+    "type": "single",
+    "stem": "废旧电池贮存不正确()",
+    "options": [ "A.堆码高度最高2.5米", "B.不同材质分开存放", "C.高压区张贴警示标识", "D.仓库防潮" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "堆码高度不得超过2米。",
+    "tag": "单选"
+  },
+  {
+    "id": 378,
+    "type": "single",
+    "stem": "拆解升降台描述错误()",
+    "options": [ "A.开工检查场地用电安全", "B.车企明确配套升降规格", "C.可加托盘防止电池变形", "D.所有厂家要求绑定电池再下降" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "仅大部分厂家要求绑定，并非全部。",
+    "tag": "单选"
+  },
+  {
+    "id": 379,
+    "type": "single",
+    "stem": "绝缘测试仪使用错误()",
+    "options": [ "A.测试电压高于被测设备绝缘等级", "B.低压设备可选0~200MQ量程", "C.500V设备用500V/1000V测试仪", "D.测试仪可测超量程数值" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "超量程会烧毁仪表，禁止超限测量。",
+    "tag": "单选"
+  },
+  {
+    "id": 380,
+    "type": "single",
+    "stem": "常见电动车电池型号()",
+    "options": [ "A.24V和48V", "B.36V和60V", "C.36V和48V", "D.48V和64V" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "",
+    "tag": "单选"
+  },
+  {
+    "id": 381,
+    "type": "single",
+    "stem": "离子交换回收说法错误",
+    "options": [ "A.碱液分离铝箔", "B.酸浸提取正极金属", "C.萃取分离金属离子", "D.离子交换工艺复杂难操作" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "离子交换工艺简单、易操作。",
+    "tag": "单选"
+  },
+  {
+    "id": 382,
+    "type": "single",
+    "stem": "放电终止电压错误描述()",
+    "options": [ "A.是放电最低限值", "B.不同电池工况截止电压不同", "C.低温大电流截止电压调低", "D.所有蓄电池需规定截止电压" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "低温、大电流放电，截止电压设置更高。",
+    "tag": "单选"
+  },
+  {
+    "id": 383,
+    "type": "single",
+    "stem": "锂电池充电错误()",
+    "options": [ "A.电压低于3V采用0.1C预充", "B.电流降至0.01C判定充满", "C.SOC>20%全程恒流至2.5V转恒压", "D.绝缘隔离防触电" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "放电不存在恒流至2.5V转恒压逻辑。",
+    "tag": "单选"
+  },
+  {
+    "id": 384,
+    "type": "single",
+    "stem": "低温对电池影响错误()",
+    "options": [ "A.低温降低极化内阻", "B.大电流极化内阻上升", "C.Ah为通用容量单位", "D.大电流实际容量下降" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "低温离子迁移受阻，极化内阻升高。",
+    "tag": "单选"
+  },
+  {
+    "id": 385,
+    "type": "single",
+    "stem": "电池成组寿命错误说法()",
+    "options": [ "A.大功率场景降低内阻", "B.SOC、温度持续改变内阻", "C.温差、振动不影响寿命", "D.单体不一致大幅缩短包寿命" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "温差、振动会加速单体劣化，降低整包寿命。",
+    "tag": "单选"
+  },
+  {
+    "id": 386,
+    "type": "single",
+    "stem": "梯次储能错误描述()",
+    "options": [ "A.三轮车梯次模组需求小", "B.南方梯次电池加强防水", "C.储能是核心梯次市场", "D.储能用退役电池经济性差" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "梯次储能成本低于全新电池，经济性更好。",
+    "tag": "单选"
+  },
+  {
+    "id": 387,
+    "type": "single",
+    "stem": "火法冶炼特点正确()",
+    "options": [ "A.流程长", "B.处理量小", "C.铅品质较差", "D.无污染" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "火法流程短、处理量大，但污染大、铅纯度低。",
+    "tag": "单选"
+  },
+  {
+    "id": 388,
+    "type": "single",
+    "stem": "镍氢机械回收错误()",
+    "options": [ "A.依靠密度磁性分选", "B.无化学试剂、低能耗", "C.破碎筛分富集材料", "D.能耗高、不经济" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "机械分选能耗低、环保经济。",
+    "tag": "单选"
+  },
+
+  // ==================== 第三部分：多选题 ====================
+  {
+    "id": 389,
+    "type": "multi",
+    "stem": "动力电池描述全部正确()",
+    "options": [ "A.同组单体额定容量差需管控", "B.实际容量受倍率、温度影响", "C.正负极材料相同开路电压一致", "D.开路电压正态分布，筛选缩小离散度" ],
+    "answer": "A,B,C,D",
+    "cleanAnswer": "ABCD",
+    "explanation": "",
+    "tag": "多选"
+  },
+  {
+    "id": 390,
+    "type": "multi",
+    "stem": "下列有误选项()",
+    "options": [ "A.同组内阻统一管控", "B.内阻不会造成模组离散化", "C.电压相同不同批次可混用", "D.优先同批次,不足用相邻同工艺批次" ],
+    "answer": "B,C",
+    "cleanAnswer": "BC",
+    "explanation": "内阻是模组离散化核心原因;不同批次电池不可混用。",
+    "tag": "多选"
+  },
+  {
+    "id": 391,
+    "type": "multi",
+    "stem": "锂离子电池正确说法()",
+    "options": [ "A.一次电池又称原电池", "B.物理电池依靠物理转换储能", "C.锂电常温化学稳定、自放电低", "D.磷酸铁锂3.6V、锰酸锂3.2V" ],
+    "answer": "A,B,C",
+    "cleanAnswer": "ABC",
+    "explanation": "D两者电压颠倒，描述错误。",
+    "tag": "多选"
+  },
+  {
+    "id": 392,
+    "type": "multi",
+    "stem": "不正确选项()",
+    "options": [ "A.生物电池间接转化生物质能", "B.锌银、热电池属于储备电池", "C.钴资源丰富成本低", "D.磷酸铁锂稳定低成本" ],
+    "answer": "A,C",
+    "cleanAnswer": "AC",
+    "explanation": "生物电池可直接转化;钴资源稀缺价格高。",
+    "tag": "多选"
+  },
+  {
+    "id": 393,
+    "type": "multi",
+    "stem": "绝缘相关正确()",
+    "options": [ "A.绝缘材料散热、固定、防潮", "B.高压拆装必须使用绝缘工具", "C.绝缘工具防触电", "D.断电后无需绝缘工具" ],
+    "answer": "A,B,C",
+    "cleanAnswer": "ABC",
+    "explanation": "断电仍存残余高压，必须使用绝缘工具。",
+    "tag": "多选"
+  },
+  {
+    "id": 394,
+    "type": "multi",
+    "stem": "电动势全部正确()",
+    "options": [ "A.电动势代表电能转换能力", "B.等于两极平衡电位差，单位V", "C.电动势越高理论输出能量越大", "D.是电源核心物理参数" ],
+    "answer": "A,B,C,D",
+    "cleanAnswer": "ABCD",
+    "explanation": "",
+    "tag": "多选"
+  },
+  {
+    "id": 395,
+    "type": "multi",
+    "stem": "极化内阻正确()",
+    "options": [ "A.大电流内阻压降不可忽略", "B.充电电流大加剧发热", "C.仅欧姆极化造成不可逆损伤", "D.内阻过大是报废主因" ],
+    "answer": "A,B,D",
+    "cleanAnswer": "ABD",
+    "explanation": "电化学、浓差极化严重同样永久损伤电池。",
+    "tag": "多选"
+  },
+  {
+    "id": 396,
+    "type": "multi",
+    "stem": "激光焊接优点()",
+    "options": [ "A.精度高、强度高、效率高", "B.易自动化，一致性好", "C.铝连接片减重降本", "D.工件平整度要求高" ],
+    "answer": "A,B,C",
+    "cleanAnswer": "ABC",
+    "explanation": "D为工艺缺点，不选。",
+    "tag": "多选"
+  },
+  {
+    "id": 397,
+    "type": "multi",
+    "stem": "电池箱体正确描述()",
+    "options": [ "A.模块预留散热膨胀间隙", "B.内置温感监控电压温度", "C.匹配散热流量预留安全系数", "D.箱体上下均需承重" ],
+    "answer": "A,B,C",
+    "cleanAnswer": "ABC",
+    "explanation": "箱体仅底部承重，上盖仅防护。",
+    "tag": "多选"
+  },
+  {
+    "id": 398,
+    "type": "multi",
+    "stem": "回收网点设立正确()",
+    "options": [ "A.车企自建回收网点", "B.多家共建降低成本", "C.公开网点地址联系方式", "D.仅4S店可回收" ],
+    "answer": "A,B,C",
+    "cleanAnswer": "ABC",
+    "explanation": "维修站、换电站、拆解厂均可回收。",
+    "tag": "多选"
+  },
+  {
+    "id": 399,
+    "type": "multi",
+    "stem": "暂存网点设施符合要求()",
+    "options": [ "A.专用存放区≥3m", "B.硬化防渗耐腐蚀地面", "C.电池放置防渗托盘", "D.张贴危险警示标识" ],
+    "answer": "A,B,C,D",
+    "cleanAnswer": "ABCD",
+    "explanation": "",
+    "tag": "多选"
+  },
+  {
+    "id": 400,
+    "type": "multi",
+    "stem": "运输包装正确()",
+    "options": [ "A.一次、二次电池可用塑料槽、铁桶", "B.极片废料用编织袋、铁桶", "C.含重金属电池贴危废标签", "D.漏液电池单独耐酸容器存放" ],
+    "answer": "A,B,C,D",
+    "cleanAnswer": "ABCD",
+    "explanation": "",
+    "tag": "多选"
+  },
+  {
+    "id": 401,
+    "type": "multi",
+    "stem": "废旧贮存正确()",
+    "options": [ "A.阴凉干燥，禁止露天堆放", "B.长期存储温度-40~40℃", "C.设施定期检修更换", "D.专人专业管理" ],
+    "answer": "A,C,D",
+    "cleanAnswer": "ACD",
+    "explanation": "长期存储温度≤30℃。",
+    "tag": "多选"
+  },
+  {
+    "id": 402,
+    "type": "multi",
+    "stem": "废铅酸额外贮存要求()",
+    "options": [ "A.耐酸地面收集漏液", "B.配套废水处理系统", "C.单入口减少粉尘", "D.负压排气过滤铅尘", "E.配套防火装置" ],
+    "answer": "A,B,C,D,E",
+    "cleanAnswer": "ABCDE",
+    "explanation": "",
+    "tag": "多选"
+  },
+  {
+    "id": 403,
+    "type": "multi",
+    "stem": "回收企业资质()",
+    "options": [ "A.车企授权售后网点", "B.电池厂授权经销商/换电站", "C.梯次利用企业", "D.报废车拆解企业", "E.再生利用企业" ],
+    "answer": "A,B,C,D,E",
+    "cleanAnswer": "ABCDE",
+    "explanation": "",
+    "tag": "多选"
+  },
+  {
+    "id": 404,
+    "type": "multi",
+    "stem": "退役电池梯次应用()",
+    "options": [ "A.低速电动车", "B.储能电站", "C.通讯基站", "D.电动工具" ],
+    "answer": "A,B,C,D",
+    "cleanAnswer": "ABCD",
+    "explanation": "",
+    "tag": "多选"
+  },
+  {
+    "id": 405,
+    "type": "multi",
+    "stem": "梯次储能错误描述()",
+    "options": [ "A.储能缓解电网扩容压力", "B.早期锰酸锂适合大功率储能", "C.静态对能量密度要求低", "D.静态充放电安全要求低" ],
+    "answer": "B,D",
+    "cleanAnswer": "BD",
+    "explanation": "老旧锰酸锂性能衰减不适合大功率;储能高压大电流，安全要求极高。",
+    "tag": "多选"
+  },
+  {
+    "id": 406,
+    "type": "multi",
+    "stem": "废旧收集正确()",
+    "options": [ "A.鼓励分类收集", "B.企业落实回收主体责任", "C.物联网溯源管控", "D.设置专用分类设施" ],
+    "answer": "A,B,C,D",
+    "cleanAnswer": "ABCD",
+    "explanation": "",
+    "tag": "多选"
+  },
+  {
+    "id": 407,
+    "type": "multi",
+    "stem": "废旧贮存合规()",
+    "options": [ "A.大批量堆叠存放", "B.分类存放,破损隔离", "C.铅酸防雨防渗", "D.锂电避光控温防自燃" ],
+    "answer": "B,C,D",
+    "cleanAnswer": "BCD",
+    "explanation": "大批量堆叠存在起火漏液风险，禁止。",
+    "tag": "多选"
+  },
+  {
+    "id": 408,
+    "type": "multi",
+    "stem": "废旧处理合规()",
+    "options": [ "A.干法布袋除尘处理冶炼废气", "B.湿法膜分离处理废水", "C.锂电低温拆解、酸碱萃取回收", "D.铅酸执行专项污染政策" ],
+    "answer": "A,B,C,D",
+    "cleanAnswer": "ABCD",
+    "explanation": "",
+    "tag": "多选"
+  },
+
+  // ==================== 第四部分：判断题 ====================
+  {
+    "id": 409,
+    "type": "judge",
+    "stem": "动力电池单体容量是分组初选最重要参数之一。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 410,
+    "type": "judge",
+    "stem": "电池容量分为额定容量、剩余容量、实际容量三类。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "教材标准仅分为额定容量、实际容量。",
+    "tag": "判断"
+  },
+  {
+    "id": 411,
+    "type": "judge",
+    "stem": "同SOC、同温静置后单体压差为电压不一致性。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 412,
+    "type": "judge",
+    "stem": "内阻越大，电池大电流放电能力越强。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "内阻越小，放电性能越强。",
+    "tag": "判断"
+  },
+  {
+    "id": 413,
+    "type": "judge",
+    "stem": "内阻大会产生焦耳热，升温、压降、缩短寿命。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 414,
+    "type": "judge",
+    "stem": "交流内阻测试仪标准测试频率2kHz。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "标准测试频率1kHz。",
+    "tag": "判断"
+  },
+  {
+    "id": 415,
+    "type": "judge",
+    "stem": "相同电流，内阻小电池发热量更高。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "内阻越大，发热越多，加速劣化。",
+    "tag": "判断"
+  },
+  {
+    "id": 416,
+    "type": "judge",
+    "stem": "同一批次电池无需筛选可直接成组。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "同批次仍存在离散差异，必须筛选配对。",
+    "tag": "判断"
+  },
+  {
+    "id": 417,
+    "type": "judge",
+    "stem": "二次电池可反复充电恢复活性物质，循环使用。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 418,
+    "type": "judge",
+    "stem": "锰酸锂安全性差，抗过充能力弱。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "锰酸锂安全性高，抗过充性能优异。",
+    "tag": "判断"
+  },
+  {
+    "id": 419,
+    "type": "judge",
+    "stem": "锰酸锂低成本、工艺简单、循环稳定。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 420,
+    "type": "judge",
+    "stem": "镍酸锂制造苛刻、热稳定性差，商业化困难。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 421,
+    "type": "judge",
+    "stem": "圆柱电池一致性较低。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "圆柱电池工艺成熟，一致性较高。",
+    "tag": "判断"
+  },
+  {
+    "id": 422,
+    "type": "judge",
+    "stem": "纽扣电池用于手表、汽车钥匙。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 423,
+    "type": "judge",
+    "stem": "各类电池性能差异很小。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "不同材料电池能量、安全、寿命差距极大。",
+    "tag": "判断"
+  },
+  {
+    "id": 424,
+    "type": "judge",
+    "stem": "锂离子电解液为混合有机电解液。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 425,
+    "type": "judge",
+    "stem": "充电电压低的单体最先充满，放电高压单体先放空。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "充电高压单体先满，放电低压单体先放空。",
+    "tag": "判断"
+  },
+  {
+    "id": 426,
+    "type": "judge",
+    "stem": "动力电池组一般由电池模块并联组成。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "模组串联提升系统电压。",
+    "tag": "判断"
+  },
+  {
+    "id": 427,
+    "type": "judge",
+    "stem": "充电超截止电压会破坏正极晶格，永久衰减容量。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 428,
+    "type": "judge",
+    "stem": "低温充电容量会升高。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "低温活性下降，充电容量大幅降低。",
+    "tag": "判断"
+  },
+  {
+    "id": 429,
+    "type": "judge",
+    "stem": "SOC估算包含安时、开路电压、卡尔曼滤波法。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 430,
+    "type": "judge",
+    "stem": "动力电池系统必须配备热管理系统。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 431,
+    "type": "judge",
+    "stem": "电动车热管理兼顾冷热，提升续航。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 432,
+    "type": "judge",
+    "stem": "电池均衡分为主动、被动、协同均衡三种。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "仅主动、被动两类。",
+    "tag": "判断"
+  },
+  {
+    "id": 433,
+    "type": "judge",
+    "stem": "串联模组电压处处相等。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "串联电流相等，并联电压相等。",
+    "tag": "判断"
+  },
+  {
+    "id": 434,
+    "type": "judge",
+    "stem": "热管理仅具备散热功能。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "兼具低温加热、高温散热。",
+    "tag": "判断"
+  },
+  {
+    "id": 435,
+    "type": "judge",
+    "stem": "并联电池容量减小、内阻相加。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "并联容量叠加、内阻减小。",
+    "tag": "判断"
+  },
+  {
+    "id": 436,
+    "type": "judge",
+    "stem": "串联单体电压差≤10V、内阻≤5Ω。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "标准为压差≤10mV，内阻≤5mΩ。",
+    "tag": "判断"
+  },
+  {
+    "id": 437,
+    "type": "judge",
+    "stem": "单体一致性差会降低模组整体容量。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 438,
+    "type": "judge",
+    "stem": "动力电池含有镍钴等金属，具备回收价值。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 439,
+    "type": "judge",
+    "stem": "高温热解法能耗低、适合全程回收。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "能耗高，仅作为预处理。",
+    "tag": "判断"
+  },
+  {
+    "id": 440,
+    "type": "judge",
+    "stem": "电池内阻是固定常数。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "内阻随SOC、温度、循环次数变化。",
+    "tag": "判断"
+  },
+  {
+    "id": 441,
+    "type": "judge",
+    "stem": "循环寿命指容量降至50%的充放电次数。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "标准为容量降至额定80%。",
+    "tag": "判断"
+  },
+  {
+    "id": 442,
+    "type": "judge",
+    "stem": "废旧电池回收无法律法规约束。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "危废法规完善，企业需持证经营。",
+    "tag": "判断"
+  },
+  {
+    "id": 443,
+    "type": "judge",
+    "stem": "废旧电池综合企业可建于基本农田。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "基本农田、保护区禁止建厂。",
+    "tag": "判断"
+  },
+  {
+    "id": 444,
+    "type": "judge",
+    "stem": "新建回收企业淘汰高污染工艺。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 445,
+    "type": "judge",
+    "stem": "拆解企业每年向电池厂上报电池数据。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "向商务主管部门上报。",
+    "tag": "判断"
+  },
+  {
+    "id": 446,
+    "type": "judge",
+    "stem": "回收台账保存不少于5年。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 447,
+    "type": "judge",
+    "stem": "电池起火不能使用灭火器、消防沙。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "起火优先使用干粉灭火器、消防沙扑救。",
+    "tag": "判断"
+  },
+  {
+    "id": 448,
+    "type": "judge",
+    "stem": "退役电池优先梯次利用，再拆解再生。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 449,
+    "type": "judge",
+    "stem": "收集可去除电池编码、铭牌。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "全程保留标识，便于溯源。",
+    "tag": "判断"
+  },
+  {
+    "id": 450,
+    "type": "judge",
+    "stem": "不同类别废电池可混合存放。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "分类隔离存放。",
+    "tag": "判断"
+  },
+  {
+    "id": 451,
+    "type": "judge",
+    "stem": "废旧电池运输无需密封。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "必须密封防电解液渗漏。",
+    "tag": "判断"
+  },
+  {
+    "id": 452,
+    "type": "judge",
+    "stem": "储存容器尺寸无统一标准，满足限量即可。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 453,
+    "type": "judge",
+    "stem": "贮存环境无抗静电要求。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "必须具备防静电措施。",
+    "tag": "判断"
+  },
+  {
+    "id": 454,
+    "type": "judge",
+    "stem": "周转区配备清水灭火器。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "配备干粉灭火器。",
+    "tag": "判断"
+  },
+  {
+    "id": 455,
+    "type": "judge",
+    "stem": "储运电池可处于满充状态。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "储运宜放电至低电量。",
+    "tag": "判断"
+  },
+  {
+    "id": 456,
+    "type": "judge",
+    "stem": "收集网点铅酸暂存不超过60天。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 457,
+    "type": "judge",
+    "stem": "拆解可使用普通举升机。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "必须使用原厂适配专用升降台。",
+    "tag": "判断"
+  },
+  {
+    "id": 458,
+    "type": "judge",
+    "stem": "拆解后排空冷却液无需封堵管路。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "必须封堵,防止异物进入高压回路。",
+    "tag": "判断"
+  },
+  {
+    "id": 459,
+    "type": "judge",
+    "stem": "自动化拆解提升安全与效率。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 460,
+    "type": "judge",
+    "stem": "拆解人员持有教师资格证即可。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "需电工特种作业证。",
+    "tag": "判断"
+  },
+  {
+    "id": 461,
+    "type": "judge",
+    "stem": "内阻越大电池性能越好。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "内阻越小性能越好。",
+    "tag": "判断"
+  },
+  {
+    "id": 462,
+    "type": "judge",
+    "stem": "绝缘测试后必须放电再触碰被测物。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 463,
+    "type": "judge",
+    "stem": "SOC取值范围50%~100%。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "SOC区间0~100%。",
+    "tag": "判断"
+  },
+  {
+    "id": 464,
+    "type": "judge",
+    "stem": "新电池SOH=0，报废SOH=100%。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "新电池SOH=100%，报废趋近0。",
+    "tag": "判断"
+  },
+  {
+    "id": 465,
+    "type": "judge",
+    "stem": "高温自放电速率低于常温。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "高温自放电更快。",
+    "tag": "判断"
+  },
+  {
+    "id": 466,
+    "type": "judge",
+    "stem": "梯次电池对一致性、安全要求低。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "梯次使用同样严格管控一致性与安全。",
+    "tag": "判断"
+  },
+  {
+    "id": 467,
+    "type": "judge",
+    "stem": "通讯基站对能量密度要求高。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "静态储能对能量密度要求低。",
+    "tag": "判断"
+  },
+  {
+    "id": 468,
+    "type": "judge",
+    "stem": "移动充电车充电、行驶均存在安全隐患。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 469,
+    "type": "judge",
+    "stem": "废旧电池禁止进入生活垃圾焚烧。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 470,
+    "type": "judge",
+    "stem": "无回收价值废电池可直接填埋。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "需危废专用填埋场规范处置。",
+    "tag": "判断"
+  },
+  {
+    "id": 471,
+    "type": "judge",
+    "stem": "废旧电池拆解破碎后直接填埋。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "储运填埋必须保持外壳完整。",
+    "tag": "判断"
+  },
+  {
+    "id": 472,
+    "type": "judge",
+    "stem": "废电池处理残渣属于危险废物。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 473,
+    "type": "judge",
+    "stem": "湿法车间废水可直接混合普通废水处理。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "湿法废水单独收集处理。",
+    "tag": "判断"
+  },
+  {
+    "id": 474,
+    "type": "judge",
+    "stem": "废酸可采用石灰中和处理。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 475,
+    "type": "judge",
+    "stem": "铅膏回收只有湿法工艺。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "分为火法、湿法两类。",
+    "tag": "判断"
+  },
+  {
+    "id": 476,
+    "type": "judge",
+    "stem": "火法采用氧化还原熔炼处理铅膏。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 477,
+    "type": "judge",
+    "stem": "负极破碎可分离炭粉与铜箔。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 478,
+    "type": "judge",
+    "stem": "碱性电池电解液以盐酸为主。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "碱性电解液为KOH溶液。",
+    "tag": "判断"
+  },
+  {
+    "id": 479,
+    "type": "judge",
+    "stem": "数码废旧锂电电解液多采用火法焚烧处理。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 480,
+    "type": "judge",
+    "stem": "有机溶剂萃取溶剂环保无污染。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "有机溶剂易产生二次污染。",
+    "tag": "判断"
+  },
+  {
+    "id": 481,
+    "type": "judge",
+    "stem": "镍氢正负极分离投资大、效率低。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "该工艺投资少、效率高。",
+    "tag": "判断"
+  },
+  {
+    "id": 482,
+    "type": "judge",
+    "stem": "镍钴金属可采用萃取、离子交换回收。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 483,
+    "type": "judge",
+    "stem": "高温热解工艺复杂、能耗低。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "工艺简单、能耗高。",
+    "tag": "判断"
+  },
+  {
+    "id": 484,
+    "type": "judge",
+    "stem": "高温热解适合复杂废旧电池原料。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 485,
+    "type": "judge",
+    "stem": "湿法金属回收率高、处理成本低。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 486,
+    "type": "judge",
+    "stem": "盐酸浸出产生氯气，多用硫酸双氧水体系。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 487,
+    "type": "judge",
+    "stem": "离子交换工艺简单易操作。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 488,
+    "type": "judge",
+    "stem": "生物浸出技术成熟可大规模商用。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "尚处于实验室研发阶段。",
+    "tag": "判断"
+  },
+  {
+    "id": 489,
+    "type": "judge",
+    "stem": "回收先提锂再提取钴镍提升锂回收率。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+  {
+    "id": 490,
+    "type": "judge",
+    "stem": "铅酸厂回收旧电池再生产新铅酸。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "判断"
+  },
+
+  // ==================== 第五部分：简答题 ====================
+  {
+    "id": 491,
+    "type": "essay",
+    "stem": "动力电池单体静态一致性筛选指标有哪些?",
+    "options": "",
+    "answer": "①外观尺寸一致性;②容量一致性;③开路电压一致性;④内阻一致性;⑤生产批次一致性。",
+    "cleanAnswer": "外观尺寸一致性容量一致性开路电压一致性内阻一致性生产批次一致性",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 492,
+    "type": "essay",
+    "stem": "简述单体电池外观检查完整方法。",
+    "options": "",
+    "answer": "①在充足自然光/灯光下采用目测法整体观察;电池无变形、裂纹、鼓包、漏液、污渍，外壳平整干燥;②使用0.01mm精度数显卡尺测量厚度、宽度、长度，厚度分上中下三点测量记录最大值;③核查电池铭牌标识:厂家、型号、正负极标识完整清晰;④漏液、破损电池单独隔离，禁止开展余电检测;有保护线路需拆除后再检测。",
+    "cleanAnswer": "在充足自然光灯光下采用目测法整体观察电池无变形裂纹鼓包漏液污渍外壳平整干燥使用001mm精度数显卡尺测量厚度宽度长度厚度分上中下三点测量记录最大值核查电池铭牌标识厂家型号正负极标识完整清晰漏液破损电池单独隔离禁止开展余电检测有保护线路需拆除后再检测",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 493,
+    "type": "essay",
+    "stem": "名词解释:开路电压",
+    "options": "",
+    "answer": "动力电池单体在静置、无充放电、回路无电流的开路状态下，正负极两端的电位差值。",
+    "cleanAnswer": "动力电池单体在静置无充放电回路无电流的开路状态下正负极两端的电位差值",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 494,
+    "type": "essay",
+    "stem": "名词解释:工作电压",
+    "options": "",
+    "answer": "电池接通负载、正常放电过程中两极实时电压，也叫负载电压、放电电压。",
+    "cleanAnswer": "电池接通负载正常放电过程中两极实时电压也叫负载电压放电电压",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 495,
+    "type": "essay",
+    "stem": "简述三元锂电池四段式充电流程。",
+    "options": "",
+    "answer": "①涓流充电:单体电压低于3V，采用0.1C小电流预充;②恒流充电:电压升至3V以上，0.2~1C恒流充电至4.2V;③恒压充电:维持4.2V，充电电流持续下降;④充电终止:电流小于0.01C或恒压阶段持续2小时，停止充电。",
+    "cleanAnswer": "涓流充电单体电压低于3V采用01C小电流预充恒流充电电压升至3V以上02~1C恒流充电至42V恒压充电维持42V充电电流持续下降充电终止电流小于001C或恒压阶段持续2小时停止充电",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 496,
+    "type": "essay",
+    "stem": "电池容量测试标准流程。",
+    "options": "",
+    "answer": "完整流程:放电阶段→搁置阶段→充电阶段→搁置阶段→二次放电阶段;标准温度下恒流放电至截止电压，静置;分段恒流+恒压充满，静置;再次放电，通过电流x时间积分计算实际容量。",
+    "cleanAnswer": "完整流程放电阶段搁置阶段充电阶段搁置阶段二次放电阶段标准温度下恒流放电至截止电压静置分段恒流恒压充满静置再次放电通过电流x时间积分计算实际容量",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 497,
+    "type": "essay",
+    "stem": "简述直流放电法、交流阻抗法测内阻。",
+    "options": "",
+    "answer": "(1)直流放电法:对电池瞬间大电流放电，采集电压压降，利用欧姆定律计算内阻;缺点是大电流发热，易损伤电芯;(2)交流阻抗法:小幅交流信号激励电池，采集反馈信号测算内阻，检测速度快，无损伤，工业常规检测。",
+    "cleanAnswer": "直流放电法对电池瞬间大电流放电采集电压压降利用欧姆定律计算内阻缺点是大电流发热易损伤电芯交流阻抗法小幅交流信号激励电池采集反馈信号测算内阻检测速度快无损伤工业常规检测",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 498,
+    "type": "essay",
+    "stem": "电池产生极化的三类原因。",
+    "options": "",
+    "answer": "①欧姆极化:电解液、极片、连接件接触电阻，大电流发热;②电化学极化电极电化学反应速度慢于电子迁移;③浓差极化:电极表面电解液离子消耗过快，电解液浓度分层不均。",
+    "cleanAnswer": "欧姆极化电解液极片连接件接触电阻大电流发热电化学极化电极电化学反应速度慢于电子迁移浓差极化电极表面电解液离子消耗过快电解液浓度分层不均",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 499,
+    "type": "essay",
+    "stem": "简述锂离子电池工作原理。",
+    "options": "",
+    "answer": "锂离子电池又称摇椅电池;放电时锂离子从负极脱嵌，穿过隔膜、电解液嵌入正极;充电过程反向，锂离子从正极脱嵌回到负极;依靠锂离子往返迁移实现电能储存与释放。",
+    "cleanAnswer": "锂离子电池又称摇椅电池放电时锂离子从负极脱嵌穿过隔膜电解液嵌入正极充电过程反向锂离子从正极脱嵌回到负极依靠锂离子往返迁移实现电能储存与释放",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 500,
+    "type": "essay",
+    "stem": "简述锂离子电池六大优点。",
+    "options": "",
+    "answer": "①比能量高;②工作电压高;③自放电率低;④无记忆效应;⑤循环使用寿命长;⑥环境污染小。",
+    "cleanAnswer": "比能量高工作电压高自放电率低无记忆效应循环使用寿命长环境污染小",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 501,
+    "type": "essay",
+    "stem": "完整动力电池系统组成与热管理系统功能。",
+    "options": "",
+    "answer": "系统组成:动力电池模组、电池管理系统BMS、辅助元器件、热管理系统;热管理功能:实时监测全域电池温度;高温环境散热通风;低温预热至工作温度;均衡模组内部温差;泄漏有害气体排风。",
+    "cleanAnswer": "系统组成动力电池模组电池管理系统BMS辅助元器件热管理系统热管理功能实时监测全域电池温度高温环境散热通风低温预热至工作温度均衡模组内部温差泄漏有害气体排风",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 502,
+    "type": "essay",
+    "stem": "电池安全技术主要功能。",
+    "options": "",
+    "answer": "包含四大保护:过电流保护、过充保护、过放保护、过温保护;配套高压绝缘实时监测。",
+    "cleanAnswer": "包含四大保护过电流保护过充保护过放保护过温保护配套高压绝缘实时监测",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 503,
+    "type": "essay",
+    "stem": "简述电池均衡控制策略。",
+    "options": "",
+    "answer": "串联电池组内各单体电压出现高低差时，通过均衡电路转移电量，拉高低压单体、降低高压单体，使所有单体电压趋于一致，消除短板效应，延长电池整包使用寿命。",
+    "cleanAnswer": "串联电池组内各单体电压出现高低差时通过均衡电路转移电量拉高低压单体降低高压单体使所有单体电压趋于一致消除短板效应延长电池整包使用寿命",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 504,
+    "type": "essay",
+    "stem": "电池组热管理系统分类。",
+    "options": "",
+    "answer": "1.按传热介质:空冷系统、液冷系统、相变材料冷却系统;2.风冷细分:串行通风、并行通风。",
+    "cleanAnswer": "按传热介质空冷系统液冷系统相变材料冷却系统风冷细分串行通风并行通风",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 505,
+    "type": "essay",
+    "stem": "分别解释电池单体、电池模块、电池模组。",
+    "options": "",
+    "answer": "①电池单体:电池最小电化学单元，由正负极、隔膜、电解液、外壳组成;电池模块:多颗单体并联而成，电压与单体一致，可单独替换;③电池模组:多模块单体串联组成高压电池包。",
+    "cleanAnswer": "电池单体电池最小电化学单元由正负极隔膜电解液外壳组成电池模块多颗单体并联而成电压与单体一致可单独替换电池模组多模块单体串联组成高压电池包",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 506,
+    "type": "essay",
+    "stem": "激光焊接工艺优缺点。",
+    "options": "",
+    "answer": "优点:焊接精度、强度、效率高;易于自动化生产，产品一致性好;可使用铝连接片替代铜，减重降本;缺点:工件平整度、工装精度要求极高;焊接设备采购成本昂贵。",
+    "cleanAnswer": "优点焊接精度强度效率高易于自动化生产产品一致性好可使用铝连接片替代铜减重降本缺点工件平整度工装精度要求极高焊接设备采购成本昂贵",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 507,
+    "type": "essay",
+    "stem": "动力电池系统完整设计流程。",
+    "options": "",
+    "answer": "①明确整车续航、功率设计需求;②确定系统总电压、能量需求;③匹配对应规格单体;④规划串并联模组拓扑结构;⑤设计BMS、冷热管理系统;⑥仿真模拟+实车试验验证。",
+    "cleanAnswer": "明确整车续航功率设计需求确定系统总电压能量需求匹配对应规格单体规划串并联模组拓扑结构设计BMS冷热管理系统仿真模拟实车试验验证",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 508,
+    "type": "essay",
+    "stem": "碰撞工况电池箱体设计要求。",
+    "options": "",
+    "answer": "①优先人车分离，电池不布置乘员舱;②碰撞后电芯、模组不散落甩出;高压回路快速切断，避免短路起火;④箱体刚度限制电芯挤压变形;⑤电池零部件不得侵入乘员舱。",
+    "cleanAnswer": "优先人车分离电池不布置乘员舱碰撞后电芯模组不散落甩出高压回路快速切断避免短路起火箱体刚度限制电芯挤压变形电池零部件不得侵入乘员舱",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 509,
+    "type": "essay",
+    "stem": "废旧动力蓄电池包含哪些?",
+    "options": "",
+    "answer": "①退役电动汽车整车拆卸电池;②报废车辆配套电池;③梯次利用后性能报废电池;④电池厂生产不合格报废电芯/模组;包含废旧电池包、电池模块、单体电芯。",
+    "cleanAnswer": "退役电动汽车整车拆卸电池报废车辆配套电池梯次利用后性能报废电池电池厂生产不合格报废电芯模组包含废旧电池包电池模块单体电芯",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 510,
+    "type": "essay",
+    "stem": "回收废旧动力电池的好处。",
+    "options": "",
+    "answer": "环保:防止电解液、重金属污染土壤水源;资源:镍、钴、锂、铝等有价金属循环利用，减少矿产开采;经济:提升报废车辆残值，梯次电池降低储能、低速车制造成本。",
+    "cleanAnswer": "环保防止电解液重金属污染土壤水源资源镍钴锂铝等有价金属循环利用减少矿产开采经济提升报废车辆残值梯次电池降低储能低速车制造成本",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 511,
+    "type": "essay",
+    "stem": "动力电池生产商主导回收模式。",
+    "options": "",
+    "answer": "依托车企4S店、服务网点搭建逆向回收网络;车主将退役电池交至门店，统一转运至电池生产企业;企业拆解再生原材料，重新生产动力电池，形成闭环回收。",
+    "cleanAnswer": "依托车企4S店服务网点搭建逆向回收网络车主将退役电池交至门店统一转运至电池生产企业企业拆解再生原材料重新生产动力电池形成闭环回收",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 512,
+    "type": "essay",
+    "stem": "第三方回收企业回收模式。",
+    "options": "",
+    "answer": "第三方企业自建仓储、专业物流回收网络;承接4S店、维修厂、报废拆解厂退役电池;集中开展梯次利用或湿法/火法再生;可与电池生产企业股权合作共建回收渠道。",
+    "cleanAnswer": "第三方企业自建仓储专业物流回收网络承接4S店维修厂报废拆解厂退役电池集中开展梯次利用或湿法火法再生可与电池生产企业股权合作共建回收渠道",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 513,
+    "type": "essay",
+    "stem": "国内废旧动力电池回收体系特点。",
+    "options": "",
+    "answer": "①生产者责任延伸机制;②全链条编码溯源联网;③梯次利用+再生综合利用;④行业规范化管控;⑤政府政策扶持引导。",
+    "cleanAnswer": "生产者责任延伸机制全链条编码溯源联网梯次利用再生综合利用行业规范化管控政府政策扶持引导",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 514,
+    "type": "essay",
+    "stem": "废旧电池收集全过程注意事项。",
+    "options": "",
+    "answer": "①全程保持电池外壳完整，破损电池单独防渗存放;②不同化学体系电池分类隔离，禁止混存;③不得撕毁、涂改电池编码、铭牌;不得混入医疗废物、放射性杂物;场地硬化防渗、通风。",
+    "cleanAnswer": "全程保持电池外壳完整破损电池单独防渗存放不同化学体系电池分类隔离禁止混存不得撕毁涂改电池编码铭牌不得混入医疗废物放射性杂物场地硬化防渗通风",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 515,
+    "type": "essay",
+    "stem": "两类回收服务网点及贮存时限。",
+    "options": "",
+    "answer": "(1)收集型(4S/维修站):面积≥15m，存量≤5吨;A类完好电池贮存≤30天，B/C类破损电池≤5天;(2)集中贮存网点:面积≥100m，存量≥40吨;A类≤3个月，B/C类≤1个月。",
+    "cleanAnswer": "收集型4S维修站面积≥15m存量≤5吨A类完好电池贮存≤30天BC类破损电池≤5天集中贮存网点面积≥100m存量≥40吨A类≤3个月BC类≤1个月",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 516,
+    "type": "essay",
+    "stem": "废旧电池运输包装箱标识要求。",
+    "options": "",
+    "answer": "1.标注最大承重、堆叠层数上限;2.向上标识，禁止倒置侧放;3.禁止翻滚标识;4.第九类杂类危险品标识;5.防雨、防晒标识;6.回收企业应急联系电话。",
+    "cleanAnswer": "标注最大承重堆叠层数上限向上标识禁止倒置侧放禁止翻滚标识第九类杂类危险品标识防雨防晒标识回收企业应急联系电话",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 517,
+    "type": "essay",
+    "stem": "废旧铅酸蓄电池专属贮存要求。",
+    "options": "",
+    "answer": "①贮存场地防雨、远离高温热源;②地面耐酸防渗,配套废液收集池;③仅单出入口,减少粉尘扩散;④负压排气系统过滤含铅废气;⑤配套专用防火器材;设置危险品警示区，限制无关人员进入。",
+    "cleanAnswer": "贮存场地防雨远离高温热源地面耐酸防渗配套废液收集池仅单出入口减少粉尘扩散负压排气系统过滤含铅废气配套专用防火器材设置危险品警示区限制无关人员进入",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 518,
+    "type": "essay",
+    "stem": "电池梯次利用适用场景。",
+    "options": "",
+    "answer": "低速电动三轮车、工商业储能电站、通信基站备用电源、便携式电动工具、移动充电车。",
+    "cleanAnswer": "低速电动三轮车工商业储能电站通信基站备用电源便携式电动工具移动充电车",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 519,
+    "type": "essay",
+    "stem": "动力电池拆解核心专用工具。",
+    "options": "",
+    "answer": "可移动电池升降举升台、模组起重工装、绝缘工具套装、绝缘放置台、高压验电器、绝缘手套护目镜、电池分容柜、内阻测试仪、干粉灭火器。",
+    "cleanAnswer": "可移动电池升降举升台模组起重工装绝缘工具套装绝缘放置台高压验电器绝缘手套护目镜电池分容柜内阻测试仪干粉灭火器",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 520,
+    "type": "essay",
+    "stem": "绝缘手套检查方法。",
+    "options": "",
+    "answer": "将手套开口向内卷，挤压内部空气，观察手套指掌部位是否漏气，漏气、破损手套禁止使用。",
+    "cleanAnswer": "将手套开口向内卷挤压内部空气观察手套指掌部位是否漏气漏气破损手套禁止使用",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 521,
+    "type": "essay",
+    "stem": "拆解前电池外观检查项目。",
+    "options": "",
+    "answer": "检查高低压连接器、箱体、固定螺栓有无松动破损;查看外壳鼓包、漏液、变形锈蚀;完整记录铭牌化学体系、额定电压、容量;测量单体开路电压。",
+    "cleanAnswer": "检查高低压连接器箱体固定螺栓有无松动破损查看外壳鼓包漏液变形锈蚀完整记录铭牌化学体系额定电压容量测量单体开路电压",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 522,
+    "type": "essay",
+    "stem": "电阻式深度放电优缺点。",
+    "options": "",
+    "answer": "优点:操作简单，放电彻底;缺点:短时间大量放热，存在热失控、起火爆炸风险，仅适合实验室少量电池处理。",
+    "cleanAnswer": "优点操作简单放电彻底缺点短时间大量放热存在热失控起火爆炸风险仅适合实验室少量电池处理",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 523,
+    "type": "essay",
+    "stem": "名词解释SOC、SOH",
+    "options": "",
+    "answer": "SOC(荷电状态):相同放电条件下，电池剩余容量与额定容量百分比;SOH(健康状态):标准条件满电放电容量与出厂标称容量比值，代表电池老化程度。",
+    "cleanAnswer": "SOC荷电状态相同放电条件下电池剩余容量与额定容量百分比SOH健康状态标准条件满电放电容量与出厂标称容量比值代表电池老化程度",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 524,
+    "type": "essay",
+    "stem": "SOC主流估算方法。",
+    "options": "",
+    "answer": "放电实验法、安时计量法、开路电压法、内阻法、卡尔曼滤波法、神经网络法、模糊逻辑法。",
+    "cleanAnswer": "放电实验法安时计量法开路电压法内阻法卡尔曼滤波法神经网络法模糊逻辑法",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 525,
+    "type": "essay",
+    "stem": "简述机械分选法。",
+    "options": "",
+    "answer": "对废旧电池破碎拆解，依靠密度、磁性、导电性物理差异，经过筛分、磁选、气流分选，分离塑料外壳、铜铝集流体、正极粉料，实现有价金属初步分离回收。",
+    "cleanAnswer": "对废旧电池破碎拆解依靠密度磁性导电性物理差异经过筛分磁选气流分选分离塑料外壳铜铝集流体正极粉料实现有价金属初步分离回收",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 526,
+    "type": "essay",
+    "stem": "微生物浸出工艺流程。",
+    "options": "",
+    "answer": "在酸性环境下以废旧电池粉料为微生物培养基;微生物富集耐受，浸出含锂、钴、镍金属溶液;分离杂质，提取有价金属。",
+    "cleanAnswer": "在酸性环境下以废旧电池粉料为微生物培养基微生物富集耐受浸出含锂钴镍金属溶液分离杂质提取有价金属",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 527,
+    "type": "essay",
+    "stem": "干法回收分类及优缺点。",
+    "options": "",
+    "answer": "分类:机械分选法、高温热解法;优点:处理量大、工艺流程短，适配各类废旧电池;缺点:高温产生有毒废气，设备投入高，金属提纯精度较低。",
+    "cleanAnswer": "分类机械分选法高温热解法优点处理量大工艺流程短适配各类废旧电池缺点高温产生有毒废气设备投入高金属提纯精度较低",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 528,
+    "type": "essay",
+    "stem": "湿法回收工艺流程与优势。",
+    "options": "",
+    "answer": "流程:酸碱浸出→沉淀/萃取/离子交换提纯;优势:锂、钴、镍等金属回收率高，成品纯度达到电池级原料;缺点需要消耗酸碱溶剂。",
+    "cleanAnswer": "流程酸碱浸出沉淀萃取离子交换提纯优势锂钴镍等金属回收率高成品纯度达到电池级原料缺点需要消耗酸碱溶剂",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 529,
+    "type": "essay",
+    "stem": "完整废旧锂电再生加工流程。",
+    "options": "",
+    "answer": "退役电池安全放电→拆解破碎→高温热解除胶→筛分磁选分离材料→酸碱浸出→萃取除杂→合成电池正极原材料。",
+    "cleanAnswer": "退役电池安全放电拆解破碎高温热解除胶筛分磁选分离材料酸碱浸出萃取除杂合成电池正极原材料",
+    "explanation": "",
+    "tag": "简答"
+  },
+  {
+    "id": 530,
+    "type": "essay",
+    "stem": "废旧铅酸电解液处理要求。",
+    "options": "",
+    "answer": "渗漏酸液存入专用耐酸容器，统一输送至中和处理站;达标后才可排放，严禁直接排入土壤、下水道。",
+    "cleanAnswer": "渗漏酸液存入专用耐酸容器统一输送至中和处理站达标后才可排放严禁直接排入土壤下水道",
+    "explanation": "",
+    "tag": "简答"
+  }
+]

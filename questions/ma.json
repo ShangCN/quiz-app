@@ -1,0 +1,2177 @@
+[
+  // ==================== 第一部分：单项选择题 ====================
+  {
+    "id": 1,
+    "type": "single",
+    "stem": "S7-200 SMART PLC的主机型号中，支持以太网通讯的是哪一系列?",
+    "options": [ "A. S7-200", "B. S7-200 SMART", "C. S7-1200", "D. S7-300" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "S7-200 SMART 集成了以太网口，而传统 S7-200 需要扩展模块。",
+    "tag": "S7-200 SMART 基础"
+  },
+  {
+    "id": 2,
+    "type": "single",
+    "stem": "S7-200 SMART PLC的扫描工作方式不包括以下哪个阶段?",
+    "options": [ "A.输入采样", "B.程序执行", "C.输出刷新", "D.中断休眠" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "PLC 的工作过程是循环扫描，主要包括输入采样、程序执行、输出刷新。",
+    "tag": "PLC 工作原理"
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "stem": "传统继电器控制系统的“硬接线”与PLC控制系统的核心区别是?",
+    "options": [ "A.电压等级不同", "B.逻辑功能通过软件程序实现，而非物理触点", "C.体积大小不同", "D.供电方式不同" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "PLC 的核心优势是用软件编程代替硬件接线来实现逻辑。",
+    "tag": "PLC 概述"
+  },
+  {
+    "id": 4,
+    "type": "single",
+    "stem": "S7-200 SMART PLC的CPU模块，默认的输入过程映像寄存器起始地址是?",
+    "options": [ "A.I0.0", "B.I1.0", "C.Q0.0", "D.M0.0" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "I 代表 Input，起始地址通常是 I0.0。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 5,
+    "type": "single",
+    "stem": "以下哪项不属于S7-200 SMART PLC的输出类型?",
+    "options": [ "A.继电器输出", "B.晶体管输出", "C.晶闸管输出", "D.光纤输出" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "常见输出类型为继电器、晶体管和晶闸管。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 6,
+    "type": "single",
+    "stem": "S7-200 SMART中，用于存储中间状态的辅助继电器是?",
+    "options": [ "A.I", "B.Q", "C.M", "D.AI" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "M 区是内部辅助继电器，不对外输出。",
+    "tag": "PLC 软元件"
+  },
+  {
+    "id": 7,
+    "type": "single",
+    "stem": "传统继电器的触点“串联”，对应的PLC梯形图中是什么逻辑?",
+    "options": [ "A.或逻辑", "B.与逻辑", "C.非逻辑", "D.异或逻辑" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "串联是 AND（与）逻辑，并联是 OR（或）逻辑。",
+    "tag": "梯形图逻辑"
+  },
+  {
+    "id": 8,
+    "type": "single",
+    "stem": "S7-200 SMART PLC的扫描周期主要取决于?",
+    "options": [ "A.程序长度", "B.输入信号数量", "C.输出负载类型", "D.电源功率" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "程序越长，CPU 执行指令的时间越长，扫描周期越长。",
+    "tag": "PLC 工作原理"
+  },
+  {
+    "id": 9,
+    "type": "single",
+    "stem": "以下哪项是S7-200 SMART与传统S7-200的主要硬件差异?",
+    "options": [ "A.没有输入端子", "B.集成以太网口", "C.不需要电源", "D.没有程序存储器" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "SMART 系列最大的升级之一就是板载以太网口。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 10,
+    "type": "single",
+    "stem": "PLC的“输入采样”阶段，是在哪个阶段进行的?",
+    "options": [ "A.程序执行前", "B.程序执行中", "C.程序执行后", "D.任意时间" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "PLC 在每个扫描周期开始时统一读取输入状态。",
+    "tag": "PLC 工作原理"
+  },
+  {
+    "id": 11,
+    "type": "single",
+    "stem": "S7-200 SMART中，数字量输出点Q0.0的物理地址对应的是?",
+    "options": [ "A.过程映像输出寄存器", "B.物理输出端子", "C.辅助继电器", "D.定时器" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "Q0.0 是输出映像区的地址，程序执行时改变的是映像区，刷新时才到物理端子。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 12,
+    "type": "single",
+    "stem": "传统继电器控制中，“自锁”功能在PLC梯形图中如何实现?",
+    "options": [ "A.用启动触点串联", "B.用启动触点并联自身常开触点", "C.用停止触点串联", "D.用定时器串联" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "并联自身常开触点（或称自保触点）实现松开按钮后持续通电。",
+    "tag": "梯形图逻辑"
+  },
+  {
+    "id": 13,
+    "type": "single",
+    "stem": "以下哪种输出类型适合驱动高频次动作的负载(如伺服电机)?",
+    "options": [ "A.继电器输出", "B.晶体管输出", "C.晶闸管输出", "D.任意类型" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "晶体管是无触点开关，响应速度快，适合高频 PWM 或脉冲输出。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 14,
+    "type": "single",
+    "stem": "S7-200 SMART PLC的以太网接口默认IP地址是?",
+    "options": [ "A.192.168.0.1", "B.192.168.1.1", "C.192.168.2.1", "D.10.0.0.1" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "出厂默认 IP 通常是 192.168.0.1 或 192.168.2.1，常见为前者。",
+    "tag": "PLC 通信"
+  },
+  {
+    "id": 15,
+    "type": "single",
+    "stem": "ST40 SMART PLC的工作电源是?",
+    "options": [ "A.AC220V", "B.AC24V", "C.DC24V", "D.DC5V" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "S7-200 SMART CPU 的标准供电是交流 220V。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 16,
+    "type": "single",
+    "stem": "传统继电器的“互锁”功能,在PLC中通过什么方式实现?",
+    "options": [ "A.串联对方的常闭触点", "B.并联对方的常开触点", "C.串联对方的常开触点", "D.并联对方的常闭触点" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "互锁（联锁）是为了防止两个接触器同时吸合，通常在对方回路串常闭触点。",
+    "tag": "梯形图逻辑"
+  },
+  {
+    "id": 17,
+    "type": "single",
+    "stem": "S7-200 SMART中，定时器T37的定时基准不包括?",
+    "options": [ "A.1ms", "B.10ms", "C.100ms", "D.1s" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "S7-200 定时器基准通常有 1ms, 10ms, 100ms。",
+    "tag": "PLC 定时器"
+  },
+  {
+    "id": 18,
+    "type": "single",
+    "stem": "以下哪项不是PLC相比传统继电器控制的优势?",
+    "options": [ "A.可靠性高", "B.灵活性强", "C.接线简单", "D.触点数量无限", "E.成本一定更低" ],
+    "answer": "E",
+    "cleanAnswer": "E",
+    "explanation": "PLC 初期硬件成本通常高于继电器柜，优势在于维护和灵活性。",
+    "tag": "PLC 概述"
+  },
+  {
+    "id": 19,
+    "type": "single",
+    "stem": "S7-200 SMART PLC的I0.0~I0.7属于哪个输入字节?",
+    "options": [ "A.字节0", "B.字节1", "C.字节2", "D.字节3" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "I0.0 到 I0.7 构成第 0 个输入字节。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 20,
+    "type": "single",
+    "stem": "继电器输出型PLC的负载驱动能力，通常比晶体管输出型?",
+    "options": [ "A.更大", "B.更小", "C.相同", "D.无法比较" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "继电器触点允许更大的电流，适合驱动接触器线圈等大负载。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 21,
+    "type": "single",
+    "stem": "PLC的“程序执行”阶段，是按照什么顺序读取梯形图的?",
+    "options": [ "A.从右到左、从上到下", "B.从左到右、从上到下", "C.从左到右、从下到上", "D.随机读取" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "梯形图执行顺序是从左到右，从上到下，类似阅读书籍。",
+    "tag": "PLC 工作原理"
+  },
+  {
+    "id": 22,
+    "type": "single",
+    "stem": "以下哪种信号属于S7-200 SMART的模拟量输入?",
+    "options": [ "A.I0.0", "B.AIW0", "C.AQW0", "D.M0.0" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "AIW 代表 Analog Input Word，AQW 是模拟量输出。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 23,
+    "type": "single",
+    "stem": "传统继电器控制中，实现延时功能需要依靠?",
+    "options": [ "A.时间继电器", "B.PLC定时器", "C.计数器", "D.辅助继电器" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "传统电路中用时间继电器（如气囊式）实现延时。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 24,
+    "type": "single",
+    "stem": "S7-200 SMART中，用于高速计数的通道不包括?",
+    "options": [ "A.HSC0", "B.HSC1", "C.HSC2", "D.HSC4" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "S7-200 SMART 通常有 HSC0-HSC3 等，视具体型号而定，HSC4 较少见或不在范围内。",
+    "tag": "PLC 功能"
+  },
+  {
+    "id": 25,
+    "type": "single",
+    "stem": "以下哪项是PLC输入端接线时最不需要注意的?",
+    "options": [ "A.正负极性(直流输入)", "B.电压性质", "C.NPN和PNP传感器的混用", "D.I/O分配表" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "I/O 分配表是编程依据，接线时关注的是物理特性（极性、电压）。",
+    "tag": "PLC 接线"
+  },
+  {
+    "id": 26,
+    "type": "single",
+    "stem": "编写PLC程序时，以下哪个操作属于“软接线”的体现?",
+    "options": [ "A.更换继电器触点", "B.修改梯形图逻辑", "C.更换接触器", "D.调整熔断器" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "修改程序即修改逻辑，无需改动硬件线路，故称软接线。",
+    "tag": "PLC 编程"
+  },
+  {
+    "id": 27,
+    "type": "single",
+    "stem": "S7-200 SMART的输出映像寄存器，是在哪个阶段更新到物理输出端子的?",
+    "options": [ "A.输入采样", "B.程序执行", "C.输出刷新", "D.通信处理" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "扫描周期的最后阶段是输出刷新，将运算结果送到端口。",
+    "tag": "PLC 工作原理"
+  },
+  {
+    "id": 28,
+    "type": "single",
+    "stem": "晶体管输出型PLC的响应速度，比继电器输出型?",
+    "options": [ "A.慢", "B.快", "C.相同", "D.无法比较" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "晶体管是电子开关，微秒级响应；继电器是机械触点，毫秒级。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 29,
+    "type": "single",
+    "stem": "以下哪项不是S7-200 SMART PLC的通信接口?",
+    "options": [ "A.以太网口", "B.RS-485口", "C.USB口", "D.蓝牙接口" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "S7-200 SMART 不支持原生蓝牙接口。",
+    "tag": "PLC 通信"
+  },
+  {
+    "id": 30,
+    "type": "single",
+    "stem": "传统继电器控制系统的逻辑修改，需要通过什么方式实现?",
+    "options": [ "A.重新编程", "B.更改硬件接线", "C.调整定时器", "D.修改计数器设定值" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "传统逻辑固化在电线连接中，改逻辑必须重新布线。",
+    "tag": "PLC 概述"
+  },
+
+  // ==================== 第二部分：低压电器选择题 ====================
+  {
+    "id": 31,
+    "type": "single",
+    "stem": "熔断器在电路中主要起什么保护作用?",
+    "options": [ "A.过载", "B.短路", "C.欠压", "D.失压" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "熔断器主要用于短路保护，熔体在大电流下迅速熔断。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 32,
+    "type": "single",
+    "stem": "热继电器主要用于电动机的?",
+    "options": [ "A.短路保护", "B.过载保护", "C.过压保护", "D.失磁保护" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "热继电器利用双金属片受热弯曲，用于长时间过载保护。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 33,
+    "type": "single",
+    "stem": "中间继电器的作用主要是?",
+    "options": [ "A.直接控制大功率负载", "B.信号放大与增加触点数量", "C.测量电流", "D.整流变压" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "中间继电器触点容量小，但数量多，用于扩展控制回路。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 34,
+    "type": "single",
+    "stem": "交流接触器线圈断电后，衔铁释放依靠?",
+    "options": [ "A.电磁吸力", "B.弹簧力", "C.重力", "D.摩擦力" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "线圈失电后，反力弹簧推动衔铁复位。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 35,
+    "type": "single",
+    "stem": "直流接触器与交流接触器相比，铁芯?",
+    "options": [ "A.有短路环", "B.无短路环", "C.有灭弧栅", "D.体积更大" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "直流电不产生涡流，因此不需要短路环来消除振动。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 36,
+    "type": "single",
+    "stem": "断路器不具备的功能是?",
+    "options": [ "A.过载保护", "B.短路保护", "C.欠压保护", "D.连续调压" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "断路器是保护电器，不是调节电器。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 37,
+    "type": "single",
+    "stem": "按钮开关属于?",
+    "options": [ "A.自动电器", "B.手动电器", "C.保护电器", "D.执行电器" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "按钮需要人工按压操作。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 38,
+    "type": "single",
+    "stem": "固态继电器(SSR)是?",
+    "options": [ "A.有触点", "B.无触点", "C.机械式", "D.电磁式" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "固态继电器利用半导体器件导通，无机械触点。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 39,
+    "type": "single",
+    "stem": "熔断器的额定电流应()被保护电路的工作电流。",
+    "options": [ "A.大于", "B.小于", "C.等于", "D.无要求" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "熔断器额定电流需略大于正常工作电流，以免误熔断。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 40,
+    "type": "single",
+    "stem": "热继电器整定电流一般设定为电动机额定电流的?",
+    "options": [ "A.0.5倍", "B.1倍左右", "C.2倍", "D.3倍" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "通常整定为 0.95-1.05 倍额定电流。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 41,
+    "type": "single",
+    "stem": "交流接触器铁芯上的短路环作用是?",
+    "options": [ "A.增强吸力", "B.消除振动与噪声", "C.增大电流", "D.降压" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "短路环产生相位差磁通，消除交流电过零时的吸力为零现象。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 42,
+    "type": "single",
+    "stem": "直流接触器线圈一般适用于()电路。",
+    "options": [ "A.交流380V", "B.直流", "C.交流220V", "D.高频交流" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "直流线圈不能接交流电，否则会烧毁。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 43,
+    "type": "single",
+    "stem": "中间继电器触点容量通常较接触器?",
+    "options": [ "A.大", "B.小", "C.相同", "D.不一定" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "中间继电器用于控制回路，接触器用于主回路。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 44,
+    "type": "single",
+    "stem": "断路器的脱扣器不包括?",
+    "options": [ "A.热脱扣", "B.电磁脱扣", "C.欠压脱扣", "D.继电器脱扣" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "脱扣器是断路器内部的机械或电磁机构。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 45,
+    "type": "single",
+    "stem": "动合按钮未按下时，触点状态为?",
+    "options": [ "A.闭合", "B.断开", "C.半通", "D.随机" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "动合（NO）即常开，未按则断。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 46,
+    "type": "single",
+    "stem": "固态继电器相比电磁继电器，优点不包括?",
+    "options": [ "A.无火花", "B.寿命长", "C.动作慢", "D.抗干扰强" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "固态继电器动作快，无机械惯性。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 47,
+    "type": "single",
+    "stem": "熔断器熔体熔断速度与电流关系是?",
+    "options": [ "A.电流越大熔断越快", "B.电流越小熔断越快", "C.与电流无关", "D.只与电压有关" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "反时限特性，电流越大，熔断时间越短。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 48,
+    "type": "single",
+    "stem": "热继电器动作后自动复位时间一般为?",
+    "options": [ "A.立即复位", "B.2分钟内", "C.5分钟以上", "D.永不复位" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "双金属片冷却复位通常需要几分钟。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 49,
+    "type": "single",
+    "stem": "接触器主触点用于()电路。",
+    "options": [ "A.控制", "B.主", "C.信号", "D.检测" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "主触点承载电机等大电流，控制触点为小电流。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 50,
+    "type": "single",
+    "stem": "交流接触器不能长期用于?",
+    "options": [ "A.频繁通断", "B.直流负载", "C.三相电机", "D.照明回路" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "交流接触器铁芯有涡流损耗，不适用于直流。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 51,
+    "type": "single",
+    "stem": "断路器俗称“空开”，其文字符号常用?",
+    "options": [ "A.QF", "B.KM", "C.KA", "D.FU" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "QF 代表 Circuit Breaker。",
+    "tag": "电气符号"
+  },
+  {
+    "id": 52,
+    "type": "single",
+    "stem": "熔断器文字符号为?",
+    "options": [ "A.FU", "B.FR", "C.KT", "D.SB" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "FU 代表 Fuse。",
+    "tag": "电气符号"
+  },
+  {
+    "id": 53,
+    "type": "single",
+    "stem": "热继电器文字符号为?",
+    "options": [ "A.FR", "B.FU", "C.KM", "D.KT" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "FR 代表 Thermal Relay。",
+    "tag": "电气符号"
+  },
+  {
+    "id": 54,
+    "type": "single",
+    "stem": "交流接触器文字符号为?",
+    "options": [ "A.KM", "B.KA", "C.SB", "D.QF" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "KM 代表 Contactor。",
+    "tag": "电气符号"
+  },
+  {
+    "id": 55,
+    "type": "single",
+    "stem": "按钮开关文字符号为?",
+    "options": [ "A.SB", "B.SQ", "C.FR", "D.KM" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "SB 代表 Push Button。",
+    "tag": "电气符号"
+  },
+  {
+    "id": 56,
+    "type": "single",
+    "stem": "选用接触器时，线圈额定电压应与()一致。",
+    "options": [ "A.负载电压", "B.控制电路电压", "C.电网频率", "D.电机功率" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "线圈电压取决于控制回路的供电电压。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 57,
+    "type": "single",
+    "stem": "热继电器不能作为短路保护原因是?",
+    "options": [ "A.动作太快", "B.动作滞后", "C.无触点", "D.精度太高" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "热继电器靠热量积累动作，反应慢，无法切断短路电流。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 58,
+    "type": "single",
+    "stem": "中间继电器不能完成的功能是?",
+    "options": [ "A.扩展触点", "B.驱动大功率电机", "C.记忆信号", "D.联锁控制" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "中间继电器触点容量小，不能直接驱动电机。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 59,
+    "type": "single",
+    "stem": "直流接触器灭弧比交流接触器?",
+    "options": [ "A.更容易", "B.更困难", "C.一样", "D.无需灭弧" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "直流电弧没有过零点，难以熄灭，需要磁吹等强灭弧措施。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 60,
+    "type": "single",
+    "stem": "断路器合闸后，过载时会?",
+    "options": [ "A.保持合闸", "B.自动跳闸", "C.烧毁线圈", "D.短路" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "过载后热脱扣器动作，推动机构跳闸。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 61,
+    "type": "single",
+    "stem": "急停按钮一般选用?",
+    "options": [ "A.常开", "B.常闭", "C.旋转式", "D.轻触式" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "常闭触点断开即停机，更安全可靠。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 62,
+    "type": "single",
+    "stem": "固态继电器主要由输入电路、驱动电路和()组成。",
+    "options": [ "A.机械触点", "B.开关输出电路", "C.变压器", "D.熔断器" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "输出电路通常由大功率晶闸管或 MOSFET 组成。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 63,
+    "type": "single",
+    "stem": "熔断器保护灵敏度与热继电器相比?",
+    "options": [ "A.更高", "B.更低", "C.相同", "D.不确定" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "熔断器对大电流反应极快。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 64,
+    "type": "single",
+    "stem": "接触器灭弧装置作用是?",
+    "options": [ "A.增大电流", "B.熄灭电弧保护触点", "C.降低电压", "D.提高吸力" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "灭弧栅用于切割和冷却电弧。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 65,
+    "type": "single",
+    "stem": "交流电源接入直流接触器线圈会导致?",
+    "options": [ "A.正常工作", "B.电流过大烧毁线圈", "C.不吸合", "D.频繁抖动" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "直流线圈阻抗小，通交流电会产生极大电流。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 66,
+    "type": "single",
+    "stem": "热继电器双金属片原理是利用金属的?",
+    "options": [ "A.导电性", "B.热膨胀系数不同", "C.导磁性", "D.电阻率" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "两种金属热膨胀系数不同，受热后向一侧弯曲。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 67,
+    "type": "single",
+    "stem": "中间继电器本质上属于?",
+    "options": [ "A.电压继电器", "B.电流继电器", "C.功率继电器", "D.保护继电器" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "中间继电器是电磁式电压继电器。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 68,
+    "type": "single",
+    "stem": "空开在短路时?",
+    "options": [ "A.延时跳闸", "B.瞬时跳闸", "C.保持接通", "D.报警不跳闸" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "电磁脱扣器瞬时动作。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 69,
+    "type": "single",
+    "stem": "NPN型传感器输出形式一般为?",
+    "options": [ "A.高电平有效", "B.低电平有效", "C.脉冲输出", "D.电阻输出" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "NPN 为漏型输出，输出低电平。",
+    "tag": "传感器"
+  },
+  {
+    "id": 70,
+    "type": "single",
+    "stem": "PNP型传感器输出形式一般为?",
+    "options": [ "A.高电平有效", "B.低电平有效", "C.交流输出", "D.开关量无源触点" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "PNP 为源型输出，输出高电平。",
+    "tag": "传感器"
+  },
+
+  // ==================== 第三部分：重点选择题 ====================
+  {
+    "id": 71,
+    "type": "single",
+    "stem": "下列电器中，不能实现短路保护的是?",
+    "options": [ "A.熔断器", "B.热继电器", "C.低压断路器", "D.过电流继电器" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "热继电器用于过载保护。",
+    "tag": "综合"
+  },
+  {
+    "id": 72,
+    "type": "single",
+    "stem": "交流接触器的电磁机构主要由()组成",
+    "options": [ "A.线圈、动铁芯、静铁芯", "B.主触点、辅助触点", "C.灭弧装置", "D.弹簧" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "电磁机构核心是线圈和铁芯。",
+    "tag": "综合"
+  },
+  {
+    "id": 73,
+    "type": "single",
+    "stem": "热继电器在电路中主要起()保护作用",
+    "options": [ "A.短路", "B.过载", "C.欠压", "D.失压" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "",
+    "tag": "综合"
+  },
+  {
+    "id": 74,
+    "type": "single",
+    "stem": "PLC的工作方式是?",
+    "options": [ "A.等待工作方式", "B.中断工作方式", "C.扫描工作方式", "D.循环扫描工作方式" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "PLC 采用循环扫描工作方式。",
+    "tag": "PLC 原理"
+  },
+  {
+    "id": 75,
+    "type": "single",
+    "stem": "PLC的核心部件是?",
+    "options": [ "A.CPU", "B.存储器", "C.输入输出接口", "D.电源" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "CPU 是 PLC 的大脑。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 76,
+    "type": "single",
+    "stem": "下列不属于PLC输入设备的是?",
+    "options": [ "A.按钮", "B.行程开关", "C.接触器", "D.传感器" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "接触器是输出设备。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 77,
+    "type": "single",
+    "stem": "三菱FX系列PLC中，输入继电器的符号是?",
+    "options": [ "A.X", "B.Y", "C.M", "D.S" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "三菱输入为 X，输出为 Y。",
+    "tag": "PLC 软元件"
+  },
+  {
+    "id": 78,
+    "type": "single",
+    "stem": "输出继电器的线圈只能由()驱动",
+    "options": [ "A.外部信号", "B.程序指令", "C.输入继电器", "D.定时器" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "输出线圈由程序控制。",
+    "tag": "PLC 编程"
+  },
+  {
+    "id": 79,
+    "type": "single",
+    "stem": "下列哪个是三菱PLC的位元件?",
+    "options": [ "A.D", "B.T", "C.M", "D.CO" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "M 是辅助继电器，属于位元件。",
+    "tag": "PLC 软元件"
+  },
+  {
+    "id": 80,
+    "type": "single",
+    "stem": "PLC的输出接口电路不包括?",
+    "options": [ "A.继电器型", "B.晶体管型", "C.晶闸管型", "D.电容型" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "常见输出类型为继电器、晶体管、晶闸管。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 81,
+    "type": "single",
+    "stem": "梯形图中，线圈应放在逻辑行的?",
+    "options": [ "A.最左边", "B.最右边", "C.中间", "D.任意位置" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "线圈必须放在最右侧。",
+    "tag": "梯形图"
+  },
+  {
+    "id": 82,
+    "type": "single",
+    "stem": "下列关于梯形图的说法，错误的是?",
+    "options": [ "A.梯形图按从左到右、从上到下的顺序绘制", "B.触点可以串联或并联", "C.线圈可以串联", "D.线圈不能直接与左母线相连" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "线圈不能串联，只能并联。",
+    "tag": "梯形图"
+  },
+  {
+    "id": 83,
+    "type": "single",
+    "stem": "S7-200系列PLC中，置位指令是?",
+    "options": [ "A.SET", "B.RST", "C.LD", "D.OUT" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "SET 置位，RST 复位。",
+    "tag": "PLC 指令"
+  },
+  {
+    "id": 84,
+    "type": "single",
+    "stem": "下列对PLC优势描述最不准确的是?",
+    "options": [ "A.PLC的编程繁琐，不易初学者掌握", "B.", "C.灵活性和通用性强", "D.维护方便" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "PLC 编程相对简单，图形化直观。",
+    "tag": "PLC 概述"
+  },
+  {
+    "id": 85,
+    "type": "single",
+    "stem": "T0采用100ms时基，若设定值为K100，则定时时间为?",
+    "options": [ "A.1s", "B.10s", "C.100s", "D.1000s" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "100ms * 100 = 10000ms = 10s。",
+    "tag": "PLC 定时器"
+  },
+  {
+    "id": 86,
+    "type": "single",
+    "stem": "计数器C0为16位增计数器，其设定值范围是?",
+    "options": [ "A.1-32767", "B.0-32767", "C.1-65535", "D.0-65535" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "16 位有符号整数范围 -32768 到 32767，通常设定值取正数。",
+    "tag": "PLC 计数器"
+  },
+  {
+    "id": 87,
+    "type": "single",
+    "stem": "下列指令中，属于主控指令的是?",
+    "options": [ "A.MC", "B.MCR", "C.AND", "D.OR" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "MC 是 Master Control。",
+    "tag": "PLC 指令"
+  },
+  {
+    "id": 88,
+    "type": "single",
+    "stem": "在PLC编程中，子程序调用指令是?",
+    "options": [ "A.CALL", "B.RET", "C.FEND", "D.END" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "CALL 调用子程序。",
+    "tag": "PLC 指令"
+  },
+  {
+    "id": 89,
+    "type": "single",
+    "stem": "下列不属于PLC通信方式的是?",
+    "options": [ "A.并行通信", "B.串行通信", "C.网络通信", "D.无线通信" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "PLC 通常支持并行、串行和网络通信。",
+    "tag": "PLC 通信"
+  },
+  {
+    "id": 90,
+    "type": "single",
+    "stem": "电气原理图中，同一电器的不同部件应()绘制",
+    "options": [ "A.集中", "B.分散", "C.按顺序", "D.随意" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "为了图面清晰，同一电器的线圈和触点通常分开画在不同回路。",
+    "tag": "电气制图"
+  },
+  {
+    "id": 91,
+    "type": "single",
+    "stem": "下列低压电器中，属于手动控制电器的是?",
+    "options": [ "A.接触器", "B.继电器", "C.按钮", "D.行程开关" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "按钮需要人手操作。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 92,
+    "type": "single",
+    "stem": "熔断器的熔体额定电流应()线路的工作电流",
+    "options": [ "A.大于", "B.小于", "C.等于", "D.大于或等于" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "",
+    "tag": "低压电器"
+  },
+  {
+    "id": 93,
+    "type": "single",
+    "stem": "三相笼型异步电动机的启动方式中,启动电流最大的是?",
+    "options": [ "A.直接启动", "B.星-三角降压启动", "C.自耦变压器降压启动", "D.软启动" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "直接启动时电流可达额定电流的 5-7 倍。",
+    "tag": "电机控制"
+  },
+  {
+    "id": 94,
+    "type": "single",
+    "stem": "三相异步电动机正反转控制电路中，为防止电源短路，必须设置?",
+    "options": [ "A.自锁环节", "B.互锁环节", "C.过载保护", "D.欠压保护" ],
+    "answer": "B",
+    "cleanAnswer": "B",
+    "explanation": "互锁防止 KM1 和 KM2 同时吸合造成相间短路。",
+    "tag": "电机控制"
+  },
+  {
+    "id": 95,
+    "type": "single",
+    "stem": "下列关于PLC输入输出接口的说法，正确的是?",
+    "options": [ "A.输入接口可以直接连接交流电源", "B.输出接口可以直接驱动大功率负载", "C.输入接口用于接收外部信号", "D.输出接口只能输出开关量信号" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "输入接口采集信号，输出接口驱动负载（也可输出模拟量）。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 96,
+    "type": "single",
+    "stem": "梯形图中，触点和线圈的状态?",
+    "options": [ "A.只能由外部信号决定", "B.只能由程序指令决定", "C.可以由外部信号或程序指令决定", "D.固定不变" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "状态由输入信号和程序逻辑共同决定。",
+    "tag": "梯形图"
+  },
+  {
+    "id": 97,
+    "type": "single",
+    "stem": "应用指令中，数据传送指令MOV是将源数据传送到?",
+    "options": [ "A.输入继电器", "B.输出继电器", "C.指定的目标元件", "D.定时器" ],
+    "answer": "C",
+    "cleanAnswer": "C",
+    "explanation": "MOV 指令将数据复制到目标地址。",
+    "tag": "PLC 指令"
+  },
+  {
+    "id": 98,
+    "type": "single",
+    "stem": "下列指令中，用于并联常闭触点的是?",
+    "options": [ "A.LD", "B.LDI", "C.OR", "D.ORI" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "ORI 是 OR Inverse，并联常闭。",
+    "tag": "PLC 指令"
+  },
+  {
+    "id": 99,
+    "type": "single",
+    "stem": "在PLC程序中，END指令的作用是?",
+    "options": [ "A.程序结束，返回起始地址", "B.程序暂停", "C.程序循环执行", "D.子程序返回" ],
+    "answer": "A",
+    "cleanAnswer": "A",
+    "explanation": "END 指示程序结束。",
+    "tag": "PLC 指令"
+  },
+  {
+    "id": 100,
+    "type": "single",
+    "stem": "下列关于PLC扫描周期的说法，错误的是?",
+    "options": [ "A.扫描周期与程序的长短有关", "B.扫描周期与PLC的硬件性能有关", "C.扫描周期越短，PLC的响应速度越快", "D.扫描周期是固定不变的" ],
+    "answer": "D",
+    "cleanAnswer": "D",
+    "explanation": "扫描周期随程序长短和信号变化而变化。",
+    "tag": "PLC 原理"
+  },
+
+  // ==================== 第四部分：判断题 ====================
+  {
+    "id": 101,
+    "type": "judge",
+    "stem": "S7-200 SMART PLC的工作原理是“循环扫描”，一旦启动就会持续执行程序。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "PLC 上电后进入循环扫描模式。",
+    "tag": "PLC 原理"
+  },
+  {
+    "id": 102,
+    "type": "judge",
+    "stem": "传统继电器的触点数量是有限的，而PLC的“软触点”数量是无限的(理论上)。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "软件逻辑不受物理触点数量限制。",
+    "tag": "PLC 概述"
+  },
+  {
+    "id": 103,
+    "type": "judge",
+    "stem": "S7-200 SMART PLC的继电器输出型可以驱动交流负载，也可以驱动直流负载。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "继电器触点无极性，交直流均可。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 104,
+    "type": "judge",
+    "stem": "PLC的输入采样阶段，是同时读取所有输入端子的状态到过程映像寄存器。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "输入采样是批量进行的。",
+    "tag": "PLC 原理"
+  },
+  {
+    "id": 105,
+    "type": "judge",
+    "stem": "晶体管输出型PLC适合驱动感性负载(如电磁阀线圈)，且无需并联续流二极管。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "晶体管输出仍需续流二极管保护，防止反向电动势击穿。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 106,
+    "type": "judge",
+    "stem": "S7-200与S7-200 SMART的程序是完全通用的，无需修改即可直接运行。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "硬件差异导致部分指令和地址不兼容。",
+    "tag": "PLC 编程"
+  },
+  {
+    "id": 107,
+    "type": "judge",
+    "stem": "传统继电器控制的“互锁”是通过物理触点串联实现的，PLC是通过程序逻辑实现的。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "PLC 用程序实现互锁逻辑。",
+    "tag": "PLC 编程"
+  },
+  {
+    "id": 108,
+    "type": "judge",
+    "stem": "S7-200 SMART PLC的M0.0是辅助继电器，属于掉电保持区域。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "M 区默认非保持，需用电池或特殊寄存器设置保持区。",
+    "tag": "PLC 软元件"
+  },
+  {
+    "id": 109,
+    "type": "judge",
+    "stem": "PLC的输出刷新阶段，是将过程映像输出寄存器的状态同步到物理输出端子。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PLC 原理"
+  },
+  {
+    "id": 110,
+    "type": "judge",
+    "stem": "继电器输出型PLC的响应速度比晶体管输出型快，适合高频控制。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "继电器响应慢，不适合高频。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 111,
+    "type": "judge",
+    "stem": "编写 S7-200 SMART程序时,I0.0可以作为输入触点,也可以作为线圈输出。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "I 区是输入映像区，只能读不能写。",
+    "tag": "PLC 编程"
+  },
+  {
+    "id": 112,
+    "type": "judge",
+    "stem": "传统继电器控制的可靠性低于PLC控制系统，因为触点易磨损、氧化。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "机械触点寿命有限，PLC 无机械磨损。",
+    "tag": "PLC 概述"
+  },
+  {
+    "id": 113,
+    "type": "judge",
+    "stem": "S7-200 SMART的以太网口可以用于编程下载、监控程序以及与其他设备通信。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "以太网口是多功能的。",
+    "tag": "PLC 通信"
+  },
+  {
+    "id": 114,
+    "type": "judge",
+    "stem": "PLC的“自锁”功能是利用启动按钮的常闭触点实现的。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "自锁利用自身常开触点并联。",
+    "tag": "PLC 编程"
+  },
+  {
+    "id": 115,
+    "type": "judge",
+    "stem": "地址分配表是 PLC接线和编程的重要依据,需严格对应 I/O端子。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "错误的地址分配会导致接线和逻辑混乱。",
+    "tag": "PLC 基础"
+  },
+  {
+    "id": 116,
+    "type": "judge",
+    "stem": "传统继电器控制的逻辑修改灵活,无需大量更换硬件。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "传统逻辑修改需要重新布线，非常麻烦。",
+    "tag": "PLC 概述"
+  },
+  {
+    "id": 117,
+    "type": "judge",
+    "stem": "S7-200 SMART的晶体管输出型，其负载电压等级通常为 DC24V。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "晶体管输出一般是直流 24V。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 118,
+    "type": "judge",
+    "stem": "PLC的扫描周期越短，程序执行速度越快，实时性越好。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "PLC 原理"
+  },
+  {
+    "id": 119,
+    "type": "judge",
+    "stem": "电气原理图中，PLC的输入端子用“Q”表示，输出端子用“I”表示。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "I 是 Input (输入)，Q 是 Output (输出)。",
+    "tag": "电气符号"
+  },
+  {
+    "id": 120,
+    "type": "judge",
+    "stem": "编写PLC程序时，应避免出现双线圈输出(如同一Q点被多次线圈驱动)，否则会导致逻辑混乱。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "双线圈输出会使逻辑不确定。",
+    "tag": "PLC 编程"
+  },
+  {
+    "id": 121,
+    "type": "judge",
+    "stem": "S7-200 SMART的模拟量输入(AI)是将连续的模拟信号转换为数字信号供PLC处理。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "AD 转换功能。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 122,
+    "type": "judge",
+    "stem": "传统继电器控制和PLC控制都需要依靠物理触点来实现逻辑功能。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "PLC 主要靠软件逻辑。",
+    "tag": "PLC 概述"
+  },
+  {
+    "id": 123,
+    "type": "judge",
+    "stem": "继电器输出型PLC的触点寿命较长，适合频繁通断的负载。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "机械触点寿命有限，频繁通断会损坏。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 124,
+    "type": "judge",
+    "stem": "S7-200 SMART的高速计数器(HSC)可以用于检测高速脉冲信号，如编码器信号。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "HSC 专门用于高速计数。",
+    "tag": "PLC 功能"
+  },
+  {
+    "id": 125,
+    "type": "judge",
+    "stem": "PLC的输入接线时，直流输入需区分正负极，交流输入无极性要求。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "直流有正负，交流无极性。",
+    "tag": "PLC 接线"
+  },
+  {
+    "id": 126,
+    "type": "judge",
+    "stem": "电气原理图中，PLC的内部辅助继电器(M)无需外部接线，仅用于程序内部逻辑。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "M 是内部软元件。",
+    "tag": "PLC 软元件"
+  },
+  {
+    "id": 127,
+    "type": "judge",
+    "stem": "编写PLC程序时，应遵循“从上到下、从左到右”的逻辑顺序，确保程序执行无误。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "这是梯形图的绘图规范。",
+    "tag": "PLC 编程"
+  },
+  {
+    "id": 128,
+    "type": "judge",
+    "stem": "S7-200 SMART的掉电保持区域(如M区)，在PLC断电后数据不会丢失。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "保持区由电池或电容支持。",
+    "tag": "PLC 软元件"
+  },
+  {
+    "id": 129,
+    "type": "judge",
+    "stem": "传统继电器控制和PLC控制都需要依靠物理触点来实现逻辑功能。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "重复题，PLC 靠软件。",
+    "tag": "PLC 概述"
+  },
+  {
+    "id": 130,
+    "type": "judge",
+    "stem": "PLC的工作过程中，输入采样、程序执行、输出刷新三个阶段是循环执行的，不存在中断。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "PLC 有中断功能，可以打断循环扫描。",
+    "tag": "PLC 原理"
+  },
+
+  // ==================== 第五部分：低压电器判断题 ====================
+  {
+    "id": 131,
+    "type": "judge",
+    "stem": "熔断器可以同时实现短路保护和过载保护。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "熔断器主要用于短路，过载保护不精确。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 132,
+    "type": "judge",
+    "stem": "热继电器动作后必须手动复位，不能自动复位。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "热继电器有手动复位和自动复位两种方式。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 133,
+    "type": "judge",
+    "stem": "中间继电器可以直接替代接触器控制大功率电动机。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "中间继电器触点容量不足。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 134,
+    "type": "judge",
+    "stem": "交流接触器铁芯有短路环,直流接触器没有。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "直流无涡流，无需短路环。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 135,
+    "type": "judge",
+    "stem": "直流接触器适用于直流控制电路，不宜用于交流。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "直流线圈通交流电会烧毁。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 136,
+    "type": "judge",
+    "stem": "断路器(空开)可以在故障后自动重合闸。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "普通断路器跳闸后需手动合闸。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 137,
+    "type": "judge",
+    "stem": "按钮开关只能短时接通或断开控制电路。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "按钮是点动控制。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 138,
+    "type": "judge",
+    "stem": "固态继电器有机械触点，容易产生电弧。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "固态继电器无触点。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 139,
+    "type": "judge",
+    "stem": "熔断器熔体额定电流越大，保护越灵敏。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "额定电流越大，熔断所需电流越大，越不灵敏。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 140,
+    "type": "judge",
+    "stem": "热继电器是基于电流热效应工作的保护电器。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "利用电流的热效应使双金属片弯曲。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 141,
+    "type": "judge",
+    "stem": "接触器辅助触点只能用于控制回路，不能用于主回路。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "辅助触点容量小，用于控控。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 142,
+    "type": "judge",
+    "stem": "交流接触器线圈可以直接接在直流同电压电源上。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "阻抗不同，会烧毁。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 143,
+    "type": "judge",
+    "stem": "中间继电器触点数量多，适合扩展控制信号。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "低压电器"
+  },
+  {
+    "id": 144,
+    "type": "judge",
+    "stem": "空开具备过载、短路、欠压多重保护。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "低压电器"
+  },
+  {
+    "id": 145,
+    "type": "judge",
+    "stem": "常闭按钮按下时触点断开，松开后闭合。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "常闭（NC）触点常态闭合，按下断开。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 146,
+    "type": "judge",
+    "stem": "固态继电器开关速度快，适合高频动作场合。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "无机械惯性，响应快。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 147,
+    "type": "judge",
+    "stem": "熔断器熔断后只需更换熔体即可恢复工作。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "封闭式熔断器需整体更换。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 148,
+    "type": "judge",
+    "stem": "热继电器动作电流可以根据负载进行整定。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "旋钮调节整定电流。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 149,
+    "type": "judge",
+    "stem": "接触器主触点通常设计为常开形式。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "平时断开，得电吸合。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 150,
+    "type": "judge",
+    "stem": "直流接触器铁芯一般采用整块钢制成。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "直流无涡流损耗，可用整块铁芯。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 151,
+    "type": "judge",
+    "stem": "交流接触器铁芯一般用硅钢片叠压而成。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "减少涡流损耗。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 152,
+    "type": "judge",
+    "stem": "断路器跳闸后，排除故障可直接合闸。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "排除故障后即可合闸。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 153,
+    "type": "judge",
+    "stem": "按钮属于主令电器，用于发出控制指令。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "低压电器"
+  },
+  {
+    "id": 154,
+    "type": "judge",
+    "stem": "固态继电器没有机械磨损，使用寿命长。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "低压电器"
+  },
+  {
+    "id": 155,
+    "type": "judge",
+    "stem": "熔断器只能做短路保护，不适合过载保护。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "低压电器"
+  },
+  {
+    "id": 156,
+    "type": "judge",
+    "stem": "接触器线圈电压必须与控制电源电压匹配。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "低压电器"
+  },
+  {
+    "id": 157,
+    "type": "judge",
+    "stem": "中间继电器线圈功率一般比接触器小。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "低压电器"
+  },
+  {
+    "id": 158,
+    "type": "judge",
+    "stem": "空开不具备手动分合闸功能。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "空开手柄可手动操作。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 159,
+    "type": "judge",
+    "stem": "交流接触器吸合后线圈电流远小于吸合瞬间的电流。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "吸合后气隙变小，磁阻减小，电流减小。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 160,
+    "type": "judge",
+    "stem": "直流接触器灭弧采用磁吹式灭弧较多。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "直流电弧难熄灭，需强力灭弧。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 161,
+    "type": "judge",
+    "stem": "热继电器双金属片弯曲方向由两种金属膨胀差决定。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "低压电器"
+  },
+  {
+    "id": 162,
+    "type": "judge",
+    "stem": "固态继电器可以替代传统电磁继电器。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "低压电器"
+  },
+  {
+    "id": 163,
+    "type": "judge",
+    "stem": "NPN与PNP传感器主要区别在输出极性。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "传感器"
+  },
+  {
+    "id": 164,
+    "type": "judge",
+    "stem": "传感器输出一般为开关量或模拟量信号。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "传感器"
+  },
+  {
+    "id": 165,
+    "type": "judge",
+    "stem": "熔断器与热继电器可以互相替代使用。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "保护原理不同，不能互换。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 166,
+    "type": "judge",
+    "stem": "接触器是一种自动电磁式开关电器。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "低压电器"
+  },
+  {
+    "id": 167,
+    "type": "judge",
+    "stem": "空开跳闸一定是发生了短路故障。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "过载、欠压也会跳闸。",
+    "tag": "低压电器"
+  },
+  {
+    "id": 168,
+    "type": "judge",
+    "stem": "传感器属于检测电器，不直接控制大功率负载。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "传感器"
+  },
+
+  // ==================== 第六部分：重点判断题 ====================
+  {
+    "id": 169,
+    "type": "judge",
+    "stem": "按钮是一种手动控制电器,只能发出控制信号,不能直接控制主电路的通断。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "综合"
+  },
+  {
+    "id": 170,
+    "type": "judge",
+    "stem": "交流接触器的主触点用于通断主电路，辅助触点用于控制电路。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "综合"
+  },
+  {
+    "id": 171,
+    "type": "judge",
+    "stem": "定时器在PLC中可以实现延时功能。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "综合"
+  },
+  {
+    "id": 172,
+    "type": "judge",
+    "stem": "电气原理图中，所有电器触点都按未通电或未受外力作用时的状态画出。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "综合"
+  },
+  {
+    "id": 173,
+    "type": "judge",
+    "stem": "热继电器的发热元件应串联在主电路中，其触点应串联在控制电路中。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "综合"
+  },
+  {
+    "id": 174,
+    "type": "judge",
+    "stem": "PLC的输入继电器可以由外部信号驱动，也可以在程序中用指令驱动。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "输入继电器只能由外部信号驱动。",
+    "tag": "综合"
+  },
+  {
+    "id": 175,
+    "type": "judge",
+    "stem": "PLC只能控制开关量，不能控制模拟量。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "PLC 有模拟量模块。",
+    "tag": "综合"
+  },
+  {
+    "id": 176,
+    "type": "judge",
+    "stem": "梯形图中，触点可以放在垂直分支上。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "触点不能放在垂直母线上。",
+    "tag": "综合"
+  },
+  {
+    "id": 177,
+    "type": "judge",
+    "stem": "时间继电器的延时方式只有通电延时一种。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "还有断电延时。",
+    "tag": "综合"
+  },
+  {
+    "id": 178,
+    "type": "judge",
+    "stem": "S7-200PLC梯形图中，线圈可以直接与左母线相连。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "线圈前必须有触点逻辑。",
+    "tag": "综合"
+  },
+  {
+    "id": 179,
+    "type": "judge",
+    "stem": "S7-200PLC的输出继电器的线圈只能由程序驱动。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "综合"
+  },
+  {
+    "id": 180,
+    "type": "judge",
+    "stem": "熔断器的熔体额定电流应大于或等于线路的计算电流。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "综合"
+  },
+  {
+    "id": 181,
+    "type": "judge",
+    "stem": "PLC的扫描周期越短，系统的响应速度越快。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "综合"
+  },
+  {
+    "id": 182,
+    "type": "judge",
+    "stem": "PLC的存储器分为系统程序存储器和用户程序存储器。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "综合"
+  },
+  {
+    "id": 183,
+    "type": "judge",
+    "stem": "接触器的电磁机构中，短路环的作用是消除衔铁的振动和噪声。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "综合"
+  },
+  {
+    "id": 184,
+    "type": "judge",
+    "stem": "计数器在PLC中只能进行加法计数。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "也有减计数和加减计数。",
+    "tag": "综合"
+  },
+  {
+    "id": 185,
+    "type": "judge",
+    "stem": "S7-200PLC梯形图中，多个线圈可以串联输出。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "线圈只能并联。",
+    "tag": "综合"
+  },
+  {
+    "id": 186,
+    "type": "judge",
+    "stem": "PLC的输出继电器的触点可以直接驱动负载。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "输出继电器是软元件，物理负载由外部端子驱动。",
+    "tag": "综合"
+  },
+  {
+    "id": 187,
+    "type": "judge",
+    "stem": "电工作业时，只要断开电源开关，就可以直接进行检修工作。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "还需验电、放电等安全措施。",
+    "tag": "综合"
+  },
+  {
+    "id": 188,
+    "type": "judge",
+    "stem": "静电不会对电气设备和人体造成危害，所以不用采取防静电措施。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "静电可能引起爆炸或电子元件损坏。",
+    "tag": "综合"
+  },
+  {
+    "id": 189,
+    "type": "judge",
+    "stem": "电气控制线路中，自锁环节的作用是保证电动机的连续运转。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "综合"
+  },
+  {
+    "id": 190,
+    "type": "judge",
+    "stem": "PLC的输入信号可以是开关量、模拟量等。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "综合"
+  },
+  {
+    "id": 191,
+    "type": "judge",
+    "stem": "用万用表测量电流时并联在电路中。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "电流表必须串联。",
+    "tag": "综合"
+  },
+  {
+    "id": 192,
+    "type": "judge",
+    "stem": "火线和零线可以随意连接，不会影响电器的正常使用。",
+    "options": "对|错",
+    "answer": "错",
+    "cleanAnswer": "错",
+    "explanation": "接反可能导致外壳带电等危险。",
+    "tag": "综合"
+  },
+  {
+    "id": 193,
+    "type": "judge",
+    "stem": "电线的截面积越大，其允许通过的电流就越大。",
+    "options": "对|错",
+    "answer": "对",
+    "cleanAnswer": "对",
+    "explanation": "",
+    "tag": "综合"
+  },
+
+  // ==================== 第七部分：填空题 ====================
+  {
+    "id": 194,
+    "type": "single",
+    "stem": "交流电的三要素是____、____、____。",
+    "options": [ "A.最大值", "B.频率", "C.初相位", "D.有效值" ],
+    "answer": "A,B,C",
+    "cleanAnswer": "最大值频率初相位",
+    "explanation": "交流电的基本参数。",
+    "tag": "电工基础"
+  },
+  {
+    "id": 195,
+    "type": "single",
+    "stem": "交流接触器主要由____、____、____、底座和外壳组成。",
+    "options": [ "A.电磁机构", "B.触头系统", "C.灭弧系统", "D.弹簧" ],
+    "answer": "A,B,C",
+    "cleanAnswer": "电磁机构触头系统灭弧系统",
+    "explanation": "",
+    "tag": "低压电器"
+  },
+  {
+    "id": 196,
+    "type": "single",
+    "stem": "在电路中三条或三条以上支路的连接点称为____，电路中任一闭合路径称为____。",
+    "options": [ "A.节点", "B.回路", "C.支路", "D.网孔" ],
+    "answer": "A,B",
+    "cleanAnswer": "节点回路",
+    "explanation": "",
+    "tag": "电工基础"
+  },
+  {
+    "id": 197,
+    "type": "single",
+    "stem": "1kW·h=____J。",
+    "options": [ "A.3.6x10^3", "B.3.6x10^6", "C.3.6x10^9", "D.3.6" ],
+    "answer": "B",
+    "cleanAnswer": "36x106",
+    "explanation": "1度电 = 1000W * 3600s = 3.6百万焦耳。",
+    "tag": "电工基础"
+  },
+  {
+    "id": 198,
+    "type": "single",
+    "stem": "通常所说的电压、电流的大小都是指____值。家用电压220V和工业用电电压380V指的是电压的____值为220V和380V。",
+    "options": [ "A.有效", "B.最大", "C.平均", "D.瞬时" ],
+    "answer": "A,A",
+    "cleanAnswer": "有效有效",
+    "explanation": "交流电的大小通常指有效值。",
+    "tag": "电工基础"
+  },
+  {
+    "id": 199,
+    "type": "single",
+    "stem": "基尔霍夫定律KCL定律是____定律。",
+    "options": [ "A.电流", "B.电压", "C.电阻", "D.功率" ],
+    "answer": "A",
+    "cleanAnswer": "电流",
+    "explanation": "KCL 是基尔霍夫电流定律。",
+    "tag": "电工基础"
+  },
+  {
+    "id": 200,
+    "type": "single",
+    "stem": "基尔霍夫定律 KVL定律是____定律。",
+    "options": [ "A.电流", "B.电压", "C.电阻", "D.功率" ],
+    "answer": "B",
+    "cleanAnswer": "电压",
+    "explanation": "KVL 是基尔霍夫电压定律。",
+    "tag": "电工基础"
+  },
+  {
+    "id": 201,
+    "type": "single",
+    "stem": "电压表测量电路电压是____在电路中。",
+    "options": [ "A.串联", "B.并联", "C.混联", "D.任意" ],
+    "answer": "B",
+    "cleanAnswer": "并联",
+    "explanation": "电压表需并联测电压。",
+    "tag": "电工基础"
+  },
+  {
+    "id": 202,
+    "type": "single",
+    "stem": "电流表测量电路电流是____在电路中。",
+    "options": [ "A.串联", "B.并联", "C.混联", "D.任意" ],
+    "answer": "A",
+    "cleanAnswer": "串联",
+    "explanation": "电流表需串联测电流。",
+    "tag": "电工基础"
+  },
+  {
+    "id": 203,
+    "type": "single",
+    "stem": "PLC采用____、____、____等硬件技术，有效隔离外部电磁干扰。",
+    "options": [ "A.屏蔽", "B.滤波", "C.光电隔离", "D.接地" ],
+    "answer": "A,B,C",
+    "cleanAnswer": "屏蔽滤波光电隔离",
+    "explanation": "PLC 的抗干扰措施。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 204,
+    "type": "single",
+    "stem": "PLC的硬件自诊断功能能够实时监测自身运行状态，检测到故障时发出____信号。",
+    "options": [ "A.报警", "B.停止", "C.复位", "D.忽略" ],
+    "answer": "A",
+    "cleanAnswer": "报警",
+    "explanation": "",
+    "tag": "PLC 功能"
+  },
+  {
+    "id": 205,
+    "type": "single",
+    "stem": "梯形图编程语言中，____、____、____等符号与实际电器元件相对应。",
+    "options": [ "A.常开触点", "B.常闭触点", "C.线圈", "D.定时器" ],
+    "answer": "A,B,C",
+    "cleanAnswer": "常开触点常闭触点线圈",
+    "explanation": "梯形图的基本元素。",
+    "tag": "PLC 编程"
+  },
+  {
+    "id": 206,
+    "type": "single",
+    "stem": "除梯形图外，PLC还有____语言、____语言等编程方式。",
+    "options": [ "A.指令表", "B.功能图(SFC)", "C.结构化文本", "D.高级语言" ],
+    "answer": "A,B",
+    "cleanAnswer": "指令表功能图",
+    "explanation": "常见的 PLC 编程语言。",
+    "tag": "PLC 编程"
+  },
+  {
+    "id": 207,
+    "type": "single",
+    "stem": "用户可根据实际控制需求，通过____增加PLC的输入输出点数。",
+    "options": [ "A.扩展模块", "B.更换CPU", "C.增加电源", "D.修改程序" ],
+    "answer": "A",
+    "cleanAnswer": "扩展模块",
+    "explanation": "",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 208,
+    "type": "single",
+    "stem": "smart-SR40型号中，R的含义是____，40的含义是____。",
+    "options": [ "A.继电器输出", "B.晶体管输出", "C.本机I/O总点数40点", "D.电源电压40V" ],
+    "answer": "A,C",
+    "cleanAnswer": "继电器输出本机IO总点数40点",
+    "explanation": "SR 表示继电器型，40 表示总点数。",
+    "tag": "PLC 硬件"
+  },
+
+  // ==================== 第八部分：简答题 ====================
+  {
+    "id": 209,
+    "type": "essay",
+    "stem": "PLC主要由中央处理器(CPU)、存储器、输入/输出接口、电源、编程器等部分组成。请说明各部分的作用。",
+    "options": "",
+    "answer": "①CPU:PLC核心，执行用户程序，处理逻辑运算、数据处理、通信、自诊断;②存储器:系统存储器存放PLC系统程序，用户存储器存放梯形图、参数;③I/O接口:输入接口采集外部按钮、传感器信号;输出接口输出信号驱动接触器、电磁阀等负载;④电源:为PLC内部CPU、存储器、接口电路提供稳定直流工作电源;⑤编程器:用于程序编写、下载、在线监控、修改程序。",
+    "cleanAnswer": "CPUPLC核心执行用户程序处理逻辑运算数据处理通信自诊断存储器系统存储器存放PLC系统程序用户存储器存放梯形图参数IO接口输入接口采集外部按钮传感器信号输出接口输出信号驱动接触器电磁阀等负载电源为PLC内部CPU存储器接口电路提供稳定直流工作电源编程器用于程序编写下载在线监控修改程序",
+    "explanation": "考察 PLC 硬件组成及功能。",
+    "tag": "PLC 硬件"
+  },
+  {
+    "id": 210,
+    "type": "essay",
+    "stem": "简述PLC工作原理",
+    "options": "",
+    "answer": "PLC采用循环周期扫描工作模式，一个扫描周期分为三阶段:①输入采样:一次性读取全部输入端子状态存入输入映像区;②程序执行:从上到下、从左到右执行梯形图，运算结果存入输出映像区;③输出刷新:将输出映像区状态统一输出到外部负载;三个阶段不断循环，实现持续自动控制，扫描周期长短由程序长度、硬件性能决定。",
+    "cleanAnswer": "PLC采用循环周期扫描工作模式一个扫描周期分为三阶段输入采样一次性读取全部输入端子状态存入输入映像区程序执行从上到下从左到右执行梯形图运算结果存入输出映像区输出刷新将输出映像区状态统一输出到外部负载三个阶段不断循环实现持续自动控制扫描周期长短由程序长度硬件性能决定",
+    "explanation": "考察 PLC 扫描工作方式。",
+    "tag": "PLC 原理"
+  },
+  {
+    "id": 211,
+    "type": "essay",
+    "stem": "根据三相异步电动机单向连续运转控制(传统继电器控制)电气原理图，简述什么是自锁?",
+    "options": "",
+    "answer": "按下启动按钮后，接触器KM线圈得电吸合，KM自身的常开辅助触点与启动按钮并联;松开启动按钮，电流可通过该常开触点持续给线圈供电，维持电机连续运行，该并联自保触点的电路功能称为自锁。",
+    "cleanAnswer": "按下启动按钮后接触器KM线圈得电吸合KM自身的常开辅助触点与启动按钮并联松开启动按钮电流可通过该常开触点持续给线圈供电维持电机连续运行该并联自保触点的电路功能称为自锁",
+    "explanation": "考察电气控制中的自锁概念。",
+    "tag": "电机控制"
+  },
+  {
+    "id": 212,
+    "type": "essay",
+    "stem": "根据三相异步电动机正反转运转控制(传统继电器控制)电气原理图，简述什么是互锁?",
+    "options": "",
+    "answer": "电机正转接触器 KM1、反转接触器 KM2 不能同时吸合，否则两相电源短路。将 KM1 常闭触点串入 KM2 线圈回路，KM2 常闭触点串入 KM1 线圈回路，保证任意时刻只有一个接触器通电，防止短路，该安全联锁方式称为互锁。",
+    "cleanAnswer": "电机正转接触器KM1反转接触器KM2不能同时吸合否则两相电源短路将KM1常闭触点串入KM2线圈回路KM2常闭触点串入KM1线圈回路保证任意时刻只有一个接触器通电防止短路该安全联锁方式称为互锁",
+    "explanation": "考察电气控制中的互锁概念。",
+    "tag": "电机控制"
+  },
+  {
+    "id": 213,
+    "type": "essay",
+    "stem": "简述PLC的编程方法一状态转移法。它有什么特点?",
+    "options": "",
+    "answer": "把连续自动动作拆分为多个独立状态步，使用置位S、复位R指令按顺序执行;完成当前步后复位上一步、置位下一步，分步顺序运行。特点:程序结构清晰，逻辑直观，便于编写、修改、排查故障;适配流水线、机械手等顺序动作设备。",
+    "cleanAnswer": "把连续自动动作拆分为多个独立状态步使用置位S复位R指令按顺序执行完成当前步后复位上一步置位下一步分步顺序运行特点程序结构清晰逻辑直观便于编写修改排查故障适配流水线机械手等顺序动作设备",
+    "explanation": "考察 PLC 编程方法。",
+    "tag": "PLC 编程"
+  },
+  {
+    "id": 214,
+    "type": "essay",
+    "stem": "简述PLC的编程方法一周期法?它有什么特点?",
+    "options": "",
+    "answer": "周期法即通用梯形图编程，依靠循环扫描周期实现逻辑，所有控制逻辑在同一扫描周期内统一运算，依靠自锁、互锁、定时器、计数器实现时序控制。特点:通用性强,简单启停、点位控制均可使用;无需拆分状态步;复杂顺序流程程序繁琐，故障排查难度高于状态转移法。",
+    "cleanAnswer": "周期法即通用梯形图编程依靠循环扫描周期实现逻辑所有控制逻辑在同一扫描周期内统一运算依靠自锁互锁定时器计数器实现时序控制特点通用性强简单启停点位控制均可使用无需拆分状态步复杂顺序流程程序繁琐故障排查难度高于状态转移法",
+    "explanation": "考察 PLC 编程方法。",
+    "tag": "PLC 编程"
+  },
+  {
+    "id": 215,
+    "type": "essay",
+    "stem": "设计PLC控制的三相异步电动机正反转控制案例。(1)电气原图:主回路断路器QF、热继电器FR、正转接触器KM1、反转接触器KM2、三相电机;控制回路PLC输出接KM1、KM2线圈，串FR常闭触点做过载保护。(2)I/O分配表(3)梯形图核心逻辑",
+    "options": "",
+    "answer": "(2)I/O分配表:输入:I0.0:正转启动按钮SB1,I0.1:反转启动按钮SB2,I0.2:停止按钮SB0(常闭),I0.3:热继电器FR过载触点;输出:Q0.0:正转接触器KM1线圈,Q0.1:反转接触器KM2线圈。(3)梯形图核心逻辑:I0.0常开并联Q0.0自锁，串联Q0.1常闭互锁、I0.2、I0.3;I0.1常开并联Q0.1自锁，串联Q0.0常闭互锁、I0.2、I0.3;实现电气互锁+按钮双重互锁，过载自动停机。",
+    "cleanAnswer": "IO分配表输入I00正转启动按钮SB1I01反转启动按钮SB2I02停止按钮SB0常闭I03热继电器FR过载触点输出Q00正转接触器KM1线圈Q01反转接触器KM2线圈梯形图核心逻辑I00常开并联Q00自锁串联Q01常闭互锁I02I03I01常开并联Q01自锁串联Q00常闭互锁I02I03实现电气互锁按钮双重互锁过载自动停机",
+    "explanation": "考察 PLC 实际应用设计。",
+    "tag": "PLC 应用"
+  },
+  {
+    "id": 216,
+    "type": "essay",
+    "stem": "简述西门子S7-200 SMART PLC的扫描周期由哪三个主要阶段组成,并说明各阶段的作用。",
+    "options": "",
+    "answer": "①输入采样阶段:PLC一次性读取所有数字量输入I与模拟量输入信号，存入输入映像区;本周期内输入状态不再刷新，仅立即指令可实时读取;②程序执行阶段:按从上到下、从左到右顺序执行用户梯形图,根据输入映像、内部寄存器运算,运算结果存入输出映像区;③输出刷新阶段:将输出映像寄存器中全部运算结果同步输出至物理输出端子，驱动接触器、电磁阀等外部负载，完成一次完整扫描循环。",
+    "cleanAnswer": "输入采样阶段PLC一次性读取所有数字量输入I与模拟量输入信号存入输入映像区本周期内输入状态不再刷新仅立即指令可实时读取程序执行阶段按从上到下从左到右顺序执行用户梯形图根据输入映像内部寄存器运算运算结果存入输出映像区输出刷新阶段将输出映像寄存器中全部运算结果同步输出至物理输出端子驱动接触器电磁阀等外部负载完成一次完整扫描循环",
+    "explanation": "考察 PLC 扫描周期。",
+    "tag": "PLC 原理"
+  }
+]
