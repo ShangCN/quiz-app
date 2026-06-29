@@ -261,6 +261,28 @@ function nextQuestion() {
 
 const rate = computed(() => questions.value.length ? ((correctCount.value / questions.value.length) * 100).toFixed(0) : 0)
 
+// 归一化：将标记为 single 但实质是填空题/多选题的题目转为 multi
+function normalizeQuestion(q) {
+  const ans = (q.answer || '').trim()
+  // 逗号字母型: "A,B,C" → type=multi
+  if (/^[A-H](,[A-H])+$/.test(ans)) { q.type = 'multi'; return q }
+  // 分号文本型: "目测法;变形及裂纹;..." → 匹配选项转字母码 → type=multi
+  if (ans.includes(';')) {
+    const parts = ans.split(';').map(s => s.trim()).filter(Boolean)
+    const opts = Array.isArray(q.options) ? q.options : (typeof q.options === 'string' ? q.options.split('|') : [])
+    const letters = parts.map(part => {
+      const idx = opts.findIndex(opt => {
+        const stripped = (typeof opt === 'string' ? opt.replace(/^[A-H][.、]\s*/, '') : opt).trim()
+        return stripped === part
+      })
+      return idx >= 0 ? labels[idx] : null
+    }).filter(Boolean)
+    if (letters.length) { q.answer = letters.join(','); q.type = 'multi' }
+    return q
+  }
+  return q
+}
+
 async function loadQuestions() {
   loading.value = true; index.value = 0; correctCount.value = 0
   answered.value = false; pickedLabel.value = ''; multiSelected.value = []; multiJudged.value = false; multiCorrect.value = false
@@ -272,7 +294,7 @@ async function loadQuestions() {
     // 去掉 JSON 中的 // 和 /* */ 注释
     text = text.replace(/\/\*[\s\S]*?\*\//g, '').replace(/\/\/.*$/gm, '')
     const raw = JSON.parse(text)
-    questions.value = raw.sort(() => Math.random() - 0.5)
+    questions.value = raw.map(normalizeQuestion).sort(() => Math.random() - 0.5)
   } catch (e) { console.error('加载题库失败:', e); questions.value = [] }
   finally { loading.value = false }
 }
